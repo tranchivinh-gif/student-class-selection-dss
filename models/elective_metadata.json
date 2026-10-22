@@ -1,0 +1,1018 @@
+{
+  "dataset": "dulieuhocsinh_10000.csv",
+  "dataset_kind": "simulated_or_unverified_source",
+  "label_semantics": "Recorded yes/no interest fields. The dataset documentation does not confirm that these values are actual Grade 10 course registrations.",
+  "target_scale": [
+    "no",
+    "yes"
+  ],
+  "train_rows": 6000,
+  "validation_rows": 2000,
+  "test_rows": 2000,
+  "feature_count": 50,
+  "features": [
+    "toan_lop6",
+    "toan_lop7",
+    "toan_lop8",
+    "toan_lop9",
+    "ngu_van_lop6",
+    "ngu_van_lop7",
+    "ngoai_ngu_lop6",
+    "ngoai_ngu_lop7",
+    "ngoai_ngu_lop8",
+    "ngoai_ngu_lop9",
+    "khoa_hoc_tu_nhien_lop6",
+    "khoa_hoc_tu_nhien_lop7",
+    "khoa_hoc_tu_nhien_lop8",
+    "khoa_hoc_tu_nhien_lop9",
+    "lich_su_dia_ly_lop6",
+    "lich_su_dia_ly_lop7",
+    "lich_su_dia_ly_lop8",
+    "lich_su_dia_ly_lop9",
+    "giao_duc_cong_dan_lop6",
+    "giao_duc_cong_dan_lop7",
+    "giao_duc_cong_dan_lop8",
+    "giao_duc_cong_dan_lop9",
+    "tin_hoc_lop6",
+    "tin_hoc_lop7",
+    "tin_hoc_lop8",
+    "tin_hoc_lop9",
+    "cong_nghe_lop6",
+    "cong_nghe_lop7",
+    "cong_nghe_lop8",
+    "cong_nghe_lop9",
+    "giao_duc_the_chat_lop6",
+    "giao_duc_the_chat_lop7",
+    "giao_duc_the_chat_lop8",
+    "giao_duc_the_chat_lop9",
+    "am_nhac_lop6",
+    "am_nhac_lop7",
+    "am_nhac_lop8",
+    "am_nhac_lop9",
+    "mi_thuat_lop6",
+    "mi_thuat_lop7",
+    "mi_thuat_lop8",
+    "mi_thuat_lop9",
+    "noi_dung_giao_duc_dia_phuong_lop6",
+    "noi_dung_giao_duc_dia_phuong_lop7",
+    "noi_dung_giao_duc_dia_phuong_lop8",
+    "noi_dung_giao_duc_dia_phuong_lop9",
+    "hoat_dong_trai_nghiem_huong_nghiep_lop6",
+    "hoat_dong_trai_nghiem_huong_nghiep_lop7",
+    "hoat_dong_trai_nghiem_huong_nghiep_lop8",
+    "hoat_dong_trai_nghiem_huong_nghiep_lop9"
+  ],
+  "targets": [
+    {
+      "key": "Vật lý",
+      "label": "Vật lí"
+    },
+    {
+      "key": "Hóa học",
+      "label": "Hóa học"
+    },
+    {
+      "key": "Sinh học",
+      "label": "Sinh học"
+    },
+    {
+      "key": "Công nghệ",
+      "label": "Công nghệ"
+    },
+    {
+      "key": "Tin học",
+      "label": "Tin học"
+    },
+    {
+      "key": "Địa lý",
+      "label": "Địa lí"
+    },
+    {
+      "key": "Giáo dục kinh tế và pháp luật",
+      "label": "Giáo dục kinh tế và pháp luật"
+    },
+    {
+      "key": "Âm nhạc",
+      "label": "Âm nhạc"
+    },
+    {
+      "key": "Mỹ thuật",
+      "label": "Mĩ thuật"
+    }
+  ],
+  "random_seed": 42,
+  "top_four_rule": "Return the four subjects with the largest per-subject yes probabilities. This fixed top-four rule does not imply the training labels were four actual selections.",
+  "algorithms": {
+    "catboost": {
+      "label": "CatBoostClassifier",
+      "targets": {
+        "Vật lý": {
+          "label": "Vật lí",
+          "artifact": "elective_catboost_01.cbm",
+          "test_metrics": {
+            "accuracy": 0.711,
+            "precision": 0.69921875,
+            "recall": 0.7261663286004056,
+            "f1": 0.7124378109452736,
+            "roc_auc": 0.7866526839260496
+          },
+          "validation_metrics": {
+            "accuracy": 0.715,
+            "precision": 0.708092485549133,
+            "recall": 0.7335329341317365,
+            "f1": 0.7205882352941176,
+            "roc_auc": 0.7824681298725195
+          },
+          "positive_rate_test": 0.493,
+          "selected_iteration": 9,
+          "warnings": []
+        },
+        "Hóa học": {
+          "label": "Hóa học",
+          "artifact": "elective_catboost_02.cbm",
+          "test_metrics": {
+            "accuracy": 0.7035,
+            "precision": 0.7173038229376257,
+            "recall": 0.6956097560975609,
+            "f1": 0.7062902426944032,
+            "roc_auc": 0.7681731081926204
+          },
+          "validation_metrics": {
+            "accuracy": 0.706,
+            "precision": 0.7070506454816285,
+            "recall": 0.708457711442786,
+            "f1": 0.7077534791252486,
+            "roc_auc": 0.7715092877321933
+          },
+          "positive_rate_test": 0.5125,
+          "selected_iteration": 44,
+          "warnings": []
+        },
+        "Sinh học": {
+          "label": "Sinh học",
+          "artifact": "elective_catboost_03.cbm",
+          "test_metrics": {
+            "accuracy": 0.7115,
+            "precision": 0.7132196162046909,
+            "recall": 0.6847492323439099,
+            "f1": 0.6986945169712794,
+            "roc_auc": 0.7917518367216259
+          },
+          "validation_metrics": {
+            "accuracy": 0.719,
+            "precision": 0.7359263050153532,
+            "recall": 0.7028347996089932,
+            "f1": 0.719,
+            "roc_auc": 0.7878107518877486
+          },
+          "positive_rate_test": 0.4885,
+          "selected_iteration": 21,
+          "warnings": []
+        },
+        "Công nghệ": {
+          "label": "Công nghệ",
+          "artifact": "elective_catboost_04.cbm",
+          "test_metrics": {
+            "accuracy": 0.7215,
+            "precision": 0.7365208545269583,
+            "recall": 0.7084148727984344,
+            "f1": 0.7221945137157108,
+            "roc_auc": 0.7923670056307253
+          },
+          "validation_metrics": {
+            "accuracy": 0.729,
+            "precision": 0.7445109780439122,
+            "recall": 0.7228682170542635,
+            "f1": 0.7335299901671584,
+            "roc_auc": 0.7921526643282721
+          },
+          "positive_rate_test": 0.511,
+          "selected_iteration": 11,
+          "warnings": []
+        },
+        "Tin học": {
+          "label": "Tin học",
+          "artifact": "elective_catboost_05.cbm",
+          "test_metrics": {
+            "accuracy": 0.728,
+            "precision": 0.7148325358851675,
+            "recall": 0.7522658610271903,
+            "f1": 0.7330716388616291,
+            "roc_auc": 0.799974198735738
+          },
+          "validation_metrics": {
+            "accuracy": 0.7045,
+            "precision": 0.6941287878787878,
+            "recall": 0.7322677322677322,
+            "f1": 0.712688381137579,
+            "roc_auc": 0.7644237644237645
+          },
+          "positive_rate_test": 0.4965,
+          "selected_iteration": 98,
+          "warnings": []
+        },
+        "Địa lý": {
+          "label": "Địa lí",
+          "artifact": "elective_catboost_06.cbm",
+          "test_metrics": {
+            "accuracy": 0.726,
+            "precision": 0.7279187817258883,
+            "recall": 0.7191574724172518,
+            "f1": 0.7235116044399597,
+            "roc_auc": 0.8091182820645386
+          },
+          "validation_metrics": {
+            "accuracy": 0.7225,
+            "precision": 0.711088504577823,
+            "recall": 0.7206185567010309,
+            "f1": 0.7158218125960062,
+            "roc_auc": 0.7976849164247823
+          },
+          "positive_rate_test": 0.4985,
+          "selected_iteration": 67,
+          "warnings": []
+        },
+        "Giáo dục kinh tế và pháp luật": {
+          "label": "Giáo dục kinh tế và pháp luật",
+          "artifact": "elective_catboost_07.cbm",
+          "test_metrics": {
+            "accuracy": 0.7085,
+            "precision": 0.7054726368159204,
+            "recall": 0.7118473895582329,
+            "f1": 0.7086456771614192,
+            "roc_auc": 0.7872595961535385
+          },
+          "validation_metrics": {
+            "accuracy": 0.7355,
+            "precision": 0.7294589178356713,
+            "recall": 0.7375886524822695,
+            "f1": 0.7335012594458439,
+            "roc_auc": 0.7985199498715283
+          },
+          "positive_rate_test": 0.498,
+          "selected_iteration": 70,
+          "warnings": []
+        },
+        "Âm nhạc": {
+          "label": "Âm nhạc",
+          "artifact": "elective_catboost_08.cbm",
+          "test_metrics": {
+            "accuracy": 0.7255,
+            "precision": 0.7117296222664016,
+            "recall": 0.7343589743589743,
+            "f1": 0.7228672387682988,
+            "roc_auc": 0.8022303939962476
+          },
+          "validation_metrics": {
+            "accuracy": 0.712,
+            "precision": 0.7052529182879378,
+            "recall": 0.7264529058116233,
+            "f1": 0.7156959526159921,
+            "roc_auc": 0.7830131320525282
+          },
+          "positive_rate_test": 0.4875,
+          "selected_iteration": 173,
+          "warnings": []
+        },
+        "Mỹ thuật": {
+          "label": "Mĩ thuật",
+          "artifact": "elective_catboost_09.cbm",
+          "test_metrics": {
+            "accuracy": 0.723,
+            "precision": 0.7338877338877339,
+            "recall": 0.703187250996016,
+            "f1": 0.7182095625635809,
+            "roc_auc": 0.7923756780108482
+          },
+          "validation_metrics": {
+            "accuracy": 0.7435,
+            "precision": 0.7409274193548387,
+            "recall": 0.7416750756811302,
+            "f1": 0.7413010590015129,
+            "roc_auc": 0.8244017765439
+          },
+          "positive_rate_test": 0.502,
+          "selected_iteration": 43,
+          "warnings": []
+        }
+      },
+      "top_four_mean_interest_match": 0.598875,
+      "exact_match_accuracy_at_0_5": 0.7176111111111111
+    },
+    "svc": {
+      "label": "SVC (RBF, scaled inputs)",
+      "targets": {
+        "Vật lý": {
+          "label": "Vật lí",
+          "artifact": "elective_svc_01.joblib",
+          "test_metrics": {
+            "accuracy": 0.7175,
+            "precision": 0.7082096933728981,
+            "recall": 0.7261663286004056,
+            "f1": 0.7170756134201302,
+            "roc_auc": 0.7826844061436041
+          },
+          "validation_metrics": {
+            "accuracy": 0.718,
+            "precision": 0.7151277013752456,
+            "recall": 0.7265469061876247,
+            "f1": 0.7207920792079208,
+            "roc_auc": 0.7772641090564362
+          },
+          "positive_rate_test": 0.493,
+          "selected_iteration": null,
+          "warnings": []
+        },
+        "Hóa học": {
+          "label": "Hóa học",
+          "artifact": "elective_svc_02.joblib",
+          "test_metrics": {
+            "accuracy": 0.6965,
+            "precision": 0.7098393574297188,
+            "recall": 0.6897560975609756,
+            "f1": 0.6996536368134587,
+            "roc_auc": 0.7615739837398374
+          },
+          "validation_metrics": {
+            "accuracy": 0.7035,
+            "precision": 0.7051792828685259,
+            "recall": 0.7044776119402985,
+            "f1": 0.7048282727725237,
+            "roc_auc": 0.7566119152978824
+          },
+          "positive_rate_test": 0.5125,
+          "selected_iteration": null,
+          "warnings": []
+        },
+        "Sinh học": {
+          "label": "Sinh học",
+          "artifact": "elective_svc_03.joblib",
+          "test_metrics": {
+            "accuracy": 0.7075,
+            "precision": 0.7037422037422038,
+            "recall": 0.6929375639713409,
+            "f1": 0.6982980917998969,
+            "roc_auc": 0.7796164170846377
+          },
+          "validation_metrics": {
+            "accuracy": 0.708,
+            "precision": 0.7237512742099899,
+            "recall": 0.6940371456500489,
+            "f1": 0.7085828343313373,
+            "roc_auc": 0.7695450893522674
+          },
+          "positive_rate_test": 0.4885,
+          "selected_iteration": null,
+          "warnings": []
+        },
+        "Công nghệ": {
+          "label": "Công nghệ",
+          "artifact": "elective_svc_04.joblib",
+          "test_metrics": {
+            "accuracy": 0.7225,
+            "precision": 0.7356205852674067,
+            "recall": 0.713307240704501,
+            "f1": 0.7242921013412816,
+            "roc_auc": 0.7853561123583814
+          },
+          "validation_metrics": {
+            "accuracy": 0.711,
+            "precision": 0.7274549098196392,
+            "recall": 0.7034883720930233,
+            "f1": 0.7152709359605911,
+            "roc_auc": 0.7754360465116279
+          },
+          "positive_rate_test": 0.511,
+          "selected_iteration": null,
+          "warnings": []
+        },
+        "Tin học": {
+          "label": "Tin học",
+          "artifact": "elective_svc_05.joblib",
+          "test_metrics": {
+            "accuracy": 0.712,
+            "precision": 0.698005698005698,
+            "recall": 0.7401812688821753,
+            "f1": 0.718475073313783,
+            "roc_auc": 0.7906647425723861
+          },
+          "validation_metrics": {
+            "accuracy": 0.684,
+            "precision": 0.6722689075630253,
+            "recall": 0.7192807192807192,
+            "f1": 0.694980694980695,
+            "roc_auc": 0.7454407454407455
+          },
+          "positive_rate_test": 0.4965,
+          "selected_iteration": null,
+          "warnings": []
+        },
+        "Địa lý": {
+          "label": "Địa lí",
+          "artifact": "elective_svc_06.joblib",
+          "test_metrics": {
+            "accuracy": 0.7215,
+            "precision": 0.7240325865580448,
+            "recall": 0.7131394182547643,
+            "f1": 0.718544719555331,
+            "roc_auc": 0.7969601726415537
+          },
+          "validation_metrics": {
+            "accuracy": 0.712,
+            "precision": 0.6997971602434077,
+            "recall": 0.711340206185567,
+            "f1": 0.7055214723926381,
+            "roc_auc": 0.7855399859873887
+          },
+          "positive_rate_test": 0.4985,
+          "selected_iteration": null,
+          "warnings": []
+        },
+        "Giáo dục kinh tế và pháp luật": {
+          "label": "Giáo dục kinh tế và pháp luật",
+          "artifact": "elective_svc_07.joblib",
+          "test_metrics": {
+            "accuracy": 0.702,
+            "precision": 0.6972386587771203,
+            "recall": 0.7098393574297188,
+            "f1": 0.7034825870646766,
+            "roc_auc": 0.7779314469031504
+          },
+          "validation_metrics": {
+            "accuracy": 0.7275,
+            "precision": 0.7255102040816327,
+            "recall": 0.7203647416413373,
+            "f1": 0.722928317234367,
+            "roc_auc": 0.7882427130185001
+          },
+          "positive_rate_test": 0.498,
+          "selected_iteration": null,
+          "warnings": []
+        },
+        "Âm nhạc": {
+          "label": "Âm nhạc",
+          "artifact": "elective_svc_08.joblib",
+          "test_metrics": {
+            "accuracy": 0.705,
+            "precision": 0.6911618669314796,
+            "recall": 0.7138461538461538,
+            "f1": 0.7023208879919274,
+            "roc_auc": 0.7878338961851158
+          },
+          "validation_metrics": {
+            "accuracy": 0.696,
+            "precision": 0.6900584795321637,
+            "recall": 0.7094188376753507,
+            "f1": 0.6996047430830039,
+            "roc_auc": 0.7703865815463262
+          },
+          "positive_rate_test": 0.4875,
+          "selected_iteration": null,
+          "warnings": []
+        },
+        "Mỹ thuật": {
+          "label": "Mĩ thuật",
+          "artifact": "elective_svc_09.joblib",
+          "test_metrics": {
+            "accuracy": 0.715,
+            "precision": 0.7232510288065843,
+            "recall": 0.700199203187251,
+            "f1": 0.7115384615384616,
+            "roc_auc": 0.7750054000864013
+          },
+          "validation_metrics": {
+            "accuracy": 0.725,
+            "precision": 0.7159647404505387,
+            "recall": 0.7376387487386479,
+            "f1": 0.7266401590457257,
+            "roc_auc": 0.8089705266126556
+          },
+          "positive_rate_test": 0.502,
+          "selected_iteration": null,
+          "warnings": []
+        }
+      },
+      "top_four_mean_interest_match": 0.598375,
+      "exact_match_accuracy_at_0_5": 0.7110555555555556
+    }
+  },
+  "demo_profiles": [
+    {
+      "id": 1,
+      "label": "Hồ sơ mẫu 1",
+      "features": {
+        "toan_lop6": 4.0,
+        "toan_lop7": 1.0,
+        "toan_lop8": 1.0,
+        "toan_lop9": 3.0,
+        "ngu_van_lop6": 2.0,
+        "ngu_van_lop7": 4.0,
+        "ngoai_ngu_lop6": 5.0,
+        "ngoai_ngu_lop7": 5.0,
+        "ngoai_ngu_lop8": 4.0,
+        "ngoai_ngu_lop9": 5.0,
+        "khoa_hoc_tu_nhien_lop6": 5.0,
+        "khoa_hoc_tu_nhien_lop7": 5.0,
+        "khoa_hoc_tu_nhien_lop8": 5.0,
+        "khoa_hoc_tu_nhien_lop9": 4.0,
+        "lich_su_dia_ly_lop6": 5.0,
+        "lich_su_dia_ly_lop7": 3.0,
+        "lich_su_dia_ly_lop8": 2.0,
+        "lich_su_dia_ly_lop9": 2.0,
+        "giao_duc_cong_dan_lop6": 3.0,
+        "giao_duc_cong_dan_lop7": 4.0,
+        "giao_duc_cong_dan_lop8": 2.0,
+        "giao_duc_cong_dan_lop9": 3.0,
+        "tin_hoc_lop6": 5.0,
+        "tin_hoc_lop7": 7.0,
+        "tin_hoc_lop8": 5.0,
+        "tin_hoc_lop9": 3.0,
+        "cong_nghe_lop6": 7.0,
+        "cong_nghe_lop7": 5.0,
+        "cong_nghe_lop8": 7.0,
+        "cong_nghe_lop9": 4.0,
+        "giao_duc_the_chat_lop6": 5.0,
+        "giao_duc_the_chat_lop7": 3.0,
+        "giao_duc_the_chat_lop8": 5.0,
+        "giao_duc_the_chat_lop9": 3.0,
+        "am_nhac_lop6": 3.0,
+        "am_nhac_lop7": 5.0,
+        "am_nhac_lop8": 5.0,
+        "am_nhac_lop9": 3.0,
+        "mi_thuat_lop6": 7.0,
+        "mi_thuat_lop7": 6.0,
+        "mi_thuat_lop8": 8.0,
+        "mi_thuat_lop9": 3.0,
+        "noi_dung_giao_duc_dia_phuong_lop6": 1.0,
+        "noi_dung_giao_duc_dia_phuong_lop7": 5.0,
+        "noi_dung_giao_duc_dia_phuong_lop8": 4.0,
+        "noi_dung_giao_duc_dia_phuong_lop9": 4.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop6": 4.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop7": 0.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop8": 2.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop9": 0.0
+      },
+      "recorded_interest_labels": {
+        "Vật lý": 1,
+        "Hóa học": 1,
+        "Sinh học": 1,
+        "Công nghệ": 1,
+        "Tin học": 0,
+        "Địa lý": 1,
+        "Giáo dục kinh tế và pháp luật": 0,
+        "Âm nhạc": 1,
+        "Mỹ thuật": 1
+      }
+    },
+    {
+      "id": 2,
+      "label": "Hồ sơ mẫu 2",
+      "features": {
+        "toan_lop6": 8.0,
+        "toan_lop7": 10.0,
+        "toan_lop8": 7.0,
+        "toan_lop9": 5.0,
+        "ngu_van_lop6": 5.0,
+        "ngu_van_lop7": 6.0,
+        "ngoai_ngu_lop6": 7.0,
+        "ngoai_ngu_lop7": 6.0,
+        "ngoai_ngu_lop8": 7.0,
+        "ngoai_ngu_lop9": 6.0,
+        "khoa_hoc_tu_nhien_lop6": 6.0,
+        "khoa_hoc_tu_nhien_lop7": 7.0,
+        "khoa_hoc_tu_nhien_lop8": 7.0,
+        "khoa_hoc_tu_nhien_lop9": 7.0,
+        "lich_su_dia_ly_lop6": 6.0,
+        "lich_su_dia_ly_lop7": 3.0,
+        "lich_su_dia_ly_lop8": 4.0,
+        "lich_su_dia_ly_lop9": 4.0,
+        "giao_duc_cong_dan_lop6": 9.0,
+        "giao_duc_cong_dan_lop7": 6.0,
+        "giao_duc_cong_dan_lop8": 7.0,
+        "giao_duc_cong_dan_lop9": 7.0,
+        "tin_hoc_lop6": 10.0,
+        "tin_hoc_lop7": 6.0,
+        "tin_hoc_lop8": 8.0,
+        "tin_hoc_lop9": 8.0,
+        "cong_nghe_lop6": 5.0,
+        "cong_nghe_lop7": 10.0,
+        "cong_nghe_lop8": 7.0,
+        "cong_nghe_lop9": 4.0,
+        "giao_duc_the_chat_lop6": 8.0,
+        "giao_duc_the_chat_lop7": 8.0,
+        "giao_duc_the_chat_lop8": 9.0,
+        "giao_duc_the_chat_lop9": 9.0,
+        "am_nhac_lop6": 8.0,
+        "am_nhac_lop7": 7.0,
+        "am_nhac_lop8": 7.0,
+        "am_nhac_lop9": 6.0,
+        "mi_thuat_lop6": 9.0,
+        "mi_thuat_lop7": 10.0,
+        "mi_thuat_lop8": 9.0,
+        "mi_thuat_lop9": 6.0,
+        "noi_dung_giao_duc_dia_phuong_lop6": 10.0,
+        "noi_dung_giao_duc_dia_phuong_lop7": 9.0,
+        "noi_dung_giao_duc_dia_phuong_lop8": 6.0,
+        "noi_dung_giao_duc_dia_phuong_lop9": 7.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop6": 9.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop7": 6.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop8": 8.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop9": 9.0
+      },
+      "recorded_interest_labels": {
+        "Vật lý": 1,
+        "Hóa học": 1,
+        "Sinh học": 0,
+        "Công nghệ": 1,
+        "Tin học": 1,
+        "Địa lý": 0,
+        "Giáo dục kinh tế và pháp luật": 0,
+        "Âm nhạc": 0,
+        "Mỹ thuật": 0
+      }
+    },
+    {
+      "id": 3,
+      "label": "Hồ sơ mẫu 3",
+      "features": {
+        "toan_lop6": 3.0,
+        "toan_lop7": 2.0,
+        "toan_lop8": 3.0,
+        "toan_lop9": 3.0,
+        "ngu_van_lop6": 5.0,
+        "ngu_van_lop7": 5.0,
+        "ngoai_ngu_lop6": 6.0,
+        "ngoai_ngu_lop7": 6.0,
+        "ngoai_ngu_lop8": 5.0,
+        "ngoai_ngu_lop9": 5.0,
+        "khoa_hoc_tu_nhien_lop6": 4.0,
+        "khoa_hoc_tu_nhien_lop7": 6.0,
+        "khoa_hoc_tu_nhien_lop8": 5.0,
+        "khoa_hoc_tu_nhien_lop9": 6.0,
+        "lich_su_dia_ly_lop6": 3.0,
+        "lich_su_dia_ly_lop7": 6.0,
+        "lich_su_dia_ly_lop8": 6.0,
+        "lich_su_dia_ly_lop9": 8.0,
+        "giao_duc_cong_dan_lop6": 4.0,
+        "giao_duc_cong_dan_lop7": 7.0,
+        "giao_duc_cong_dan_lop8": 5.0,
+        "giao_duc_cong_dan_lop9": 6.0,
+        "tin_hoc_lop6": 2.0,
+        "tin_hoc_lop7": 3.0,
+        "tin_hoc_lop8": 2.0,
+        "tin_hoc_lop9": 0.0,
+        "cong_nghe_lop6": 8.0,
+        "cong_nghe_lop7": 9.0,
+        "cong_nghe_lop8": 7.0,
+        "cong_nghe_lop9": 7.0,
+        "giao_duc_the_chat_lop6": 5.0,
+        "giao_duc_the_chat_lop7": 3.0,
+        "giao_duc_the_chat_lop8": 2.0,
+        "giao_duc_the_chat_lop9": 4.0,
+        "am_nhac_lop6": 6.0,
+        "am_nhac_lop7": 5.0,
+        "am_nhac_lop8": 1.0,
+        "am_nhac_lop9": 5.0,
+        "mi_thuat_lop6": 3.0,
+        "mi_thuat_lop7": 8.0,
+        "mi_thuat_lop8": 6.0,
+        "mi_thuat_lop9": 4.0,
+        "noi_dung_giao_duc_dia_phuong_lop6": 3.0,
+        "noi_dung_giao_duc_dia_phuong_lop7": 2.0,
+        "noi_dung_giao_duc_dia_phuong_lop8": 0.0,
+        "noi_dung_giao_duc_dia_phuong_lop9": 3.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop6": 2.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop7": 2.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop8": 4.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop9": 1.0
+      },
+      "recorded_interest_labels": {
+        "Vật lý": 0,
+        "Hóa học": 0,
+        "Sinh học": 0,
+        "Công nghệ": 0,
+        "Tin học": 0,
+        "Địa lý": 1,
+        "Giáo dục kinh tế và pháp luật": 1,
+        "Âm nhạc": 1,
+        "Mỹ thuật": 0
+      }
+    },
+    {
+      "id": 4,
+      "label": "Hồ sơ mẫu 4",
+      "features": {
+        "toan_lop6": 5.0,
+        "toan_lop7": 5.0,
+        "toan_lop8": 3.0,
+        "toan_lop9": 6.0,
+        "ngu_van_lop6": 3.0,
+        "ngu_van_lop7": 4.0,
+        "ngoai_ngu_lop6": 7.0,
+        "ngoai_ngu_lop7": 6.0,
+        "ngoai_ngu_lop8": 8.0,
+        "ngoai_ngu_lop9": 6.0,
+        "khoa_hoc_tu_nhien_lop6": 5.0,
+        "khoa_hoc_tu_nhien_lop7": 10.0,
+        "khoa_hoc_tu_nhien_lop8": 4.0,
+        "khoa_hoc_tu_nhien_lop9": 9.0,
+        "lich_su_dia_ly_lop6": 6.0,
+        "lich_su_dia_ly_lop7": 7.0,
+        "lich_su_dia_ly_lop8": 7.0,
+        "lich_su_dia_ly_lop9": 6.0,
+        "giao_duc_cong_dan_lop6": 6.0,
+        "giao_duc_cong_dan_lop7": 6.0,
+        "giao_duc_cong_dan_lop8": 6.0,
+        "giao_duc_cong_dan_lop9": 7.0,
+        "tin_hoc_lop6": 8.0,
+        "tin_hoc_lop7": 5.0,
+        "tin_hoc_lop8": 6.0,
+        "tin_hoc_lop9": 6.0,
+        "cong_nghe_lop6": 5.0,
+        "cong_nghe_lop7": 2.0,
+        "cong_nghe_lop8": 1.0,
+        "cong_nghe_lop9": 0.0,
+        "giao_duc_the_chat_lop6": 7.0,
+        "giao_duc_the_chat_lop7": 8.0,
+        "giao_duc_the_chat_lop8": 7.0,
+        "giao_duc_the_chat_lop9": 10.0,
+        "am_nhac_lop6": 8.0,
+        "am_nhac_lop7": 9.0,
+        "am_nhac_lop8": 4.0,
+        "am_nhac_lop9": 7.0,
+        "mi_thuat_lop6": 5.0,
+        "mi_thuat_lop7": 4.0,
+        "mi_thuat_lop8": 4.0,
+        "mi_thuat_lop9": 5.0,
+        "noi_dung_giao_duc_dia_phuong_lop6": 5.0,
+        "noi_dung_giao_duc_dia_phuong_lop7": 6.0,
+        "noi_dung_giao_duc_dia_phuong_lop8": 6.0,
+        "noi_dung_giao_duc_dia_phuong_lop9": 3.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop6": 4.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop7": 3.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop8": 5.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop9": 6.0
+      },
+      "recorded_interest_labels": {
+        "Vật lý": 1,
+        "Hóa học": 1,
+        "Sinh học": 1,
+        "Công nghệ": 0,
+        "Tin học": 1,
+        "Địa lý": 1,
+        "Giáo dục kinh tế và pháp luật": 1,
+        "Âm nhạc": 1,
+        "Mỹ thuật": 1
+      }
+    },
+    {
+      "id": 5,
+      "label": "Hồ sơ mẫu 5",
+      "features": {
+        "toan_lop6": 7.0,
+        "toan_lop7": 7.0,
+        "toan_lop8": 5.0,
+        "toan_lop9": 5.0,
+        "ngu_van_lop6": 9.0,
+        "ngu_van_lop7": 10.0,
+        "ngoai_ngu_lop6": 6.0,
+        "ngoai_ngu_lop7": 3.0,
+        "ngoai_ngu_lop8": 3.0,
+        "ngoai_ngu_lop9": 3.0,
+        "khoa_hoc_tu_nhien_lop6": 8.0,
+        "khoa_hoc_tu_nhien_lop7": 6.0,
+        "khoa_hoc_tu_nhien_lop8": 4.0,
+        "khoa_hoc_tu_nhien_lop9": 8.0,
+        "lich_su_dia_ly_lop6": 10.0,
+        "lich_su_dia_ly_lop7": 6.0,
+        "lich_su_dia_ly_lop8": 6.0,
+        "lich_su_dia_ly_lop9": 6.0,
+        "giao_duc_cong_dan_lop6": 5.0,
+        "giao_duc_cong_dan_lop7": 8.0,
+        "giao_duc_cong_dan_lop8": 6.0,
+        "giao_duc_cong_dan_lop9": 5.0,
+        "tin_hoc_lop6": 7.0,
+        "tin_hoc_lop7": 5.0,
+        "tin_hoc_lop8": 7.0,
+        "tin_hoc_lop9": 4.0,
+        "cong_nghe_lop6": 9.0,
+        "cong_nghe_lop7": 6.0,
+        "cong_nghe_lop8": 5.0,
+        "cong_nghe_lop9": 6.0,
+        "giao_duc_the_chat_lop6": 10.0,
+        "giao_duc_the_chat_lop7": 5.0,
+        "giao_duc_the_chat_lop8": 5.0,
+        "giao_duc_the_chat_lop9": 4.0,
+        "am_nhac_lop6": 8.0,
+        "am_nhac_lop7": 6.0,
+        "am_nhac_lop8": 2.0,
+        "am_nhac_lop9": 8.0,
+        "mi_thuat_lop6": 4.0,
+        "mi_thuat_lop7": 4.0,
+        "mi_thuat_lop8": 2.0,
+        "mi_thuat_lop9": 3.0,
+        "noi_dung_giao_duc_dia_phuong_lop6": 6.0,
+        "noi_dung_giao_duc_dia_phuong_lop7": 5.0,
+        "noi_dung_giao_duc_dia_phuong_lop8": 4.0,
+        "noi_dung_giao_duc_dia_phuong_lop9": 4.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop6": 5.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop7": 8.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop8": 3.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop9": 4.0
+      },
+      "recorded_interest_labels": {
+        "Vật lý": 1,
+        "Hóa học": 0,
+        "Sinh học": 0,
+        "Công nghệ": 1,
+        "Tin học": 0,
+        "Địa lý": 1,
+        "Giáo dục kinh tế và pháp luật": 1,
+        "Âm nhạc": 0,
+        "Mỹ thuật": 0
+      }
+    }
+  ],
+  "defaults": {
+    "toan_lop6": 5.0,
+    "toan_lop7": 5.0,
+    "toan_lop8": 5.0,
+    "toan_lop9": 5.0,
+    "ngu_van_lop6": 5.0,
+    "ngu_van_lop7": 5.0,
+    "ngoai_ngu_lop6": 5.0,
+    "ngoai_ngu_lop7": 5.0,
+    "ngoai_ngu_lop8": 5.0,
+    "ngoai_ngu_lop9": 5.0,
+    "khoa_hoc_tu_nhien_lop6": 5.0,
+    "khoa_hoc_tu_nhien_lop7": 5.0,
+    "khoa_hoc_tu_nhien_lop8": 5.0,
+    "khoa_hoc_tu_nhien_lop9": 5.0,
+    "lich_su_dia_ly_lop6": 5.0,
+    "lich_su_dia_ly_lop7": 5.0,
+    "lich_su_dia_ly_lop8": 5.0,
+    "lich_su_dia_ly_lop9": 5.0,
+    "giao_duc_cong_dan_lop6": 5.0,
+    "giao_duc_cong_dan_lop7": 5.0,
+    "giao_duc_cong_dan_lop8": 5.0,
+    "giao_duc_cong_dan_lop9": 5.0,
+    "tin_hoc_lop6": 5.0,
+    "tin_hoc_lop7": 5.0,
+    "tin_hoc_lop8": 5.0,
+    "tin_hoc_lop9": 5.0,
+    "cong_nghe_lop6": 5.0,
+    "cong_nghe_lop7": 5.0,
+    "cong_nghe_lop8": 5.0,
+    "cong_nghe_lop9": 5.0,
+    "giao_duc_the_chat_lop6": 5.0,
+    "giao_duc_the_chat_lop7": 5.0,
+    "giao_duc_the_chat_lop8": 5.0,
+    "giao_duc_the_chat_lop9": 5.0,
+    "am_nhac_lop6": 5.0,
+    "am_nhac_lop7": 5.0,
+    "am_nhac_lop8": 5.0,
+    "am_nhac_lop9": 5.0,
+    "mi_thuat_lop6": 5.0,
+    "mi_thuat_lop7": 5.0,
+    "mi_thuat_lop8": 5.0,
+    "mi_thuat_lop9": 5.0,
+    "noi_dung_giao_duc_dia_phuong_lop6": 5.0,
+    "noi_dung_giao_duc_dia_phuong_lop7": 5.0,
+    "noi_dung_giao_duc_dia_phuong_lop8": 5.0,
+    "noi_dung_giao_duc_dia_phuong_lop9": 5.0,
+    "hoat_dong_trai_nghiem_huong_nghiep_lop6": 5.0,
+    "hoat_dong_trai_nghiem_huong_nghiep_lop7": 5.0,
+    "hoat_dong_trai_nghiem_huong_nghiep_lop8": 5.0,
+    "hoat_dong_trai_nghiem_huong_nghiep_lop9": 5.0
+  },
+  "feature_groups": [
+    {
+      "key": "toan",
+      "label": "Toan",
+      "features": [
+        "toan_lop6",
+        "toan_lop7",
+        "toan_lop8",
+        "toan_lop9"
+      ]
+    },
+    {
+      "key": "ngu_van",
+      "label": "Ngu van",
+      "features": [
+        "ngu_van_lop6",
+        "ngu_van_lop7"
+      ]
+    },
+    {
+      "key": "ngoai_ngu",
+      "label": "Ngoai ngu",
+      "features": [
+        "ngoai_ngu_lop6",
+        "ngoai_ngu_lop7",
+        "ngoai_ngu_lop8",
+        "ngoai_ngu_lop9"
+      ]
+    },
+    {
+      "key": "khoa_hoc_tu_nhien",
+      "label": "Khoa hoc tu nhien",
+      "features": [
+        "khoa_hoc_tu_nhien_lop6",
+        "khoa_hoc_tu_nhien_lop7",
+        "khoa_hoc_tu_nhien_lop8",
+        "khoa_hoc_tu_nhien_lop9"
+      ]
+    },
+    {
+      "key": "lich_su_dia_ly",
+      "label": "Lich su dia ly",
+      "features": [
+        "lich_su_dia_ly_lop6",
+        "lich_su_dia_ly_lop7",
+        "lich_su_dia_ly_lop8",
+        "lich_su_dia_ly_lop9"
+      ]
+    },
+    {
+      "key": "giao_duc_cong_dan",
+      "label": "Giao duc cong dan",
+      "features": [
+        "giao_duc_cong_dan_lop6",
+        "giao_duc_cong_dan_lop7",
+        "giao_duc_cong_dan_lop8",
+        "giao_duc_cong_dan_lop9"
+      ]
+    },
+    {
+      "key": "tin_hoc",
+      "label": "Tin hoc",
+      "features": [
+        "tin_hoc_lop6",
+        "tin_hoc_lop7",
+        "tin_hoc_lop8",
+        "tin_hoc_lop9"
+      ]
+    },
+    {
+      "key": "cong_nghe",
+      "label": "Cong nghe",
+      "features": [
+        "cong_nghe_lop6",
+        "cong_nghe_lop7",
+        "cong_nghe_lop8",
+        "cong_nghe_lop9"
+      ]
+    },
+    {
+      "key": "giao_duc_the_chat",
+      "label": "Giao duc the chat",
+      "features": [
+        "giao_duc_the_chat_lop6",
+        "giao_duc_the_chat_lop7",
+        "giao_duc_the_chat_lop8",
+        "giao_duc_the_chat_lop9"
+      ]
+    },
+    {
+      "key": "am_nhac",
+      "label": "Am nhac",
+      "features": [
+        "am_nhac_lop6",
+        "am_nhac_lop7",
+        "am_nhac_lop8",
+        "am_nhac_lop9"
+      ]
+    },
+    {
+      "key": "mi_thuat",
+      "label": "Mi thuat",
+      "features": [
+        "mi_thuat_lop6",
+        "mi_thuat_lop7",
+        "mi_thuat_lop8",
+        "mi_thuat_lop9"
+      ]
+    },
+    {
+      "key": "noi_dung_giao_duc_dia_phuong",
+      "label": "Noi dung giao duc dia phuong",
+      "features": [
+        "noi_dung_giao_duc_dia_phuong_lop6",
+        "noi_dung_giao_duc_dia_phuong_lop7",
+        "noi_dung_giao_duc_dia_phuong_lop8",
+        "noi_dung_giao_duc_dia_phuong_lop9"
+      ]
+    },
+    {
+      "key": "hoat_dong_trai_nghiem_huong_nghiep",
+      "label": "Hoat dong trai nghiem huong nghiep",
+      "features": [
+        "hoat_dong_trai_nghiem_huong_nghiep_lop6",
+        "hoat_dong_trai_nghiem_huong_nghiep_lop7",
+        "hoat_dong_trai_nghiem_huong_nghiep_lop8",
+        "hoat_dong_trai_nghiem_huong_nghiep_lop9"
+      ]
+    }
+  ]
+}
