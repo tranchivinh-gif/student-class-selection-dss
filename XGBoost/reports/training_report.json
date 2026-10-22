@@ -1,0 +1,334 @@
+{
+  "source_file": "hoc_sinh_clean.csv",
+  "data_audit": {
+    "row_count": 10000,
+    "column_count": 50,
+    "source_columns": [
+      "ma_hoc_sinh",
+      "toan_lop6",
+      "toan_lop7",
+      "toan_lop8",
+      "toan_lop9",
+      "ngu_van_lop6",
+      "ngu_van_lop7",
+      "ngu_van_lop8",
+      "ngu_van_lop9",
+      "ngoai_ngu_lop6",
+      "ngoai_ngu_lop7",
+      "ngoai_ngu_lop8",
+      "ngoai_ngu_lop9",
+      "khoa_hoc_tu_nhien_lop6",
+      "khoa_hoc_tu_nhien_lop7",
+      "khoa_hoc_tu_nhien_lop8",
+      "khoa_hoc_tu_nhien_lop9",
+      "lich_su_dia_ly_lop6",
+      "lich_su_dia_ly_lop7",
+      "lich_su_dia_ly_lop8",
+      "lich_su_dia_ly_lop9",
+      "giao_duc_cong_dan_lop6",
+      "giao_duc_cong_dan_lop7",
+      "giao_duc_cong_dan_lop8",
+      "giao_duc_cong_dan_lop9",
+      "cong_nghe_lop6",
+      "cong_nghe_lop7",
+      "cong_nghe_lop8",
+      "cong_nghe_lop9",
+      "tin_hoc_lop6",
+      "tin_hoc_lop7",
+      "tin_hoc_lop8",
+      "tin_hoc_lop9",
+      "giao_duc_the_chat_lop6",
+      "giao_duc_the_chat_lop7",
+      "giao_duc_the_chat_lop8",
+      "giao_duc_the_chat_lop9",
+      "nghe_thuat_lop6",
+      "nghe_thuat_lop7",
+      "nghe_thuat_lop8",
+      "nghe_thuat_lop9",
+      "vat_ly",
+      "hoa_hoc",
+      "sinh_hoc",
+      "cong_nghe",
+      "tin_hoc_tu_chon",
+      "dia_ly",
+      "giao_duc_kinh_te_va_phap_luat",
+      "am_nhac_tu_chon",
+      "mi_thuat_tu_chon"
+    ],
+    "feature_columns": [
+      "toan_lop6",
+      "toan_lop7",
+      "toan_lop8",
+      "toan_lop9",
+      "ngu_van_lop6",
+      "ngu_van_lop7",
+      "ngu_van_lop8",
+      "ngu_van_lop9",
+      "ngoai_ngu_lop6",
+      "ngoai_ngu_lop7",
+      "ngoai_ngu_lop8",
+      "ngoai_ngu_lop9",
+      "khoa_hoc_tu_nhien_lop6",
+      "khoa_hoc_tu_nhien_lop7",
+      "khoa_hoc_tu_nhien_lop8",
+      "khoa_hoc_tu_nhien_lop9",
+      "lich_su_dia_ly_lop6",
+      "lich_su_dia_ly_lop7",
+      "lich_su_dia_ly_lop8",
+      "lich_su_dia_ly_lop9",
+      "giao_duc_cong_dan_lop6",
+      "giao_duc_cong_dan_lop7",
+      "giao_duc_cong_dan_lop8",
+      "giao_duc_cong_dan_lop9",
+      "cong_nghe_lop6",
+      "cong_nghe_lop7",
+      "cong_nghe_lop8",
+      "cong_nghe_lop9",
+      "tin_hoc_lop6",
+      "tin_hoc_lop7",
+      "tin_hoc_lop8",
+      "tin_hoc_lop9",
+      "giao_duc_the_chat_lop6",
+      "giao_duc_the_chat_lop7",
+      "giao_duc_the_chat_lop8",
+      "giao_duc_the_chat_lop9",
+      "nghe_thuat_lop6",
+      "nghe_thuat_lop7",
+      "nghe_thuat_lop8",
+      "nghe_thuat_lop9"
+    ],
+    "label_columns": [
+      "vat_ly",
+      "hoa_hoc",
+      "sinh_hoc",
+      "cong_nghe",
+      "tin_hoc_tu_chon",
+      "dia_ly",
+      "giao_duc_kinh_te_va_phap_luat",
+      "am_nhac_tu_chon",
+      "mi_thuat_tu_chon"
+    ],
+    "missing_by_column": {},
+    "duplicate_rows": 0,
+    "duplicate_ids": 0,
+    "invalid_scores": {},
+    "invalid_labels": {},
+    "estimated_columns": [],
+    "label_counts": {
+      "vat_ly": {
+        "0": 5528,
+        "1": 4472
+      },
+      "hoa_hoc": {
+        "0": 5620,
+        "1": 4380
+      },
+      "sinh_hoc": {
+        "0": 5578,
+        "1": 4422
+      },
+      "cong_nghe": {
+        "0": 5491,
+        "1": 4509
+      },
+      "tin_hoc_tu_chon": {
+        "0": 5570,
+        "1": 4430
+      },
+      "dia_ly": {
+        "0": 5550,
+        "1": 4450
+      },
+      "giao_duc_kinh_te_va_phap_luat": {
+        "0": 5543,
+        "1": 4457
+      },
+      "am_nhac_tu_chon": {
+        "0": 5631,
+        "1": 4369
+      },
+      "mi_thuat_tu_chon": {
+        "0": 5489,
+        "1": 4511
+      }
+    }
+  },
+  "split_counts": {
+    "train": 7000,
+    "validation": 1500,
+    "test": 1500
+  },
+  "random_state": 42,
+  "selection_metric": "validation_macro_f1_with_exact_match_tiebreak",
+  "subject_count": 4,
+  "baseline": "four_most_frequent_labels_in_train",
+  "selected_parameters": {
+    "max_depth": 2,
+    "learning_rate": 0.05,
+    "n_estimators": 240,
+    "min_child_weight": 3,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_alpha": 0.1,
+    "reg_lambda": 2.0
+  },
+  "validation_trials": [
+    {
+      "parameters": {
+        "max_depth": 3,
+        "learning_rate": 0.05,
+        "n_estimators": 140,
+        "reg_alpha": 0.0,
+        "reg_lambda": 1.0
+      },
+      "macro_f1": 0.527412345265025,
+      "micro_f1": 0.5283333333333333,
+      "exact_match_accuracy": 0.02666666666666667
+    },
+    {
+      "parameters": {
+        "max_depth": 3,
+        "learning_rate": 0.1,
+        "n_estimators": 100,
+        "reg_alpha": 0.0,
+        "reg_lambda": 2.0
+      },
+      "macro_f1": 0.5229676031808663,
+      "micro_f1": 0.524,
+      "exact_match_accuracy": 0.030666666666666665
+    },
+    {
+      "parameters": {
+        "max_depth": 5,
+        "learning_rate": 0.05,
+        "n_estimators": 180,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0
+      },
+      "macro_f1": 0.513563379554906,
+      "micro_f1": 0.5145,
+      "exact_match_accuracy": 0.023333333333333334
+    },
+    {
+      "parameters": {
+        "max_depth": 2,
+        "learning_rate": 0.05,
+        "n_estimators": 240,
+        "min_child_weight": 3,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 2.0
+      },
+      "macro_f1": 0.5282293919648535,
+      "micro_f1": 0.5293333333333333,
+      "exact_match_accuracy": 0.03333333333333333
+    },
+    {
+      "parameters": {
+        "max_depth": 4,
+        "learning_rate": 0.05,
+        "n_estimators": 240,
+        "min_child_weight": 3,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 2.0
+      },
+      "macro_f1": 0.5160343446770069,
+      "micro_f1": 0.517,
+      "exact_match_accuracy": 0.024
+    },
+    {
+      "parameters": {
+        "max_depth": 5,
+        "learning_rate": 0.03,
+        "n_estimators": 320,
+        "min_child_weight": 5,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.5,
+        "reg_lambda": 2.0
+      },
+      "macro_f1": 0.5180174612712352,
+      "micro_f1": 0.5186666666666667,
+      "exact_match_accuracy": 0.024
+    }
+  ],
+  "baseline_metrics": {
+    "per_label": {
+      "vat_ly": {
+        "precision": 0.4666666666666667,
+        "recall": 1.0,
+        "f1": 0.6363636363636364,
+        "support": 700,
+        "samples": 1500
+      },
+      "hoa_hoc": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 651,
+        "samples": 1500
+      },
+      "sinh_hoc": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 647,
+        "samples": 1500
+      },
+      "cong_nghe": {
+        "precision": 0.4553333333333333,
+        "recall": 1.0,
+        "f1": 0.6257443884562529,
+        "support": 683,
+        "samples": 1500
+      },
+      "tin_hoc_tu_chon": {
+        "precision": 0.4226666666666667,
+        "recall": 1.0,
+        "f1": 0.5941893158388004,
+        "support": 634,
+        "samples": 1500
+      },
+      "dia_ly": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 683,
+        "samples": 1500
+      },
+      "giao_duc_kinh_te_va_phap_luat": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 659,
+        "samples": 1500
+      },
+      "am_nhac_tu_chon": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 670,
+        "samples": 1500
+      },
+      "mi_thuat_tu_chon": {
+        "precision": 0.44866666666666666,
+        "recall": 1.0,
+        "f1": 0.6194201564657156,
+        "support": 673,
+        "samples": 1500
+      }
+    },
+    "micro_precision": 0.4483333333333333,
+    "micro_recall": 0.4483333333333333,
+    "micro_f1": 0.4483333333333333,
+    "macro_precision": 0.19925925925925927,
+    "macro_recall": 0.4444444444444444,
+    "macro_f1": 0.2750797219027117,
+    "exact_match_accuracy": 0.010666666666666666,
+    "sample_count": 1500
+  },
+  "estimated_feature_columns": []
+}

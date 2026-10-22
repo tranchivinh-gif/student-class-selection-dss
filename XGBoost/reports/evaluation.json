@@ -1,0 +1,248 @@
+{
+  "test_metrics": {
+    "per_label": {
+      "vat_ly": {
+        "precision": 0.5353218210361067,
+        "recall": 0.48714285714285716,
+        "f1": 0.5100972326103216,
+        "support": 700,
+        "samples": 1500
+      },
+      "hoa_hoc": {
+        "precision": 0.5131782945736434,
+        "recall": 0.5084485407066052,
+        "f1": 0.5108024691358025,
+        "support": 651,
+        "samples": 1500
+      },
+      "sinh_hoc": {
+        "precision": 0.48598130841121495,
+        "recall": 0.482225656877898,
+        "f1": 0.4840961986035687,
+        "support": 647,
+        "samples": 1500
+      },
+      "cong_nghe": {
+        "precision": 0.5486600846262342,
+        "recall": 0.5695461200585652,
+        "f1": 0.5589080459770115,
+        "support": 683,
+        "samples": 1500
+      },
+      "tin_hoc_tu_chon": {
+        "precision": 0.5306122448979592,
+        "recall": 0.5331230283911672,
+        "f1": 0.5318646734854445,
+        "support": 634,
+        "samples": 1500
+      },
+      "dia_ly": {
+        "precision": 0.5462555066079295,
+        "recall": 0.5446559297218155,
+        "f1": 0.5454545454545454,
+        "support": 683,
+        "samples": 1500
+      },
+      "giao_duc_kinh_te_va_phap_luat": {
+        "precision": 0.5632022471910112,
+        "recall": 0.6084977238239757,
+        "f1": 0.5849744711889132,
+        "support": 659,
+        "samples": 1500
+      },
+      "am_nhac_tu_chon": {
+        "precision": 0.5528846153846154,
+        "recall": 0.5149253731343284,
+        "f1": 0.5332302936630603,
+        "support": 670,
+        "samples": 1500
+      },
+      "mi_thuat_tu_chon": {
+        "precision": 0.5357643758765779,
+        "recall": 0.5676077265973254,
+        "f1": 0.5512265512265512,
+        "support": 673,
+        "samples": 1500
+      }
+    },
+    "micro_precision": 0.5351666666666667,
+    "micro_recall": 0.5351666666666667,
+    "micro_f1": 0.5351666666666667,
+    "macro_precision": 0.5346511665116993,
+    "macro_recall": 0.5351303284949486,
+    "macro_f1": 0.5345171645939132,
+    "exact_match_accuracy": 0.029333333333333333,
+    "sample_count": 1500
+  },
+  "test_exactly_four_rate": 1.0,
+  "baseline_metrics": {
+    "per_label": {
+      "vat_ly": {
+        "precision": 0.4666666666666667,
+        "recall": 1.0,
+        "f1": 0.6363636363636364,
+        "support": 700,
+        "samples": 1500
+      },
+      "hoa_hoc": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 651,
+        "samples": 1500
+      },
+      "sinh_hoc": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 647,
+        "samples": 1500
+      },
+      "cong_nghe": {
+        "precision": 0.4553333333333333,
+        "recall": 1.0,
+        "f1": 0.6257443884562529,
+        "support": 683,
+        "samples": 1500
+      },
+      "tin_hoc_tu_chon": {
+        "precision": 0.4226666666666667,
+        "recall": 1.0,
+        "f1": 0.5941893158388004,
+        "support": 634,
+        "samples": 1500
+      },
+      "dia_ly": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 683,
+        "samples": 1500
+      },
+      "giao_duc_kinh_te_va_phap_luat": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 659,
+        "samples": 1500
+      },
+      "am_nhac_tu_chon": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 670,
+        "samples": 1500
+      },
+      "mi_thuat_tu_chon": {
+        "precision": 0.44866666666666666,
+        "recall": 1.0,
+        "f1": 0.6194201564657156,
+        "support": 673,
+        "samples": 1500
+      }
+    },
+    "micro_precision": 0.4483333333333333,
+    "micro_recall": 0.4483333333333333,
+    "micro_f1": 0.4483333333333333,
+    "macro_precision": 0.19925925925925927,
+    "macro_recall": 0.4444444444444444,
+    "macro_f1": 0.2750797219027117,
+    "exact_match_accuracy": 0.010666666666666666,
+    "sample_count": 1500
+  },
+  "selected_parameters": {
+    "max_depth": 2,
+    "learning_rate": 0.05,
+    "n_estimators": 240,
+    "min_child_weight": 3,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_alpha": 0.1,
+    "reg_lambda": 2.0
+  },
+  "validation_trials": [
+    {
+      "parameters": {
+        "max_depth": 3,
+        "learning_rate": 0.05,
+        "n_estimators": 140,
+        "reg_alpha": 0.0,
+        "reg_lambda": 1.0
+      },
+      "macro_f1": 0.527412345265025,
+      "micro_f1": 0.5283333333333333,
+      "exact_match_accuracy": 0.02666666666666667
+    },
+    {
+      "parameters": {
+        "max_depth": 3,
+        "learning_rate": 0.1,
+        "n_estimators": 100,
+        "reg_alpha": 0.0,
+        "reg_lambda": 2.0
+      },
+      "macro_f1": 0.5229676031808663,
+      "micro_f1": 0.524,
+      "exact_match_accuracy": 0.030666666666666665
+    },
+    {
+      "parameters": {
+        "max_depth": 5,
+        "learning_rate": 0.05,
+        "n_estimators": 180,
+        "reg_alpha": 0.1,
+        "reg_lambda": 1.0
+      },
+      "macro_f1": 0.513563379554906,
+      "micro_f1": 0.5145,
+      "exact_match_accuracy": 0.023333333333333334
+    },
+    {
+      "parameters": {
+        "max_depth": 2,
+        "learning_rate": 0.05,
+        "n_estimators": 240,
+        "min_child_weight": 3,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 2.0
+      },
+      "macro_f1": 0.5282293919648535,
+      "micro_f1": 0.5293333333333333,
+      "exact_match_accuracy": 0.03333333333333333
+    },
+    {
+      "parameters": {
+        "max_depth": 4,
+        "learning_rate": 0.05,
+        "n_estimators": 240,
+        "min_child_weight": 3,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.1,
+        "reg_lambda": 2.0
+      },
+      "macro_f1": 0.5160343446770069,
+      "micro_f1": 0.517,
+      "exact_match_accuracy": 0.024
+    },
+    {
+      "parameters": {
+        "max_depth": 5,
+        "learning_rate": 0.03,
+        "n_estimators": 320,
+        "min_child_weight": 5,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8,
+        "reg_alpha": 0.5,
+        "reg_lambda": 2.0
+      },
+      "macro_f1": 0.5180174612712352,
+      "micro_f1": 0.5186666666666667,
+      "exact_match_accuracy": 0.024
+    }
+  ],
+  "estimated_feature_columns": [],
+  "test_set_policy": "Test được giữ riêng trong lúc chọn tham số; chỉ đánh giá sau khi chọn cấu hình bằng Validation."
+}
