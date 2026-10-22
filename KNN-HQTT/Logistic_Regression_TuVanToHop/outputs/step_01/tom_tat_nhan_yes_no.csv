@@ -1,0 +1,10 @@
+﻿ten_cot_nhan,gia_tri_goc_va_so_luong,so_yes,so_no,so_thieu,co_du_hai_lop
+Vật lý,'no': 5001; 'yes': 4999,4999,5001,0,True
+Hóa học,'no': 5017; 'yes': 4983,4983,5017,0,True
+Sinh học,'no': 5061; 'yes': 4939,4939,5061,0,True
+Công nghệ,'yes': 5054; 'no': 4946,5054,4946,0,True
+Tin học,'Yes': 5043; 'No': 4957,5043,4957,0,True
+Địa lý,'No': 5100; 'Yes': 4900,4900,5100,0,True
+Giáo dục kinh tế và pháp luật,'No': 5035; 'Yes': 4965,4965,5035,0,True
+ Âm nhạc,'No': 5016; 'Yes': 4984,4984,5016,0,True
+Mỹ thuật,'No': 5030; 'Yes': 4970,4970,5030,0,True

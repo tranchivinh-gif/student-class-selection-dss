@@ -1,0 +1,135 @@
+BÁO CÁO KIỂM TRA DỮ LIỆU
+File: data\raw\dulieuhocsinh_10000.csv
+Kích thước: 10000 dòng x 60 cột
+Tổng ô thiếu: 0
+Số dòng trùng hoàn toàn: 0
+Số cột nhận diện là mã học sinh: 1 (ma_hoc_sinh)
+
+DANH SÁCH TÊN CỘT (giữ nguyên như trong CSV):
+1. ma_hoc_sinh
+2. toan_lop6
+3. toan_lop7
+4. toan_lop8
+5. toan_lop9
+6. ngu_van_lop6
+7. ngu_van_lop7
+8. ngoai_ngu_lop6
+9. ngoai_ngu_lop7
+10. ngoai_ngu_lop8
+11. ngoai_ngu_lop9
+12. khoa_hoc_tu_nhien_lop6
+13. khoa_hoc_tu_nhien_lop7
+14. khoa_hoc_tu_nhien_lop8
+15. khoa_hoc_tu_nhien_lop9
+16. lich_su_dia_ly_lop6
+17. lich_su_dia_ly_lop7
+18. lich_su_dia_ly_lop8
+19. lich_su_dia_ly_lop9
+20. giao_duc_cong_dan_lop6
+21. giao_duc_cong_dan_lop7
+22. giao_duc_cong_dan_lop8
+23. giao_duc_cong_dan_lop9
+24. tin_hoc_lop6
+25. tin_hoc_lop7
+26. tin_hoc_lop8
+27. tin_hoc_lop9
+28. cong_nghe_lop6
+29. cong_nghe_lop7
+30. cong_nghe_lop8
+31. cong_nghe_lop9
+32. giao_duc_the_chat_lop6
+33. giao_duc_the_chat_lop7
+34. giao_duc_the_chat_lop8
+35. giao_duc_the_chat_lop9
+36. am_nhac_lop6
+37. am_nhac_lop7
+38. am_nhac_lop8
+39. am_nhac_lop9
+40. mi_thuat_lop6
+41. mi_thuat_lop7
+42. mi_thuat_lop8
+43. mi_thuat_lop9
+44. noi_dung_giao_duc_dia_phuong_lop6
+45. noi_dung_giao_duc_dia_phuong_lop7
+46. noi_dung_giao_duc_dia_phuong_lop8
+47. noi_dung_giao_duc_dia_phuong_lop9
+48. hoat_dong_trai_nghiem_huong_nghiep_lop6
+49. hoat_dong_trai_nghiem_huong_nghiep_lop7
+50. hoat_dong_trai_nghiem_huong_nghiep_lop8
+51. hoat_dong_trai_nghiem_huong_nghiep_lop9
+52. Vật lý
+53. Hóa học
+54. Sinh học
+55. Công nghệ
+56. Tin học
+57. Địa lý
+58. Giáo dục kinh tế và pháp luật
+59.  Âm nhạc
+60. Mỹ thuật
+
+SỐ CỘT ĐIỂM NHẬN DIỆN: 50
+- toan_lop6: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- toan_lop7: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- toan_lop8: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- toan_lop9: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- ngu_van_lop6: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- ngu_van_lop7: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- ngoai_ngu_lop6: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- ngoai_ngu_lop7: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- ngoai_ngu_lop8: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- ngoai_ngu_lop9: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- khoa_hoc_tu_nhien_lop6: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- khoa_hoc_tu_nhien_lop7: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- khoa_hoc_tu_nhien_lop8: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- khoa_hoc_tu_nhien_lop9: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- lich_su_dia_ly_lop6: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- lich_su_dia_ly_lop7: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- lich_su_dia_ly_lop8: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- lich_su_dia_ly_lop9: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- giao_duc_cong_dan_lop6: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- giao_duc_cong_dan_lop7: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- giao_duc_cong_dan_lop8: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- giao_duc_cong_dan_lop9: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- tin_hoc_lop6: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- tin_hoc_lop7: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- tin_hoc_lop8: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- tin_hoc_lop9: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- cong_nghe_lop6: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- cong_nghe_lop7: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- cong_nghe_lop8: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- cong_nghe_lop9: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- giao_duc_the_chat_lop6: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- giao_duc_the_chat_lop7: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- giao_duc_the_chat_lop8: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- giao_duc_the_chat_lop9: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- am_nhac_lop6: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- am_nhac_lop7: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- am_nhac_lop8: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- am_nhac_lop9: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- mi_thuat_lop6: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- mi_thuat_lop7: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- mi_thuat_lop8: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- mi_thuat_lop9: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- noi_dung_giao_duc_dia_phuong_lop6: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- noi_dung_giao_duc_dia_phuong_lop7: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- noi_dung_giao_duc_dia_phuong_lop8: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- noi_dung_giao_duc_dia_phuong_lop9: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- hoat_dong_trai_nghiem_huong_nghiep_lop6: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- hoat_dong_trai_nghiem_huong_nghiep_lop7: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- hoat_dong_trai_nghiem_huong_nghiep_lop8: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+- hoat_dong_trai_nghiem_huong_nghiep_lop9: kiểu=int64, min=0, max=10, không đổi được sang số=0, ngoài khoảng 0-10=0
+
+SỐ CỘT YES/NO NHẬN DIỆN: 9
+- Vật lý: 'no': 5001; 'yes': 4999
+- Hóa học: 'no': 5017; 'yes': 4983
+- Sinh học: 'no': 5061; 'yes': 4939
+- Công nghệ: 'yes': 5054; 'no': 4946
+- Tin học: 'Yes': 5043; 'No': 4957
+- Địa lý: 'No': 5100; 'Yes': 4900
+- Giáo dục kinh tế và pháp luật: 'No': 5035; 'Yes': 4965
+-  Âm nhạc: 'No': 5016; 'Yes': 4984
+- Mỹ thuật: 'No': 5030; 'Yes': 4970
+
+KẾT LUẬN:
+ĐỦ ĐIỀU KIỆN VỀ CẤU TRÚC để xem xét bước 2: đã tìm thấy cột điểm và cột yes/no.
+Lưu ý: phát hiện yes/no chỉ xác nhận định dạng hai lớp, chưa chứng minh các giá trị này thật sự ghi nhận lựa chọn môn của học sinh.
