@@ -1,0 +1,7 @@
+ĐÁNH GIÁ K-MEANS TRÊN TẬP TEST
+Số mẫu test: 2000
+Số cụm được gán trong test: 2
+Silhouette test: 0.2434
+Silhouette mô tả mức độ gần cụm trong không gian điểm đã chuẩn hóa; không đo khả năng dự đoán môn lựa chọn.
+K-Means là học không giám sát nên không có Accuracy/Precision/Recall nếu không có nhãn cụm đúng do chuyên gia cung cấp.
+Mã cụm chỉ là nhãn định danh tùy ý, không hàm ý tốt/xấu hoặc phù hợp/không phù hợp.

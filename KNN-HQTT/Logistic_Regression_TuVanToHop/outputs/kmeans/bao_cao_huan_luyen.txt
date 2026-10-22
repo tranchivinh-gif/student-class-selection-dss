@@ -1,0 +1,10 @@
+HUẤN LUYỆN K-MEANS HOÀN TẤT
+Số mẫu train: 8000
+Số đặc trưng điểm: 50
+Số cụm được chọn: 2
+Silhouette train (mẫu tối đa 2000): 0.2403
+Kích thước cụm train: {'0': 3971, '1': 4029}
+Chọn k bằng silhouette trên tập huấn luyện; tập test không được dùng để chọn k hoặc fit imputer/scaler.
+K-Means là phân cụm không giám sát, không dự đoán lựa chọn môn.
+Mô hình lưu tại: D:\BAIBAO\Logistic_Regression_TuVanToHop\models\kmeans_pipeline.joblib
+Điểm so sánh k lưu tại: D:\BAIBAO\Logistic_Regression_TuVanToHop\outputs\kmeans\chon_so_cum_tren_train.csv
