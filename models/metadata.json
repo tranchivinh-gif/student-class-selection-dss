@@ -1,0 +1,972 @@
+{
+  "dataset": "dulieuhocsinh_50000_mo_phong.csv",
+  "dataset_kind": "simulated",
+  "target_scale": [
+    0,
+    10
+  ],
+  "split_counts": {
+    "train": 30000,
+    "validation": 10000,
+    "test": 10000
+  },
+  "split_group_counts": {
+    "train": 6000,
+    "validation": 2000,
+    "test": 2000
+  },
+  "random_seed": 42,
+  "features_common": [
+    "toan_lop6",
+    "toan_lop7",
+    "toan_lop8",
+    "toan_lop9",
+    "ngu_van_lop6",
+    "ngu_van_lop7",
+    "ngoai_ngu_lop6",
+    "ngoai_ngu_lop7",
+    "ngoai_ngu_lop8",
+    "ngoai_ngu_lop9",
+    "khoa_hoc_tu_nhien_lop6",
+    "khoa_hoc_tu_nhien_lop7",
+    "khoa_hoc_tu_nhien_lop8",
+    "khoa_hoc_tu_nhien_lop9",
+    "lich_su_dia_ly_lop6",
+    "lich_su_dia_ly_lop7",
+    "lich_su_dia_ly_lop8",
+    "lich_su_dia_ly_lop9",
+    "giao_duc_cong_dan_lop6",
+    "giao_duc_cong_dan_lop7",
+    "giao_duc_cong_dan_lop8",
+    "giao_duc_cong_dan_lop9",
+    "tin_hoc_lop6",
+    "tin_hoc_lop7",
+    "tin_hoc_lop8",
+    "tin_hoc_lop9",
+    "cong_nghe_lop6",
+    "cong_nghe_lop7",
+    "cong_nghe_lop8",
+    "cong_nghe_lop9",
+    "giao_duc_the_chat_lop6",
+    "giao_duc_the_chat_lop7",
+    "giao_duc_the_chat_lop8",
+    "giao_duc_the_chat_lop9",
+    "am_nhac_lop6",
+    "am_nhac_lop7",
+    "am_nhac_lop8",
+    "am_nhac_lop9",
+    "mi_thuat_lop6",
+    "mi_thuat_lop7",
+    "mi_thuat_lop8",
+    "mi_thuat_lop9",
+    "noi_dung_giao_duc_dia_phuong_lop6",
+    "noi_dung_giao_duc_dia_phuong_lop7",
+    "noi_dung_giao_duc_dia_phuong_lop8",
+    "noi_dung_giao_duc_dia_phuong_lop9",
+    "hoat_dong_trai_nghiem_huong_nghiep_lop6",
+    "hoat_dong_trai_nghiem_huong_nghiep_lop7",
+    "hoat_dong_trai_nghiem_huong_nghiep_lop8",
+    "hoat_dong_trai_nghiem_huong_nghiep_lop9",
+    "ngu_van_lop8",
+    "ngu_van_lop9",
+    "gio_tu_hoc_tuan",
+    "ti_le_chuyen_can"
+  ],
+  "subjects": {
+    "toan": {
+      "label": "Toán",
+      "target": "diem_thi_toan_mo_phong",
+      "mock_score": "diem_thi_thu_toan",
+      "baseline": "toan_lop9",
+      "features": [
+        "toan_lop6",
+        "toan_lop7",
+        "toan_lop8",
+        "toan_lop9",
+        "ngu_van_lop6",
+        "ngu_van_lop7",
+        "ngoai_ngu_lop6",
+        "ngoai_ngu_lop7",
+        "ngoai_ngu_lop8",
+        "ngoai_ngu_lop9",
+        "khoa_hoc_tu_nhien_lop6",
+        "khoa_hoc_tu_nhien_lop7",
+        "khoa_hoc_tu_nhien_lop8",
+        "khoa_hoc_tu_nhien_lop9",
+        "lich_su_dia_ly_lop6",
+        "lich_su_dia_ly_lop7",
+        "lich_su_dia_ly_lop8",
+        "lich_su_dia_ly_lop9",
+        "giao_duc_cong_dan_lop6",
+        "giao_duc_cong_dan_lop7",
+        "giao_duc_cong_dan_lop8",
+        "giao_duc_cong_dan_lop9",
+        "tin_hoc_lop6",
+        "tin_hoc_lop7",
+        "tin_hoc_lop8",
+        "tin_hoc_lop9",
+        "cong_nghe_lop6",
+        "cong_nghe_lop7",
+        "cong_nghe_lop8",
+        "cong_nghe_lop9",
+        "giao_duc_the_chat_lop6",
+        "giao_duc_the_chat_lop7",
+        "giao_duc_the_chat_lop8",
+        "giao_duc_the_chat_lop9",
+        "am_nhac_lop6",
+        "am_nhac_lop7",
+        "am_nhac_lop8",
+        "am_nhac_lop9",
+        "mi_thuat_lop6",
+        "mi_thuat_lop7",
+        "mi_thuat_lop8",
+        "mi_thuat_lop9",
+        "noi_dung_giao_duc_dia_phuong_lop6",
+        "noi_dung_giao_duc_dia_phuong_lop7",
+        "noi_dung_giao_duc_dia_phuong_lop8",
+        "noi_dung_giao_duc_dia_phuong_lop9",
+        "hoat_dong_trai_nghiem_huong_nghiep_lop6",
+        "hoat_dong_trai_nghiem_huong_nghiep_lop7",
+        "hoat_dong_trai_nghiem_huong_nghiep_lop8",
+        "hoat_dong_trai_nghiem_huong_nghiep_lop9",
+        "ngu_van_lop8",
+        "ngu_van_lop9",
+        "gio_tu_hoc_tuan",
+        "ti_le_chuyen_can",
+        "diem_thi_thu_toan"
+      ],
+      "model_file": "catboost_toan.cbm",
+      "best_iteration": 255,
+      "tree_count": 256,
+      "test_metrics": {
+        "mae": 0.7552359413017045,
+        "rmse": 0.9510318349853248,
+        "r2": 0.8662866208158884
+      },
+      "baseline_test_metrics": {
+        "mae": 1.0650469999999999,
+        "rmse": 1.3518338544362616,
+        "r2": 0.7298335652956929
+      },
+      "top_features": [
+        {
+          "name": "toan_lop9",
+          "importance": 58.595062977233056
+        },
+        {
+          "name": "toan_lop8",
+          "importance": 18.746057747934277
+        },
+        {
+          "name": "diem_thi_thu_toan",
+          "importance": 7.72242163349353
+        },
+        {
+          "name": "gio_tu_hoc_tuan",
+          "importance": 1.54178881880343
+        },
+        {
+          "name": "ti_le_chuyen_can",
+          "importance": 0.5106298706840428
+        },
+        {
+          "name": "toan_lop7",
+          "importance": 0.4423627571808724
+        },
+        {
+          "name": "toan_lop6",
+          "importance": 0.4368074810741421
+        },
+        {
+          "name": "giao_duc_the_chat_lop8",
+          "importance": 0.4263007249015183
+        },
+        {
+          "name": "lich_su_dia_ly_lop8",
+          "importance": 0.4074323315654536
+        },
+        {
+          "name": "tin_hoc_lop7",
+          "importance": 0.3602402950556181
+        }
+      ]
+    },
+    "ngu_van": {
+      "label": "Ngữ văn",
+      "target": "diem_thi_ngu_van_mo_phong",
+      "mock_score": "diem_thi_thu_ngu_van",
+      "baseline": "ngu_van_lop9",
+      "features": [
+        "toan_lop6",
+        "toan_lop7",
+        "toan_lop8",
+        "toan_lop9",
+        "ngu_van_lop6",
+        "ngu_van_lop7",
+        "ngoai_ngu_lop6",
+        "ngoai_ngu_lop7",
+        "ngoai_ngu_lop8",
+        "ngoai_ngu_lop9",
+        "khoa_hoc_tu_nhien_lop6",
+        "khoa_hoc_tu_nhien_lop7",
+        "khoa_hoc_tu_nhien_lop8",
+        "khoa_hoc_tu_nhien_lop9",
+        "lich_su_dia_ly_lop6",
+        "lich_su_dia_ly_lop7",
+        "lich_su_dia_ly_lop8",
+        "lich_su_dia_ly_lop9",
+        "giao_duc_cong_dan_lop6",
+        "giao_duc_cong_dan_lop7",
+        "giao_duc_cong_dan_lop8",
+        "giao_duc_cong_dan_lop9",
+        "tin_hoc_lop6",
+        "tin_hoc_lop7",
+        "tin_hoc_lop8",
+        "tin_hoc_lop9",
+        "cong_nghe_lop6",
+        "cong_nghe_lop7",
+        "cong_nghe_lop8",
+        "cong_nghe_lop9",
+        "giao_duc_the_chat_lop6",
+        "giao_duc_the_chat_lop7",
+        "giao_duc_the_chat_lop8",
+        "giao_duc_the_chat_lop9",
+        "am_nhac_lop6",
+        "am_nhac_lop7",
+        "am_nhac_lop8",
+        "am_nhac_lop9",
+        "mi_thuat_lop6",
+        "mi_thuat_lop7",
+        "mi_thuat_lop8",
+        "mi_thuat_lop9",
+        "noi_dung_giao_duc_dia_phuong_lop6",
+        "noi_dung_giao_duc_dia_phuong_lop7",
+        "noi_dung_giao_duc_dia_phuong_lop8",
+        "noi_dung_giao_duc_dia_phuong_lop9",
+        "hoat_dong_trai_nghiem_huong_nghiep_lop6",
+        "hoat_dong_trai_nghiem_huong_nghiep_lop7",
+        "hoat_dong_trai_nghiem_huong_nghiep_lop8",
+        "hoat_dong_trai_nghiem_huong_nghiep_lop9",
+        "ngu_van_lop8",
+        "ngu_van_lop9",
+        "gio_tu_hoc_tuan",
+        "ti_le_chuyen_can",
+        "diem_thi_thu_ngu_van"
+      ],
+      "model_file": "catboost_ngu_van.cbm",
+      "best_iteration": 252,
+      "tree_count": 253,
+      "test_metrics": {
+        "mae": 0.7450054429237541,
+        "rmse": 0.9361003104435938,
+        "r2": 0.8771260276893
+      },
+      "baseline_test_metrics": {
+        "mae": 0.9237710000000001,
+        "rmse": 1.1652206700878593,
+        "r2": 0.8096155471918145
+      },
+      "top_features": [
+        {
+          "name": "ngu_van_lop9",
+          "importance": 60.587950787904326
+        },
+        {
+          "name": "ngu_van_lop8",
+          "importance": 18.523111903546113
+        },
+        {
+          "name": "diem_thi_thu_ngu_van",
+          "importance": 3.5598990982167575
+        },
+        {
+          "name": "gio_tu_hoc_tuan",
+          "importance": 1.9206611888827239
+        },
+        {
+          "name": "ngu_van_lop7",
+          "importance": 0.6847577831116745
+        },
+        {
+          "name": "ti_le_chuyen_can",
+          "importance": 0.5031861123139417
+        },
+        {
+          "name": "khoa_hoc_tu_nhien_lop8",
+          "importance": 0.466392790667822
+        },
+        {
+          "name": "toan_lop9",
+          "importance": 0.4327403278155629
+        },
+        {
+          "name": "giao_duc_cong_dan_lop8",
+          "importance": 0.4318820059833535
+        },
+        {
+          "name": "noi_dung_giao_duc_dia_phuong_lop7",
+          "importance": 0.3834184993387338
+        }
+      ]
+    },
+    "ngoai_ngu": {
+      "label": "Ngoại ngữ",
+      "target": "diem_thi_ngoai_ngu_mo_phong",
+      "mock_score": "diem_thi_thu_ngoai_ngu",
+      "baseline": "ngoai_ngu_lop9",
+      "features": [
+        "toan_lop6",
+        "toan_lop7",
+        "toan_lop8",
+        "toan_lop9",
+        "ngu_van_lop6",
+        "ngu_van_lop7",
+        "ngoai_ngu_lop6",
+        "ngoai_ngu_lop7",
+        "ngoai_ngu_lop8",
+        "ngoai_ngu_lop9",
+        "khoa_hoc_tu_nhien_lop6",
+        "khoa_hoc_tu_nhien_lop7",
+        "khoa_hoc_tu_nhien_lop8",
+        "khoa_hoc_tu_nhien_lop9",
+        "lich_su_dia_ly_lop6",
+        "lich_su_dia_ly_lop7",
+        "lich_su_dia_ly_lop8",
+        "lich_su_dia_ly_lop9",
+        "giao_duc_cong_dan_lop6",
+        "giao_duc_cong_dan_lop7",
+        "giao_duc_cong_dan_lop8",
+        "giao_duc_cong_dan_lop9",
+        "tin_hoc_lop6",
+        "tin_hoc_lop7",
+        "tin_hoc_lop8",
+        "tin_hoc_lop9",
+        "cong_nghe_lop6",
+        "cong_nghe_lop7",
+        "cong_nghe_lop8",
+        "cong_nghe_lop9",
+        "giao_duc_the_chat_lop6",
+        "giao_duc_the_chat_lop7",
+        "giao_duc_the_chat_lop8",
+        "giao_duc_the_chat_lop9",
+        "am_nhac_lop6",
+        "am_nhac_lop7",
+        "am_nhac_lop8",
+        "am_nhac_lop9",
+        "mi_thuat_lop6",
+        "mi_thuat_lop7",
+        "mi_thuat_lop8",
+        "mi_thuat_lop9",
+        "noi_dung_giao_duc_dia_phuong_lop6",
+        "noi_dung_giao_duc_dia_phuong_lop7",
+        "noi_dung_giao_duc_dia_phuong_lop8",
+        "noi_dung_giao_duc_dia_phuong_lop9",
+        "hoat_dong_trai_nghiem_huong_nghiep_lop6",
+        "hoat_dong_trai_nghiem_huong_nghiep_lop7",
+        "hoat_dong_trai_nghiem_huong_nghiep_lop8",
+        "hoat_dong_trai_nghiem_huong_nghiep_lop9",
+        "ngu_van_lop8",
+        "ngu_van_lop9",
+        "gio_tu_hoc_tuan",
+        "ti_le_chuyen_can",
+        "diem_thi_thu_ngoai_ngu"
+      ],
+      "model_file": "catboost_ngoai_ngu.cbm",
+      "best_iteration": 265,
+      "tree_count": 266,
+      "test_metrics": {
+        "mae": 0.7374138226386685,
+        "rmse": 0.9310871665253398,
+        "r2": 0.8751037981122185
+      },
+      "baseline_test_metrics": {
+        "mae": 1.036404,
+        "rmse": 1.3145993762359693,
+        "r2": 0.7510251989379568
+      },
+      "top_features": [
+        {
+          "name": "ngoai_ngu_lop9",
+          "importance": 57.58597951411644
+        },
+        {
+          "name": "ngoai_ngu_lop8",
+          "importance": 20.49403863397985
+        },
+        {
+          "name": "diem_thi_thu_ngoai_ngu",
+          "importance": 5.238522393026373
+        },
+        {
+          "name": "gio_tu_hoc_tuan",
+          "importance": 1.5992815162368585
+        },
+        {
+          "name": "ngoai_ngu_lop6",
+          "importance": 0.5366361586850001
+        },
+        {
+          "name": "ti_le_chuyen_can",
+          "importance": 0.5286841735805006
+        },
+        {
+          "name": "khoa_hoc_tu_nhien_lop9",
+          "importance": 0.4861414348644759
+        },
+        {
+          "name": "ngoai_ngu_lop7",
+          "importance": 0.4257961901038829
+        },
+        {
+          "name": "am_nhac_lop6",
+          "importance": 0.38612959313402423
+        },
+        {
+          "name": "giao_duc_the_chat_lop9",
+          "importance": 0.38429245943136336
+        }
+      ]
+    }
+  },
+  "defaults": {
+    "toan_lop6": 5.0,
+    "toan_lop7": 5.0,
+    "toan_lop8": 5.0,
+    "toan_lop9": 5.0,
+    "ngu_van_lop6": 5.0,
+    "ngu_van_lop7": 5.0,
+    "ngoai_ngu_lop6": 5.0,
+    "ngoai_ngu_lop7": 5.0,
+    "ngoai_ngu_lop8": 5.0,
+    "ngoai_ngu_lop9": 5.0,
+    "khoa_hoc_tu_nhien_lop6": 5.0,
+    "khoa_hoc_tu_nhien_lop7": 5.0,
+    "khoa_hoc_tu_nhien_lop8": 5.0,
+    "khoa_hoc_tu_nhien_lop9": 5.0,
+    "lich_su_dia_ly_lop6": 5.0,
+    "lich_su_dia_ly_lop7": 5.0,
+    "lich_su_dia_ly_lop8": 5.0,
+    "lich_su_dia_ly_lop9": 5.0,
+    "giao_duc_cong_dan_lop6": 5.0,
+    "giao_duc_cong_dan_lop7": 5.0,
+    "giao_duc_cong_dan_lop8": 5.0,
+    "giao_duc_cong_dan_lop9": 5.0,
+    "tin_hoc_lop6": 5.0,
+    "tin_hoc_lop7": 5.0,
+    "tin_hoc_lop8": 5.0,
+    "tin_hoc_lop9": 5.0,
+    "cong_nghe_lop6": 5.0,
+    "cong_nghe_lop7": 5.0,
+    "cong_nghe_lop8": 5.0,
+    "cong_nghe_lop9": 5.0,
+    "giao_duc_the_chat_lop6": 5.0,
+    "giao_duc_the_chat_lop7": 5.0,
+    "giao_duc_the_chat_lop8": 5.0,
+    "giao_duc_the_chat_lop9": 5.0,
+    "am_nhac_lop6": 5.0,
+    "am_nhac_lop7": 5.0,
+    "am_nhac_lop8": 5.0,
+    "am_nhac_lop9": 5.0,
+    "mi_thuat_lop6": 5.0,
+    "mi_thuat_lop7": 5.0,
+    "mi_thuat_lop8": 5.0,
+    "mi_thuat_lop9": 5.0,
+    "noi_dung_giao_duc_dia_phuong_lop6": 5.0,
+    "noi_dung_giao_duc_dia_phuong_lop7": 5.0,
+    "noi_dung_giao_duc_dia_phuong_lop8": 5.0,
+    "noi_dung_giao_duc_dia_phuong_lop9": 5.0,
+    "hoat_dong_trai_nghiem_huong_nghiep_lop6": 5.0,
+    "hoat_dong_trai_nghiem_huong_nghiep_lop7": 5.0,
+    "hoat_dong_trai_nghiem_huong_nghiep_lop8": 5.0,
+    "hoat_dong_trai_nghiem_huong_nghiep_lop9": 5.0,
+    "ngu_van_lop8": 5.1,
+    "ngu_van_lop9": 5.1,
+    "gio_tu_hoc_tuan": 10.0,
+    "ti_le_chuyen_can": 0.929
+  },
+  "feature_groups": [
+    {
+      "key": "toan",
+      "label": "Toán",
+      "features": [
+        "toan_lop6",
+        "toan_lop7",
+        "toan_lop8",
+        "toan_lop9"
+      ]
+    },
+    {
+      "key": "ngu_van",
+      "label": "Ngữ văn",
+      "features": [
+        "ngu_van_lop6",
+        "ngu_van_lop7",
+        "ngu_van_lop8",
+        "ngu_van_lop9"
+      ]
+    },
+    {
+      "key": "ngoai_ngu",
+      "label": "Ngoại ngữ",
+      "features": [
+        "ngoai_ngu_lop6",
+        "ngoai_ngu_lop7",
+        "ngoai_ngu_lop8",
+        "ngoai_ngu_lop9"
+      ]
+    },
+    {
+      "key": "khoa_hoc_tu_nhien",
+      "label": "Khoa học tự nhiên",
+      "features": [
+        "khoa_hoc_tu_nhien_lop6",
+        "khoa_hoc_tu_nhien_lop7",
+        "khoa_hoc_tu_nhien_lop8",
+        "khoa_hoc_tu_nhien_lop9"
+      ]
+    },
+    {
+      "key": "lich_su_dia_ly",
+      "label": "Lịch sử và Địa lý",
+      "features": [
+        "lich_su_dia_ly_lop6",
+        "lich_su_dia_ly_lop7",
+        "lich_su_dia_ly_lop8",
+        "lich_su_dia_ly_lop9"
+      ]
+    },
+    {
+      "key": "giao_duc_cong_dan",
+      "label": "Giáo dục công dân",
+      "features": [
+        "giao_duc_cong_dan_lop6",
+        "giao_duc_cong_dan_lop7",
+        "giao_duc_cong_dan_lop8",
+        "giao_duc_cong_dan_lop9"
+      ]
+    },
+    {
+      "key": "tin_hoc",
+      "label": "Tin học",
+      "features": [
+        "tin_hoc_lop6",
+        "tin_hoc_lop7",
+        "tin_hoc_lop8",
+        "tin_hoc_lop9"
+      ]
+    },
+    {
+      "key": "cong_nghe",
+      "label": "Công nghệ",
+      "features": [
+        "cong_nghe_lop6",
+        "cong_nghe_lop7",
+        "cong_nghe_lop8",
+        "cong_nghe_lop9"
+      ]
+    },
+    {
+      "key": "giao_duc_the_chat",
+      "label": "Giáo dục thể chất",
+      "features": [
+        "giao_duc_the_chat_lop6",
+        "giao_duc_the_chat_lop7",
+        "giao_duc_the_chat_lop8",
+        "giao_duc_the_chat_lop9"
+      ]
+    },
+    {
+      "key": "am_nhac",
+      "label": "Âm nhạc",
+      "features": [
+        "am_nhac_lop6",
+        "am_nhac_lop7",
+        "am_nhac_lop8",
+        "am_nhac_lop9"
+      ]
+    },
+    {
+      "key": "mi_thuat",
+      "label": "Mỹ thuật",
+      "features": [
+        "mi_thuat_lop6",
+        "mi_thuat_lop7",
+        "mi_thuat_lop8",
+        "mi_thuat_lop9"
+      ]
+    },
+    {
+      "key": "noi_dung_giao_duc_dia_phuong",
+      "label": "Nội dung giáo dục địa phương",
+      "features": [
+        "noi_dung_giao_duc_dia_phuong_lop6",
+        "noi_dung_giao_duc_dia_phuong_lop7",
+        "noi_dung_giao_duc_dia_phuong_lop8",
+        "noi_dung_giao_duc_dia_phuong_lop9"
+      ]
+    },
+    {
+      "key": "hoat_dong_trai_nghiem_huong_nghiep",
+      "label": "Hoạt động trải nghiệm, hướng nghiệp",
+      "features": [
+        "hoat_dong_trai_nghiem_huong_nghiep_lop6",
+        "hoat_dong_trai_nghiem_huong_nghiep_lop7",
+        "hoat_dong_trai_nghiem_huong_nghiep_lop8",
+        "hoat_dong_trai_nghiem_huong_nghiep_lop9"
+      ]
+    }
+  ],
+  "demo_profiles": [
+    {
+      "id": 1,
+      "label": "Hồ sơ mẫu 1",
+      "features": {
+        "toan_lop6": 3.0,
+        "toan_lop7": 7.0,
+        "toan_lop8": 1.0,
+        "toan_lop9": 6.0,
+        "ngu_van_lop6": 0.0,
+        "ngu_van_lop7": 1.0,
+        "ngoai_ngu_lop6": 3.0,
+        "ngoai_ngu_lop7": 4.0,
+        "ngoai_ngu_lop8": 2.0,
+        "ngoai_ngu_lop9": 5.0,
+        "khoa_hoc_tu_nhien_lop6": 2.0,
+        "khoa_hoc_tu_nhien_lop7": 5.0,
+        "khoa_hoc_tu_nhien_lop8": 2.0,
+        "khoa_hoc_tu_nhien_lop9": 4.0,
+        "lich_su_dia_ly_lop6": 2.0,
+        "lich_su_dia_ly_lop7": 5.0,
+        "lich_su_dia_ly_lop8": 4.0,
+        "lich_su_dia_ly_lop9": 3.0,
+        "giao_duc_cong_dan_lop6": 2.0,
+        "giao_duc_cong_dan_lop7": 5.0,
+        "giao_duc_cong_dan_lop8": 4.0,
+        "giao_duc_cong_dan_lop9": 3.0,
+        "tin_hoc_lop6": 3.0,
+        "tin_hoc_lop7": 6.0,
+        "tin_hoc_lop8": 6.0,
+        "tin_hoc_lop9": 5.0,
+        "cong_nghe_lop6": 3.0,
+        "cong_nghe_lop7": 5.0,
+        "cong_nghe_lop8": 2.0,
+        "cong_nghe_lop9": 0.0,
+        "giao_duc_the_chat_lop6": 0.0,
+        "giao_duc_the_chat_lop7": 3.0,
+        "giao_duc_the_chat_lop8": 3.0,
+        "giao_duc_the_chat_lop9": 2.0,
+        "am_nhac_lop6": 4.0,
+        "am_nhac_lop7": 3.0,
+        "am_nhac_lop8": 3.0,
+        "am_nhac_lop9": 3.0,
+        "mi_thuat_lop6": 0.0,
+        "mi_thuat_lop7": 0.0,
+        "mi_thuat_lop8": 0.0,
+        "mi_thuat_lop9": 2.0,
+        "noi_dung_giao_duc_dia_phuong_lop6": 2.0,
+        "noi_dung_giao_duc_dia_phuong_lop7": 4.0,
+        "noi_dung_giao_duc_dia_phuong_lop8": 6.0,
+        "noi_dung_giao_duc_dia_phuong_lop9": 4.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop6": 2.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop7": 6.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop8": 4.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop9": 3.0,
+        "ngu_van_lop8": 1.2,
+        "ngu_van_lop9": 1.7,
+        "gio_tu_hoc_tuan": 12.0,
+        "ti_le_chuyen_can": 0.901
+      },
+      "mock_scores": {
+        "toan": 4.4,
+        "ngu_van": 0.75,
+        "ngoai_ngu": 1.64
+      },
+      "targets": {
+        "toan": 4.95,
+        "ngu_van": 0.0,
+        "ngoai_ngu": 3.1
+      }
+    },
+    {
+      "id": 2,
+      "label": "Hồ sơ mẫu 2",
+      "features": {
+        "toan_lop6": 2.0,
+        "toan_lop7": 5.0,
+        "toan_lop8": 6.0,
+        "toan_lop9": 5.0,
+        "ngu_van_lop6": 4.0,
+        "ngu_van_lop7": 5.0,
+        "ngoai_ngu_lop6": 5.0,
+        "ngoai_ngu_lop7": 5.0,
+        "ngoai_ngu_lop8": 3.0,
+        "ngoai_ngu_lop9": 5.0,
+        "khoa_hoc_tu_nhien_lop6": 6.0,
+        "khoa_hoc_tu_nhien_lop7": 8.0,
+        "khoa_hoc_tu_nhien_lop8": 5.0,
+        "khoa_hoc_tu_nhien_lop9": 7.0,
+        "lich_su_dia_ly_lop6": 2.0,
+        "lich_su_dia_ly_lop7": 4.0,
+        "lich_su_dia_ly_lop8": 4.0,
+        "lich_su_dia_ly_lop9": 3.0,
+        "giao_duc_cong_dan_lop6": 5.0,
+        "giao_duc_cong_dan_lop7": 7.0,
+        "giao_duc_cong_dan_lop8": 4.0,
+        "giao_duc_cong_dan_lop9": 5.0,
+        "tin_hoc_lop6": 3.0,
+        "tin_hoc_lop7": 8.0,
+        "tin_hoc_lop8": 6.0,
+        "tin_hoc_lop9": 5.0,
+        "cong_nghe_lop6": 6.0,
+        "cong_nghe_lop7": 5.0,
+        "cong_nghe_lop8": 4.0,
+        "cong_nghe_lop9": 4.0,
+        "giao_duc_the_chat_lop6": 3.0,
+        "giao_duc_the_chat_lop7": 4.0,
+        "giao_duc_the_chat_lop8": 4.0,
+        "giao_duc_the_chat_lop9": 4.0,
+        "am_nhac_lop6": 5.0,
+        "am_nhac_lop7": 5.0,
+        "am_nhac_lop8": 4.0,
+        "am_nhac_lop9": 6.0,
+        "mi_thuat_lop6": 5.0,
+        "mi_thuat_lop7": 4.0,
+        "mi_thuat_lop8": 5.0,
+        "mi_thuat_lop9": 4.0,
+        "noi_dung_giao_duc_dia_phuong_lop6": 6.0,
+        "noi_dung_giao_duc_dia_phuong_lop7": 5.0,
+        "noi_dung_giao_duc_dia_phuong_lop8": 4.0,
+        "noi_dung_giao_duc_dia_phuong_lop9": 7.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop6": 2.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop7": 3.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop8": 3.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop9": 4.0,
+        "ngu_van_lop8": 3.0,
+        "ngu_van_lop9": 4.1,
+        "gio_tu_hoc_tuan": 2.3,
+        "ti_le_chuyen_can": 0.929
+      },
+      "mock_scores": {
+        "toan": 5.42,
+        "ngu_van": 1.32,
+        "ngoai_ngu": 4.63
+      },
+      "targets": {
+        "toan": 7.05,
+        "ngu_van": 2.75,
+        "ngoai_ngu": 4.32
+      }
+    },
+    {
+      "id": 3,
+      "label": "Hồ sơ mẫu 3",
+      "features": {
+        "toan_lop6": 6.0,
+        "toan_lop7": 4.0,
+        "toan_lop8": 4.0,
+        "toan_lop9": 3.0,
+        "ngu_van_lop6": 1.0,
+        "ngu_van_lop7": 2.0,
+        "ngoai_ngu_lop6": 4.0,
+        "ngoai_ngu_lop7": 6.0,
+        "ngoai_ngu_lop8": 5.0,
+        "ngoai_ngu_lop9": 6.0,
+        "khoa_hoc_tu_nhien_lop6": 0.0,
+        "khoa_hoc_tu_nhien_lop7": 3.0,
+        "khoa_hoc_tu_nhien_lop8": 0.0,
+        "khoa_hoc_tu_nhien_lop9": 4.0,
+        "lich_su_dia_ly_lop6": 5.0,
+        "lich_su_dia_ly_lop7": 2.0,
+        "lich_su_dia_ly_lop8": 5.0,
+        "lich_su_dia_ly_lop9": 5.0,
+        "giao_duc_cong_dan_lop6": 2.0,
+        "giao_duc_cong_dan_lop7": 3.0,
+        "giao_duc_cong_dan_lop8": 0.0,
+        "giao_duc_cong_dan_lop9": 2.0,
+        "tin_hoc_lop6": 7.0,
+        "tin_hoc_lop7": 6.0,
+        "tin_hoc_lop8": 4.0,
+        "tin_hoc_lop9": 7.0,
+        "cong_nghe_lop6": 0.0,
+        "cong_nghe_lop7": 2.0,
+        "cong_nghe_lop8": 2.0,
+        "cong_nghe_lop9": 3.0,
+        "giao_duc_the_chat_lop6": 3.0,
+        "giao_duc_the_chat_lop7": 5.0,
+        "giao_duc_the_chat_lop8": 5.0,
+        "giao_duc_the_chat_lop9": 4.0,
+        "am_nhac_lop6": 6.0,
+        "am_nhac_lop7": 7.0,
+        "am_nhac_lop8": 4.0,
+        "am_nhac_lop9": 6.0,
+        "mi_thuat_lop6": 6.0,
+        "mi_thuat_lop7": 4.0,
+        "mi_thuat_lop8": 2.0,
+        "mi_thuat_lop9": 4.0,
+        "noi_dung_giao_duc_dia_phuong_lop6": 0.0,
+        "noi_dung_giao_duc_dia_phuong_lop7": 1.0,
+        "noi_dung_giao_duc_dia_phuong_lop8": 0.0,
+        "noi_dung_giao_duc_dia_phuong_lop9": 2.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop6": 6.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop7": 4.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop8": 5.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop9": 5.0,
+        "ngu_van_lop8": 0.0,
+        "ngu_van_lop9": 0.4,
+        "gio_tu_hoc_tuan": 9.8,
+        "ti_le_chuyen_can": 0.945
+      },
+      "mock_scores": {
+        "toan": 2.9,
+        "ngu_van": 0.0,
+        "ngoai_ngu": 3.54
+      },
+      "targets": {
+        "toan": 2.95,
+        "ngu_van": 0.0,
+        "ngoai_ngu": 5.98
+      }
+    },
+    {
+      "id": 4,
+      "label": "Hồ sơ mẫu 4",
+      "features": {
+        "toan_lop6": 2.0,
+        "toan_lop7": 6.0,
+        "toan_lop8": 3.0,
+        "toan_lop9": 4.0,
+        "ngu_van_lop6": 6.0,
+        "ngu_van_lop7": 5.0,
+        "ngoai_ngu_lop6": 4.0,
+        "ngoai_ngu_lop7": 7.0,
+        "ngoai_ngu_lop8": 5.0,
+        "ngoai_ngu_lop9": 4.0,
+        "khoa_hoc_tu_nhien_lop6": 4.0,
+        "khoa_hoc_tu_nhien_lop7": 5.0,
+        "khoa_hoc_tu_nhien_lop8": 4.0,
+        "khoa_hoc_tu_nhien_lop9": 6.0,
+        "lich_su_dia_ly_lop6": 3.0,
+        "lich_su_dia_ly_lop7": 3.0,
+        "lich_su_dia_ly_lop8": 2.0,
+        "lich_su_dia_ly_lop9": 0.0,
+        "giao_duc_cong_dan_lop6": 8.0,
+        "giao_duc_cong_dan_lop7": 6.0,
+        "giao_duc_cong_dan_lop8": 10.0,
+        "giao_duc_cong_dan_lop9": 8.0,
+        "tin_hoc_lop6": 0.0,
+        "tin_hoc_lop7": 2.0,
+        "tin_hoc_lop8": 1.0,
+        "tin_hoc_lop9": 0.0,
+        "cong_nghe_lop6": 1.0,
+        "cong_nghe_lop7": 3.0,
+        "cong_nghe_lop8": 0.0,
+        "cong_nghe_lop9": 4.0,
+        "giao_duc_the_chat_lop6": 0.0,
+        "giao_duc_the_chat_lop7": 0.0,
+        "giao_duc_the_chat_lop8": 0.0,
+        "giao_duc_the_chat_lop9": 0.0,
+        "am_nhac_lop6": 4.0,
+        "am_nhac_lop7": 4.0,
+        "am_nhac_lop8": 5.0,
+        "am_nhac_lop9": 6.0,
+        "mi_thuat_lop6": 3.0,
+        "mi_thuat_lop7": 2.0,
+        "mi_thuat_lop8": 0.0,
+        "mi_thuat_lop9": 1.0,
+        "noi_dung_giao_duc_dia_phuong_lop6": 3.0,
+        "noi_dung_giao_duc_dia_phuong_lop7": 6.0,
+        "noi_dung_giao_duc_dia_phuong_lop8": 3.0,
+        "noi_dung_giao_duc_dia_phuong_lop9": 5.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop6": 4.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop7": 7.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop8": 8.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop9": 5.0,
+        "ngu_van_lop8": 6.7,
+        "ngu_van_lop9": 6.7,
+        "gio_tu_hoc_tuan": 16.3,
+        "ti_le_chuyen_can": 0.846
+      },
+      "mock_scores": {
+        "toan": 2.99,
+        "ngu_van": 5.43,
+        "ngoai_ngu": 4.21
+      },
+      "targets": {
+        "toan": 2.78,
+        "ngu_van": 7.7,
+        "ngoai_ngu": 2.61
+      }
+    },
+    {
+      "id": 5,
+      "label": "Hồ sơ mẫu 5",
+      "features": {
+        "toan_lop6": 7.0,
+        "toan_lop7": 9.0,
+        "toan_lop8": 5.0,
+        "toan_lop9": 5.0,
+        "ngu_van_lop6": 10.0,
+        "ngu_van_lop7": 10.0,
+        "ngoai_ngu_lop6": 5.0,
+        "ngoai_ngu_lop7": 6.0,
+        "ngoai_ngu_lop8": 4.0,
+        "ngoai_ngu_lop9": 6.0,
+        "khoa_hoc_tu_nhien_lop6": 5.0,
+        "khoa_hoc_tu_nhien_lop7": 2.0,
+        "khoa_hoc_tu_nhien_lop8": 5.0,
+        "khoa_hoc_tu_nhien_lop9": 5.0,
+        "lich_su_dia_ly_lop6": 3.0,
+        "lich_su_dia_ly_lop7": 5.0,
+        "lich_su_dia_ly_lop8": 8.0,
+        "lich_su_dia_ly_lop9": 5.0,
+        "giao_duc_cong_dan_lop6": 6.0,
+        "giao_duc_cong_dan_lop7": 8.0,
+        "giao_duc_cong_dan_lop8": 6.0,
+        "giao_duc_cong_dan_lop9": 4.0,
+        "tin_hoc_lop6": 5.0,
+        "tin_hoc_lop7": 3.0,
+        "tin_hoc_lop8": 7.0,
+        "tin_hoc_lop9": 8.0,
+        "cong_nghe_lop6": 5.0,
+        "cong_nghe_lop7": 7.0,
+        "cong_nghe_lop8": 7.0,
+        "cong_nghe_lop9": 5.0,
+        "giao_duc_the_chat_lop6": 2.0,
+        "giao_duc_the_chat_lop7": 5.0,
+        "giao_duc_the_chat_lop8": 7.0,
+        "giao_duc_the_chat_lop9": 5.0,
+        "am_nhac_lop6": 5.0,
+        "am_nhac_lop7": 6.0,
+        "am_nhac_lop8": 6.0,
+        "am_nhac_lop9": 5.0,
+        "mi_thuat_lop6": 1.0,
+        "mi_thuat_lop7": 3.0,
+        "mi_thuat_lop8": 5.0,
+        "mi_thuat_lop9": 4.0,
+        "noi_dung_giao_duc_dia_phuong_lop6": 7.0,
+        "noi_dung_giao_duc_dia_phuong_lop7": 6.0,
+        "noi_dung_giao_duc_dia_phuong_lop8": 9.0,
+        "noi_dung_giao_duc_dia_phuong_lop9": 5.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop6": 5.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop7": 6.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop8": 3.0,
+        "hoat_dong_trai_nghiem_huong_nghiep_lop9": 3.0,
+        "ngu_van_lop8": 10.0,
+        "ngu_van_lop9": 10.0,
+        "gio_tu_hoc_tuan": 9.7,
+        "ti_le_chuyen_can": 0.974
+      },
+      "mock_scores": {
+        "toan": 5.05,
+        "ngu_van": 10.0,
+        "ngoai_ngu": 5.6
+      },
+      "targets": {
+        "toan": 4.22,
+        "ngu_van": 9.49,
+        "ngoai_ngu": 6.28
+      }
+    }
+  ],
+  "limitations": "Các nhãn điểm thi và hồ sơ trong bộ dữ liệu là mô phỏng; kết quả không phải bằng chứng hiệu quả trên tuyển sinh hoặc học sinh thực tế."
+}
