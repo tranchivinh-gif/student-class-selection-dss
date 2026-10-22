@@ -1,0 +1,82 @@
+BÁO CÁO LÀM SẠCH DỮ LIỆU - BƯỚC 2
+File gốc: data\raw\dulieuhocsinh_10000.csv
+File sau xử lý: data\processed\du_lieu_da_lam_sach.csv
+Số dòng trước: 10000
+Số dòng sau: 10000
+Số dòng trùng hoàn toàn trước xử lý: 0
+Số dòng bị tự động xóa: 0
+Số cột điểm được nhận diện: 50
+Số cột nhãn yes/no được nhận diện: 9
+Tổng ô thiếu sau xử lý: 0
+
+TÊN CỘT ĐƯỢC BỎ KHOẢNG TRẮNG ĐẦU/CUỐI:
+- ' Âm nhạc' -> 'Âm nhạc'
+
+KIỂM TRA ĐIỂM:
+- toan_lop6: thiếu=0, không phải số=0, ngoài 0-10=0
+- toan_lop7: thiếu=0, không phải số=0, ngoài 0-10=0
+- toan_lop8: thiếu=0, không phải số=0, ngoài 0-10=0
+- toan_lop9: thiếu=0, không phải số=0, ngoài 0-10=0
+- ngu_van_lop6: thiếu=0, không phải số=0, ngoài 0-10=0
+- ngu_van_lop7: thiếu=0, không phải số=0, ngoài 0-10=0
+- ngoai_ngu_lop6: thiếu=0, không phải số=0, ngoài 0-10=0
+- ngoai_ngu_lop7: thiếu=0, không phải số=0, ngoài 0-10=0
+- ngoai_ngu_lop8: thiếu=0, không phải số=0, ngoài 0-10=0
+- ngoai_ngu_lop9: thiếu=0, không phải số=0, ngoài 0-10=0
+- khoa_hoc_tu_nhien_lop6: thiếu=0, không phải số=0, ngoài 0-10=0
+- khoa_hoc_tu_nhien_lop7: thiếu=0, không phải số=0, ngoài 0-10=0
+- khoa_hoc_tu_nhien_lop8: thiếu=0, không phải số=0, ngoài 0-10=0
+- khoa_hoc_tu_nhien_lop9: thiếu=0, không phải số=0, ngoài 0-10=0
+- lich_su_dia_ly_lop6: thiếu=0, không phải số=0, ngoài 0-10=0
+- lich_su_dia_ly_lop7: thiếu=0, không phải số=0, ngoài 0-10=0
+- lich_su_dia_ly_lop8: thiếu=0, không phải số=0, ngoài 0-10=0
+- lich_su_dia_ly_lop9: thiếu=0, không phải số=0, ngoài 0-10=0
+- giao_duc_cong_dan_lop6: thiếu=0, không phải số=0, ngoài 0-10=0
+- giao_duc_cong_dan_lop7: thiếu=0, không phải số=0, ngoài 0-10=0
+- giao_duc_cong_dan_lop8: thiếu=0, không phải số=0, ngoài 0-10=0
+- giao_duc_cong_dan_lop9: thiếu=0, không phải số=0, ngoài 0-10=0
+- tin_hoc_lop6: thiếu=0, không phải số=0, ngoài 0-10=0
+- tin_hoc_lop7: thiếu=0, không phải số=0, ngoài 0-10=0
+- tin_hoc_lop8: thiếu=0, không phải số=0, ngoài 0-10=0
+- tin_hoc_lop9: thiếu=0, không phải số=0, ngoài 0-10=0
+- cong_nghe_lop6: thiếu=0, không phải số=0, ngoài 0-10=0
+- cong_nghe_lop7: thiếu=0, không phải số=0, ngoài 0-10=0
+- cong_nghe_lop8: thiếu=0, không phải số=0, ngoài 0-10=0
+- cong_nghe_lop9: thiếu=0, không phải số=0, ngoài 0-10=0
+- giao_duc_the_chat_lop6: thiếu=0, không phải số=0, ngoài 0-10=0
+- giao_duc_the_chat_lop7: thiếu=0, không phải số=0, ngoài 0-10=0
+- giao_duc_the_chat_lop8: thiếu=0, không phải số=0, ngoài 0-10=0
+- giao_duc_the_chat_lop9: thiếu=0, không phải số=0, ngoài 0-10=0
+- am_nhac_lop6: thiếu=0, không phải số=0, ngoài 0-10=0
+- am_nhac_lop7: thiếu=0, không phải số=0, ngoài 0-10=0
+- am_nhac_lop8: thiếu=0, không phải số=0, ngoài 0-10=0
+- am_nhac_lop9: thiếu=0, không phải số=0, ngoài 0-10=0
+- mi_thuat_lop6: thiếu=0, không phải số=0, ngoài 0-10=0
+- mi_thuat_lop7: thiếu=0, không phải số=0, ngoài 0-10=0
+- mi_thuat_lop8: thiếu=0, không phải số=0, ngoài 0-10=0
+- mi_thuat_lop9: thiếu=0, không phải số=0, ngoài 0-10=0
+- noi_dung_giao_duc_dia_phuong_lop6: thiếu=0, không phải số=0, ngoài 0-10=0
+- noi_dung_giao_duc_dia_phuong_lop7: thiếu=0, không phải số=0, ngoài 0-10=0
+- noi_dung_giao_duc_dia_phuong_lop8: thiếu=0, không phải số=0, ngoài 0-10=0
+- noi_dung_giao_duc_dia_phuong_lop9: thiếu=0, không phải số=0, ngoài 0-10=0
+- hoat_dong_trai_nghiem_huong_nghiep_lop6: thiếu=0, không phải số=0, ngoài 0-10=0
+- hoat_dong_trai_nghiem_huong_nghiep_lop7: thiếu=0, không phải số=0, ngoài 0-10=0
+- hoat_dong_trai_nghiem_huong_nghiep_lop8: thiếu=0, không phải số=0, ngoài 0-10=0
+- hoat_dong_trai_nghiem_huong_nghiep_lop9: thiếu=0, không phải số=0, ngoài 0-10=0
+
+KIỂM TRA VÀ CHUẨN HÓA NHÃN:
+- Vật lý: yes=4999, no=5001, thiếu=0
+- Hóa học: yes=4983, no=5017, thiếu=0
+- Sinh học: yes=4939, no=5061, thiếu=0
+- Công nghệ: yes=5054, no=4946, thiếu=0
+- Tin học: yes=5043, no=4957, thiếu=0
+- Địa lý: yes=4900, no=5100, thiếu=0
+- Giáo dục kinh tế và pháp luật: yes=4965, no=5035, thiếu=0
+- Âm nhạc: yes=4984, no=5016, thiếu=0
+- Mỹ thuật: yes=4970, no=5030, thiếu=0
+
+GIẢI THÍCH:
+- Dữ liệu điểm được đổi sang kiểu số nếu có thể; điểm ngoài 0-10 được báo cáo, không tự xóa hoặc tự cắt về khoảng hợp lệ.
+- Nhãn yes/no được chuẩn hóa thành chữ thường; ô nhãn bị thiếu được giữ thiếu, không đoán lựa chọn của học sinh.
+- Điểm thiếu được giữ nguyên ở đây. Nếu có, bước huấn luyện phải học giá trị điền thiếu từ tập huấn luyện trong Pipeline, không học từ tập kiểm tra.
+- Bản CSV gốc trong data/raw/ không bị thay đổi.

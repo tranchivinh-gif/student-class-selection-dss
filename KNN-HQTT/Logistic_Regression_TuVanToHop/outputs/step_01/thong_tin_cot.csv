@@ -1,0 +1,61 @@
+﻿ten_cot,kieu_du_lieu,so_gia_tri_thieu,so_gia_tri_khac_nhau,la_cot_diem,la_cot_yes_no,la_cot_ma_hoc_sinh
+ma_hoc_sinh,object,0,10000,False,False,True
+toan_lop6,int64,0,11,True,False,False
+toan_lop7,int64,0,11,True,False,False
+toan_lop8,int64,0,11,True,False,False
+toan_lop9,int64,0,11,True,False,False
+ngu_van_lop6,int64,0,11,True,False,False
+ngu_van_lop7,int64,0,11,True,False,False
+ngoai_ngu_lop6,int64,0,11,True,False,False
+ngoai_ngu_lop7,int64,0,11,True,False,False
+ngoai_ngu_lop8,int64,0,11,True,False,False
+ngoai_ngu_lop9,int64,0,11,True,False,False
+khoa_hoc_tu_nhien_lop6,int64,0,11,True,False,False
+khoa_hoc_tu_nhien_lop7,int64,0,11,True,False,False
+khoa_hoc_tu_nhien_lop8,int64,0,11,True,False,False
+khoa_hoc_tu_nhien_lop9,int64,0,11,True,False,False
+lich_su_dia_ly_lop6,int64,0,11,True,False,False
+lich_su_dia_ly_lop7,int64,0,11,True,False,False
+lich_su_dia_ly_lop8,int64,0,11,True,False,False
+lich_su_dia_ly_lop9,int64,0,11,True,False,False
+giao_duc_cong_dan_lop6,int64,0,11,True,False,False
+giao_duc_cong_dan_lop7,int64,0,11,True,False,False
+giao_duc_cong_dan_lop8,int64,0,11,True,False,False
+giao_duc_cong_dan_lop9,int64,0,11,True,False,False
+tin_hoc_lop6,int64,0,11,True,False,False
+tin_hoc_lop7,int64,0,11,True,False,False
+tin_hoc_lop8,int64,0,11,True,False,False
+tin_hoc_lop9,int64,0,11,True,False,False
+cong_nghe_lop6,int64,0,11,True,False,False
+cong_nghe_lop7,int64,0,11,True,False,False
+cong_nghe_lop8,int64,0,11,True,False,False
+cong_nghe_lop9,int64,0,11,True,False,False
+giao_duc_the_chat_lop6,int64,0,11,True,False,False
+giao_duc_the_chat_lop7,int64,0,11,True,False,False
+giao_duc_the_chat_lop8,int64,0,11,True,False,False
+giao_duc_the_chat_lop9,int64,0,11,True,False,False
+am_nhac_lop6,int64,0,11,True,False,False
+am_nhac_lop7,int64,0,11,True,False,False
+am_nhac_lop8,int64,0,11,True,False,False
+am_nhac_lop9,int64,0,11,True,False,False
+mi_thuat_lop6,int64,0,11,True,False,False
+mi_thuat_lop7,int64,0,11,True,False,False
+mi_thuat_lop8,int64,0,11,True,False,False
+mi_thuat_lop9,int64,0,11,True,False,False
+noi_dung_giao_duc_dia_phuong_lop6,int64,0,11,True,False,False
+noi_dung_giao_duc_dia_phuong_lop7,int64,0,11,True,False,False
+noi_dung_giao_duc_dia_phuong_lop8,int64,0,11,True,False,False
+noi_dung_giao_duc_dia_phuong_lop9,int64,0,11,True,False,False
+hoat_dong_trai_nghiem_huong_nghiep_lop6,int64,0,11,True,False,False
+hoat_dong_trai_nghiem_huong_nghiep_lop7,int64,0,11,True,False,False
+hoat_dong_trai_nghiem_huong_nghiep_lop8,int64,0,11,True,False,False
+hoat_dong_trai_nghiem_huong_nghiep_lop9,int64,0,11,True,False,False
+Vật lý,object,0,2,False,True,False
+Hóa học,object,0,2,False,True,False
+Sinh học,object,0,2,False,True,False
+Công nghệ,object,0,2,False,True,False
+Tin học,object,0,2,False,True,False
+Địa lý,object,0,2,False,True,False
+Giáo dục kinh tế và pháp luật,object,0,2,False,True,False
+ Âm nhạc,object,0,2,False,True,False
+Mỹ thuật,object,0,2,False,True,False
