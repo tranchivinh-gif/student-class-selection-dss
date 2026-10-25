@@ -1,0 +1,10 @@
+target,featureset,n_features,test_r2
+diem_thi_toan_mo_phong,lop9,1,0.804396171966379
+diem_thi_toan_mo_phong,lop9_va_thi_thu,2,0.825133793268745
+diem_thi_toan_mo_phong,day_du,55,0.8662339078788914
+diem_thi_ngu_van_mo_phong,lop9,1,0.8647605926260163
+diem_thi_ngu_van_mo_phong,lop9_va_thi_thu,2,0.8661729500938034
+diem_thi_ngu_van_mo_phong,day_du,55,0.8759302170089047
+diem_thi_ngoai_ngu_mo_phong,lop9,1,0.8216991611935849
+diem_thi_ngoai_ngu_mo_phong,lop9_va_thi_thu,2,0.8392201487562962
+diem_thi_ngoai_ngu_mo_phong,day_du,55,0.8746558170628573

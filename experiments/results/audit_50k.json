@@ -1,0 +1,322 @@
+{
+  "path": "CATBoost-SVR\\dulieuhocsinh_50000_mo_phong.csv",
+  "sha256": "f8dff20fda3296cee13c9ee01be7035a575c5e3f5b10b1674bf69ac7f97878f8",
+  "shape": [
+    50000,
+    131
+  ],
+  "dtypes": {
+    "float64": 76,
+    "object": 31,
+    "int64": 24
+  },
+  "missing_cells": 0,
+  "duplicate_rows": 0,
+  "duplicate_ids": 0,
+  "groups": 10000,
+  "group_size_distribution": {
+    "5": 10000
+  },
+  "score_domain": {
+    "toan_lop6": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "toan_lop7": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "toan_lop8": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "toan_lop9": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "ngu_van_lop6": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "ngu_van_lop7": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "ngoai_ngu_lop6": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "ngoai_ngu_lop7": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "ngoai_ngu_lop8": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "ngoai_ngu_lop9": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "khoa_hoc_tu_nhien_lop6": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "khoa_hoc_tu_nhien_lop7": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "khoa_hoc_tu_nhien_lop8": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "khoa_hoc_tu_nhien_lop9": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "lich_su_dia_ly_lop6": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "lich_su_dia_ly_lop7": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "lich_su_dia_ly_lop8": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "lich_su_dia_ly_lop9": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "giao_duc_cong_dan_lop6": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "giao_duc_cong_dan_lop7": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "giao_duc_cong_dan_lop8": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "giao_duc_cong_dan_lop9": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "tin_hoc_lop6": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "tin_hoc_lop7": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "tin_hoc_lop8": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "tin_hoc_lop9": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "cong_nghe_lop6": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "cong_nghe_lop7": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "cong_nghe_lop8": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "cong_nghe_lop9": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "giao_duc_the_chat_lop6": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "giao_duc_the_chat_lop7": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "giao_duc_the_chat_lop8": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "giao_duc_the_chat_lop9": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "am_nhac_lop6": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "am_nhac_lop7": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "am_nhac_lop8": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "am_nhac_lop9": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "mi_thuat_lop6": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "mi_thuat_lop7": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "mi_thuat_lop8": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "mi_thuat_lop9": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "noi_dung_giao_duc_dia_phuong_lop6": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "noi_dung_giao_duc_dia_phuong_lop7": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "noi_dung_giao_duc_dia_phuong_lop8": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "noi_dung_giao_duc_dia_phuong_lop9": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "hoat_dong_trai_nghiem_huong_nghiep_lop6": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "hoat_dong_trai_nghiem_huong_nghiep_lop7": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "hoat_dong_trai_nghiem_huong_nghiep_lop8": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "hoat_dong_trai_nghiem_huong_nghiep_lop9": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "ngu_van_lop8": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "ngu_van_lop9": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "diem_thi_thu_toan": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "diem_thi_thu_ngu_van": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "diem_thi_thu_ngoai_ngu": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "diem_thi_toan_mo_phong": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "diem_thi_ngu_van_mo_phong": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    },
+    "diem_thi_ngoai_ngu_mo_phong": {
+      "min": 0.0,
+      "max": 10.0,
+      "out_of_0_10": 0
+    }
+  },
+  "split_counts": {
+    "train": 30000,
+    "validation": 10000,
+    "test": 10000
+  },
+  "split_group_counts": {
+    "train": 6000,
+    "validation": 2000,
+    "test": 2000
+  }
+}

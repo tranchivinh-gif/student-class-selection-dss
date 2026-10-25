@@ -1,0 +1,14 @@
+{
+  "seeds": [42, 101, 202, 303, 404],
+  "train_group_counts": [300, 1000, 3000, 6000],
+  "split_group_fractions": {"train": 0.6, "validation": 0.2, "test": 0.2},
+  "feature_sets": ["full_with_mock_score", "full_without_mock_score"],
+  "targets": ["diem_thi_toan_mo_phong", "diem_thi_ngu_van_mo_phong", "diem_thi_ngoai_ngu_mo_phong"],
+  "catboost": {"iterations": 180, "depth": 6, "learning_rate": 0.05, "loss_function": "RMSE", "random_seed": 42},
+  "svr": {"kernel": "rbf", "C": 10.0, "epsilon": 0.1, "gamma": "scale", "tol": 0.01, "max_iter": 20000},
+  "ridge_alpha_candidates": [0.1, 1.0, 10.0, 100.0],
+  "fit_timeout_seconds": 15,
+  "bootstrap_replicates": 1000,
+  "bootstrap_seed": 9601,
+  "catboost_svr_parameter_trials": 1
+}
