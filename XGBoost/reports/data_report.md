@@ -1,7 +1,7 @@
 # Báo cáo chuẩn bị dữ liệu
 
-- Tệp nguồn: `hoc_sinh_moi.csv`
-- SHA-256 tệp nguồn: `cb843034d435f7abdf8cdcc5cade4c78fca3eef27be390737756427e068ac21c`
+- Tệp nguồn: `hoc_sinh_clean.csv`
+- SHA-256 tệp nguồn: `2f061cf0666b6262a973b679ed7900b06dc737c9087d5a42994e5fa17f701d45`
 - Số dòng: 10,000
 - Số cột nguồn: 50
 - Số đặc trưng điểm lớp 6-9: 40

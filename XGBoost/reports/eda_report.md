@@ -1,6 +1,6 @@
 # Khám phá dữ liệu nguồn (EDA)
 
-- Tệp: `hoc_sinh_moi.csv`
+- Tệp: `hoc_sinh_clean.csv`
 - Số học sinh: 10,000
 - Số cột: 50
 - Cột điểm: 40
