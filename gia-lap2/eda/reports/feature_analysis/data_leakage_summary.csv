@@ -1,0 +1,4 @@
+﻿Loại nguy cơ,Mức độ,Số trường hợp
+Future Data Leakage,Cao,144
+Identifier Leakage,Tiềm ẩn,1
+Target Leakage,Nghiêm trọng,9

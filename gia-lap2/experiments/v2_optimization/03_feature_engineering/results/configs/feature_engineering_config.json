@@ -1,0 +1,146 @@
+{
+    "experiment": "14 - Feature Engineering",
+    "random_seed": 42,
+    "data_source": "Development only",
+    "n_students": 9000,
+    "original_features": 96,
+    "engineered_features": 101,
+    "total_features": 197,
+    "feature_groups": {
+        "mean_4years": [
+            "FE_van_mean_4years",
+            "FE_toan_mean_4years",
+            "FE_ngoai_ngu_1_mean_4years",
+            "FE_gdcd_mean_4years",
+            "FE_lich_su_dia_li_mean_4years",
+            "FE_khtn_mean_4years",
+            "FE_cong_nghe_mean_4years",
+            "FE_tin_hoc_mean_4years",
+            "FE_overall_mean_4years"
+        ],
+        "std_4years": [
+            "FE_van_std_4years",
+            "FE_toan_std_4years",
+            "FE_ngoai_ngu_1_std_4years",
+            "FE_gdcd_std_4years",
+            "FE_lich_su_dia_li_std_4years",
+            "FE_khtn_std_4years",
+            "FE_cong_nghe_std_4years",
+            "FE_tin_hoc_std_4years",
+            "FE_overall_std_4years"
+        ],
+        "delta_L9_L6": [
+            "FE_van_delta_L9_L6",
+            "FE_toan_delta_L9_L6",
+            "FE_ngoai_ngu_1_delta_L9_L6",
+            "FE_gdcd_delta_L9_L6",
+            "FE_lich_su_dia_li_delta_L9_L6",
+            "FE_khtn_delta_L9_L6",
+            "FE_cong_nghe_delta_L9_L6",
+            "FE_tin_hoc_delta_L9_L6",
+            "FE_overall_delta_L9_L6"
+        ],
+        "yearly_changes": [
+            "FE_van_change_L6_L7",
+            "FE_van_change_L7_L8",
+            "FE_van_change_L8_L9",
+            "FE_toan_change_L6_L7",
+            "FE_toan_change_L7_L8",
+            "FE_toan_change_L8_L9",
+            "FE_ngoai_ngu_1_change_L6_L7",
+            "FE_ngoai_ngu_1_change_L7_L8",
+            "FE_ngoai_ngu_1_change_L8_L9",
+            "FE_gdcd_change_L6_L7",
+            "FE_gdcd_change_L7_L8",
+            "FE_gdcd_change_L8_L9",
+            "FE_lich_su_dia_li_change_L6_L7",
+            "FE_lich_su_dia_li_change_L7_L8",
+            "FE_lich_su_dia_li_change_L8_L9",
+            "FE_khtn_change_L6_L7",
+            "FE_khtn_change_L7_L8",
+            "FE_khtn_change_L8_L9",
+            "FE_cong_nghe_change_L6_L7",
+            "FE_cong_nghe_change_L7_L8",
+            "FE_cong_nghe_change_L8_L9",
+            "FE_tin_hoc_change_L6_L7",
+            "FE_tin_hoc_change_L7_L8",
+            "FE_tin_hoc_change_L8_L9",
+            "FE_overall_change_L6_L7",
+            "FE_overall_change_L7_L8",
+            "FE_overall_change_L8_L9"
+        ],
+        "trend": [
+            "FE_van_trend",
+            "FE_toan_trend",
+            "FE_ngoai_ngu_1_trend",
+            "FE_gdcd_trend",
+            "FE_lich_su_dia_li_trend",
+            "FE_khtn_trend",
+            "FE_cong_nghe_trend",
+            "FE_tin_hoc_trend",
+            "FE_overall_trend"
+        ],
+        "subject_groups": [
+            "FE_natural_mean_L6",
+            "FE_natural_mean_L7",
+            "FE_natural_mean_L8",
+            "FE_natural_mean_L9",
+            "FE_natural_mean_4years",
+            "FE_social_mean_L6",
+            "FE_social_mean_L7",
+            "FE_social_mean_L8",
+            "FE_social_mean_L9",
+            "FE_social_mean_4years",
+            "FE_technology_mean_L6",
+            "FE_technology_mean_L7",
+            "FE_technology_mean_L8",
+            "FE_technology_mean_L9",
+            "FE_technology_mean_4years",
+            "FE_foreign_language_mean_L6",
+            "FE_foreign_language_mean_L7",
+            "FE_foreign_language_mean_L8",
+            "FE_foreign_language_mean_L9",
+            "FE_foreign_language_mean_4years"
+        ],
+        "stability": [
+            "FE_van_range_4years",
+            "FE_van_mean_abs_change",
+            "FE_toan_range_4years",
+            "FE_toan_mean_abs_change",
+            "FE_ngoai_ngu_1_range_4years",
+            "FE_ngoai_ngu_1_mean_abs_change",
+            "FE_gdcd_range_4years",
+            "FE_gdcd_mean_abs_change",
+            "FE_lich_su_dia_li_range_4years",
+            "FE_lich_su_dia_li_mean_abs_change",
+            "FE_khtn_range_4years",
+            "FE_khtn_mean_abs_change",
+            "FE_cong_nghe_range_4years",
+            "FE_cong_nghe_mean_abs_change",
+            "FE_tin_hoc_range_4years",
+            "FE_tin_hoc_mean_abs_change",
+            "FE_overall_range_4years",
+            "FE_overall_mean_abs_change"
+        ]
+    },
+    "subject_groups": {
+        "natural": [
+            "toan",
+            "khtn"
+        ],
+        "social": [
+            "van",
+            "lich_su_dia_li",
+            "gdcd"
+        ],
+        "technology": [
+            "cong_nghe",
+            "tin_hoc"
+        ],
+        "foreign_language": [
+            "ngoai_ngu_1"
+        ]
+    },
+    "target_used_for_engineering": false,
+    "independent_test_used": false
+}

@@ -1,0 +1,37 @@
+﻿Model,Nhãn,TN,FP,FN,TP
+Most Frequent Combination,Vật lí,3414,0,5586,0
+Most Frequent Combination,Hóa học,4186,0,4814,0
+Most Frequent Combination,Sinh học,5897,0,3103,0
+Most Frequent Combination,Địa lí,0,3996,0,5004
+Most Frequent Combination,Giáo dục kinh tế và pháp luật (GDKT&PL),0,4898,0,4102
+Most Frequent Combination,Tin học,0,1215,0,7785
+Most Frequent Combination,Công nghệ,0,3566,0,5434
+Most Frequent Combination,Âm nhạc,8981,0,19,0
+Most Frequent Combination,Mĩ thuật,8847,0,153,0
+Random Forest,Vật lí,973,2441,992,4594
+Random Forest,Hóa học,2327,1859,2008,2806
+Random Forest,Sinh học,5808,89,3035,68
+Random Forest,Địa lí,2035,1961,1760,3244
+Random Forest,Giáo dục kinh tế và pháp luật (GDKT&PL),3945,953,2792,1310
+Random Forest,Tin học,0,1215,1,7784
+Random Forest,Công nghệ,584,2982,740,4694
+Random Forest,Âm nhạc,8981,0,19,0
+Random Forest,Mĩ thuật,8847,0,153,0
+XGBoost,Vật lí,1203,2211,1345,4241
+XGBoost,Hóa học,2164,2022,1980,2834
+XGBoost,Sinh học,5463,434,2829,274
+XGBoost,Địa lí,1939,2057,1784,3220
+XGBoost,Giáo dục kinh tế và pháp luật (GDKT&PL),3549,1349,2528,1574
+XGBoost,Tin học,6,1209,22,7763
+XGBoost,Công nghệ,933,2633,1255,4179
+XGBoost,Âm nhạc,8981,0,19,0
+XGBoost,Mĩ thuật,8847,0,153,0
+CatBoost,Vật lí,1091,2323,1140,4446
+CatBoost,Hóa học,2265,1921,1998,2816
+CatBoost,Sinh học,5738,159,2976,127
+CatBoost,Địa lí,2002,1994,1760,3244
+CatBoost,Giáo dục kinh tế và pháp luật (GDKT&PL),3837,1061,2660,1442
+CatBoost,Tin học,1,1214,2,7783
+CatBoost,Công nghệ,676,2890,854,4580
+CatBoost,Âm nhạc,8981,0,19,0
+CatBoost,Mĩ thuật,8847,0,153,0

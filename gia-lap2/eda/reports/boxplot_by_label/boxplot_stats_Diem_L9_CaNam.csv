@@ -1,0 +1,19 @@
+﻿Sheet,Ky,Nhan,Gia_tri_nhan,So_hoc_sinh,Mean,Median,Std,Q1,Q3
+Diem_L9,CaNam,Vật lí,0,58,7.3235,7.3375,0.9028,6.6906,8.0625
+Diem_L9,CaNam,Vật lí,1,72,8.0977,8.0875,0.7881,7.4781,8.675
+Diem_L9,CaNam,Hóa học,0,82,7.3742,7.3563,0.8243,6.9375,8.0594
+Diem_L9,CaNam,Hóa học,1,48,8.3982,8.5,0.7001,8.025,8.8375
+Diem_L9,CaNam,Sinh học,0,83,7.7752,7.8625,1.0534,7.0062,8.6062
+Diem_L9,CaNam,Sinh học,1,47,7.712,7.7,0.6377,7.2688,8.1125
+Diem_L9,CaNam,Địa lí,0,72,8.0977,8.0875,0.7881,7.4781,8.675
+Diem_L9,CaNam,Địa lí,1,58,7.3235,7.3375,0.9028,6.6906,8.0625
+Diem_L9,CaNam,Giáo dục kinh tế và pháp luật (GDKT&PL),0,72,8.0977,8.0875,0.7881,7.4781,8.675
+Diem_L9,CaNam,Giáo dục kinh tế và pháp luật (GDKT&PL),1,58,7.3235,7.3375,0.9028,6.6906,8.0625
+Diem_L9,CaNam,Tin học,0,0,,,,,
+Diem_L9,CaNam,Tin học,1,130,7.7523,7.8,0.9227,7.0875,8.45
+Diem_L9,CaNam,Công nghệ,0,23,7.9364,8.0375,0.6169,7.5875,8.3812
+Diem_L9,CaNam,Công nghệ,1,107,7.7127,7.7375,0.9737,7.0062,8.45
+Diem_L9,CaNam,Âm nhạc,0,130,7.7523,7.8,0.9227,7.0875,8.45
+Diem_L9,CaNam,Âm nhạc,1,0,,,,,
+Diem_L9,CaNam,Mĩ thuật,0,130,7.7523,7.8,0.9227,7.0875,8.45
+Diem_L9,CaNam,Mĩ thuật,1,0,,,,,

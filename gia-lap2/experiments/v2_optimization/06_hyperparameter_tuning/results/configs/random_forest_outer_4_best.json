@@ -1,0 +1,12 @@
+{
+    "Model": "Random Forest",
+    "Outer_Fold": 4,
+    "Best_Inner_Exact": 0.17493133021667315,
+    "Best_Params": {
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt"
+    },
+    "N_Trials": 11
+}

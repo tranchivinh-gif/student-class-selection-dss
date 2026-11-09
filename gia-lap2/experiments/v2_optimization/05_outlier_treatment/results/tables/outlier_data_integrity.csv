@@ -1,0 +1,16 @@
+﻿Fold,Treatment,Train_Before,Train_After,Validation_Before,Validation_After,Students_Removed,Status
+1,raw,7203,7203,1797,1797,0,PASS
+1,iqr_capping,7203,7203,1797,1797,0,PASS
+1,quantile_capping,7203,7203,1797,1797,0,PASS
+2,raw,7201,7201,1799,1799,0,PASS
+2,iqr_capping,7201,7201,1799,1799,0,PASS
+2,quantile_capping,7201,7201,1799,1799,0,PASS
+3,raw,7190,7190,1810,1810,0,PASS
+3,iqr_capping,7190,7190,1810,1810,0,PASS
+3,quantile_capping,7190,7190,1810,1810,0,PASS
+4,raw,7220,7220,1780,1780,0,PASS
+4,iqr_capping,7220,7220,1780,1780,0,PASS
+4,quantile_capping,7220,7220,1780,1780,0,PASS
+5,raw,7186,7186,1814,1814,0,PASS
+5,iqr_capping,7186,7186,1814,1814,0,PASS
+5,quantile_capping,7186,7186,1814,1814,0,PASS

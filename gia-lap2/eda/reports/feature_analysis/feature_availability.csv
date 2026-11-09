@@ -1,0 +1,385 @@
+﻿Thời điểm dự đoán,Đặc trưng,Lớp chứa dữ liệu,Được sử dụng,Lý do
+Cuối lớp 6,L6_L6_van_hki,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 6,L6_L6_van_hkii,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 6,L6_L6_van_ca_nam,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 6,L6_L6_toan_hki,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 6,L6_L6_toan_hkii,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 6,L6_L6_toan_ca_nam,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 6,L6_L6_ngoai_ngu_1_hki,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 6,L6_L6_ngoai_ngu_1_hkii,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 6,L6_L6_ngoai_ngu_1_ca_nam,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 6,L6_L6_gdcd_hki,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 6,L6_L6_gdcd_hkii,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 6,L6_L6_gdcd_ca_nam,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 6,L6_L6_lich_su_dia_li_hki,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 6,L6_L6_lich_su_dia_li_hkii,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 6,L6_L6_lich_su_dia_li_ca_nam,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 6,L6_L6_khtn_hki,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 6,L6_L6_khtn_hkii,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 6,L6_L6_khtn_ca_nam,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 6,L6_L6_cong_nghe_hki,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 6,L6_L6_cong_nghe_hkii,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 6,L6_L6_cong_nghe_ca_nam,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 6,L6_L6_tin_hoc_hki,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 6,L6_L6_tin_hoc_hkii,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 6,L6_L6_tin_hoc_ca_nam,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 6,L7_L7_van_hki,7,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L7_L7_van_hkii,7,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L7_L7_van_ca_nam,7,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L7_L7_toan_hki,7,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L7_L7_toan_hkii,7,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L7_L7_toan_ca_nam,7,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L7_L7_ngoai_ngu_1_hki,7,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L7_L7_ngoai_ngu_1_hkii,7,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L7_L7_ngoai_ngu_1_ca_nam,7,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L7_L7_gdcd_hki,7,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L7_L7_gdcd_hkii,7,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L7_L7_gdcd_ca_nam,7,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L7_L7_lich_su_dia_li_hki,7,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L7_L7_lich_su_dia_li_hkii,7,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L7_L7_lich_su_dia_li_ca_nam,7,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L7_L7_khtn_hki,7,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L7_L7_khtn_hkii,7,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L7_L7_khtn_ca_nam,7,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L7_L7_cong_nghe_hki,7,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L7_L7_cong_nghe_hkii,7,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L7_L7_cong_nghe_ca_nam,7,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L7_L7_tin_hoc_hki,7,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L7_L7_tin_hoc_hkii,7,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L7_L7_tin_hoc_ca_nam,7,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L8_L8_van_hki,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L8_L8_van_hkii,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L8_L8_van_ca_nam,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L8_L8_toan_hki,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L8_L8_toan_hkii,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L8_L8_toan_ca_nam,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L8_L8_ngoai_ngu_1_hki,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L8_L8_ngoai_ngu_1_hkii,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L8_L8_ngoai_ngu_1_ca_nam,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L8_L8_gdcd_hki,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L8_L8_gdcd_hkii,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L8_L8_gdcd_ca_nam,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L8_L8_lich_su_dia_li_hki,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L8_L8_lich_su_dia_li_hkii,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L8_L8_lich_su_dia_li_ca_nam,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L8_L8_khtn_hki,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L8_L8_khtn_hkii,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L8_L8_khtn_ca_nam,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L8_L8_cong_nghe_hki,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L8_L8_cong_nghe_hkii,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L8_L8_cong_nghe_ca_nam,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L8_L8_tin_hoc_hki,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L8_L8_tin_hoc_hkii,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L8_L8_tin_hoc_ca_nam,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L9_L9_van_hki,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L9_L9_van_hkii,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L9_L9_van_ca_nam,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L9_L9_toan_hki,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L9_L9_toan_hkii,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L9_L9_toan_ca_nam,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L9_L9_ngoai_ngu_1_hki,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L9_L9_ngoai_ngu_1_hkii,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L9_L9_ngoai_ngu_1_ca_nam,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L9_L9_gdcd_hki,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L9_L9_gdcd_hkii,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L9_L9_gdcd_ca_nam,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L9_L9_lich_su_dia_li_hki,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L9_L9_lich_su_dia_li_hkii,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L9_L9_lich_su_dia_li_ca_nam,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L9_L9_khtn_hki,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L9_L9_khtn_hkii,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L9_L9_khtn_ca_nam,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L9_L9_cong_nghe_hki,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L9_L9_cong_nghe_hkii,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L9_L9_cong_nghe_ca_nam,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L9_L9_tin_hoc_hki,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L9_L9_tin_hoc_hkii,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 6,L9_L9_tin_hoc_ca_nam,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L6_L6_van_hki,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L6_L6_van_hkii,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L6_L6_van_ca_nam,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L6_L6_toan_hki,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L6_L6_toan_hkii,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L6_L6_toan_ca_nam,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L6_L6_ngoai_ngu_1_hki,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L6_L6_ngoai_ngu_1_hkii,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L6_L6_ngoai_ngu_1_ca_nam,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L6_L6_gdcd_hki,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L6_L6_gdcd_hkii,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L6_L6_gdcd_ca_nam,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L6_L6_lich_su_dia_li_hki,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L6_L6_lich_su_dia_li_hkii,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L6_L6_lich_su_dia_li_ca_nam,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L6_L6_khtn_hki,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L6_L6_khtn_hkii,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L6_L6_khtn_ca_nam,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L6_L6_cong_nghe_hki,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L6_L6_cong_nghe_hkii,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L6_L6_cong_nghe_ca_nam,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L6_L6_tin_hoc_hki,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L6_L6_tin_hoc_hkii,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L6_L6_tin_hoc_ca_nam,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L7_L7_van_hki,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L7_L7_van_hkii,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L7_L7_van_ca_nam,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L7_L7_toan_hki,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L7_L7_toan_hkii,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L7_L7_toan_ca_nam,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L7_L7_ngoai_ngu_1_hki,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L7_L7_ngoai_ngu_1_hkii,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L7_L7_ngoai_ngu_1_ca_nam,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L7_L7_gdcd_hki,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L7_L7_gdcd_hkii,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L7_L7_gdcd_ca_nam,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L7_L7_lich_su_dia_li_hki,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L7_L7_lich_su_dia_li_hkii,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L7_L7_lich_su_dia_li_ca_nam,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L7_L7_khtn_hki,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L7_L7_khtn_hkii,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L7_L7_khtn_ca_nam,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L7_L7_cong_nghe_hki,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L7_L7_cong_nghe_hkii,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L7_L7_cong_nghe_ca_nam,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L7_L7_tin_hoc_hki,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L7_L7_tin_hoc_hkii,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L7_L7_tin_hoc_ca_nam,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 7,L8_L8_van_hki,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L8_L8_van_hkii,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L8_L8_van_ca_nam,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L8_L8_toan_hki,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L8_L8_toan_hkii,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L8_L8_toan_ca_nam,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L8_L8_ngoai_ngu_1_hki,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L8_L8_ngoai_ngu_1_hkii,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L8_L8_ngoai_ngu_1_ca_nam,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L8_L8_gdcd_hki,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L8_L8_gdcd_hkii,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L8_L8_gdcd_ca_nam,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L8_L8_lich_su_dia_li_hki,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L8_L8_lich_su_dia_li_hkii,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L8_L8_lich_su_dia_li_ca_nam,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L8_L8_khtn_hki,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L8_L8_khtn_hkii,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L8_L8_khtn_ca_nam,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L8_L8_cong_nghe_hki,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L8_L8_cong_nghe_hkii,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L8_L8_cong_nghe_ca_nam,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L8_L8_tin_hoc_hki,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L8_L8_tin_hoc_hkii,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L8_L8_tin_hoc_ca_nam,8,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L9_L9_van_hki,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L9_L9_van_hkii,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L9_L9_van_ca_nam,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L9_L9_toan_hki,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L9_L9_toan_hkii,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L9_L9_toan_ca_nam,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L9_L9_ngoai_ngu_1_hki,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L9_L9_ngoai_ngu_1_hkii,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L9_L9_ngoai_ngu_1_ca_nam,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L9_L9_gdcd_hki,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L9_L9_gdcd_hkii,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L9_L9_gdcd_ca_nam,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L9_L9_lich_su_dia_li_hki,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L9_L9_lich_su_dia_li_hkii,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L9_L9_lich_su_dia_li_ca_nam,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L9_L9_khtn_hki,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L9_L9_khtn_hkii,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L9_L9_khtn_ca_nam,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L9_L9_cong_nghe_hki,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L9_L9_cong_nghe_hkii,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L9_L9_cong_nghe_ca_nam,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L9_L9_tin_hoc_hki,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L9_L9_tin_hoc_hkii,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 7,L9_L9_tin_hoc_ca_nam,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 8,L6_L6_van_hki,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L6_L6_van_hkii,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L6_L6_van_ca_nam,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L6_L6_toan_hki,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L6_L6_toan_hkii,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L6_L6_toan_ca_nam,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L6_L6_ngoai_ngu_1_hki,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L6_L6_ngoai_ngu_1_hkii,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L6_L6_ngoai_ngu_1_ca_nam,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L6_L6_gdcd_hki,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L6_L6_gdcd_hkii,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L6_L6_gdcd_ca_nam,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L6_L6_lich_su_dia_li_hki,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L6_L6_lich_su_dia_li_hkii,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L6_L6_lich_su_dia_li_ca_nam,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L6_L6_khtn_hki,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L6_L6_khtn_hkii,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L6_L6_khtn_ca_nam,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L6_L6_cong_nghe_hki,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L6_L6_cong_nghe_hkii,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L6_L6_cong_nghe_ca_nam,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L6_L6_tin_hoc_hki,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L6_L6_tin_hoc_hkii,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L6_L6_tin_hoc_ca_nam,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L7_L7_van_hki,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L7_L7_van_hkii,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L7_L7_van_ca_nam,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L7_L7_toan_hki,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L7_L7_toan_hkii,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L7_L7_toan_ca_nam,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L7_L7_ngoai_ngu_1_hki,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L7_L7_ngoai_ngu_1_hkii,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L7_L7_ngoai_ngu_1_ca_nam,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L7_L7_gdcd_hki,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L7_L7_gdcd_hkii,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L7_L7_gdcd_ca_nam,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L7_L7_lich_su_dia_li_hki,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L7_L7_lich_su_dia_li_hkii,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L7_L7_lich_su_dia_li_ca_nam,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L7_L7_khtn_hki,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L7_L7_khtn_hkii,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L7_L7_khtn_ca_nam,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L7_L7_cong_nghe_hki,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L7_L7_cong_nghe_hkii,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L7_L7_cong_nghe_ca_nam,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L7_L7_tin_hoc_hki,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L7_L7_tin_hoc_hkii,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L7_L7_tin_hoc_ca_nam,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L8_L8_van_hki,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L8_L8_van_hkii,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L8_L8_van_ca_nam,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L8_L8_toan_hki,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L8_L8_toan_hkii,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L8_L8_toan_ca_nam,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L8_L8_ngoai_ngu_1_hki,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L8_L8_ngoai_ngu_1_hkii,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L8_L8_ngoai_ngu_1_ca_nam,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L8_L8_gdcd_hki,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L8_L8_gdcd_hkii,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L8_L8_gdcd_ca_nam,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L8_L8_lich_su_dia_li_hki,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L8_L8_lich_su_dia_li_hkii,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L8_L8_lich_su_dia_li_ca_nam,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L8_L8_khtn_hki,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L8_L8_khtn_hkii,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L8_L8_khtn_ca_nam,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L8_L8_cong_nghe_hki,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L8_L8_cong_nghe_hkii,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L8_L8_cong_nghe_ca_nam,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L8_L8_tin_hoc_hki,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L8_L8_tin_hoc_hkii,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L8_L8_tin_hoc_ca_nam,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 8,L9_L9_van_hki,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 8,L9_L9_van_hkii,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 8,L9_L9_van_ca_nam,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 8,L9_L9_toan_hki,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 8,L9_L9_toan_hkii,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 8,L9_L9_toan_ca_nam,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 8,L9_L9_ngoai_ngu_1_hki,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 8,L9_L9_ngoai_ngu_1_hkii,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 8,L9_L9_ngoai_ngu_1_ca_nam,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 8,L9_L9_gdcd_hki,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 8,L9_L9_gdcd_hkii,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 8,L9_L9_gdcd_ca_nam,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 8,L9_L9_lich_su_dia_li_hki,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 8,L9_L9_lich_su_dia_li_hkii,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 8,L9_L9_lich_su_dia_li_ca_nam,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 8,L9_L9_khtn_hki,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 8,L9_L9_khtn_hkii,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 8,L9_L9_khtn_ca_nam,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 8,L9_L9_cong_nghe_hki,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 8,L9_L9_cong_nghe_hkii,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 8,L9_L9_cong_nghe_ca_nam,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 8,L9_L9_tin_hoc_hki,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 8,L9_L9_tin_hoc_hkii,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 8,L9_L9_tin_hoc_ca_nam,9,False,Dữ liệu thuộc năm học tương lai
+Cuối lớp 9,L6_L6_van_hki,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L6_L6_van_hkii,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L6_L6_van_ca_nam,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L6_L6_toan_hki,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L6_L6_toan_hkii,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L6_L6_toan_ca_nam,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L6_L6_ngoai_ngu_1_hki,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L6_L6_ngoai_ngu_1_hkii,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L6_L6_ngoai_ngu_1_ca_nam,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L6_L6_gdcd_hki,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L6_L6_gdcd_hkii,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L6_L6_gdcd_ca_nam,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L6_L6_lich_su_dia_li_hki,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L6_L6_lich_su_dia_li_hkii,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L6_L6_lich_su_dia_li_ca_nam,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L6_L6_khtn_hki,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L6_L6_khtn_hkii,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L6_L6_khtn_ca_nam,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L6_L6_cong_nghe_hki,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L6_L6_cong_nghe_hkii,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L6_L6_cong_nghe_ca_nam,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L6_L6_tin_hoc_hki,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L6_L6_tin_hoc_hkii,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L6_L6_tin_hoc_ca_nam,6,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L7_L7_van_hki,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L7_L7_van_hkii,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L7_L7_van_ca_nam,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L7_L7_toan_hki,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L7_L7_toan_hkii,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L7_L7_toan_ca_nam,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L7_L7_ngoai_ngu_1_hki,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L7_L7_ngoai_ngu_1_hkii,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L7_L7_ngoai_ngu_1_ca_nam,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L7_L7_gdcd_hki,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L7_L7_gdcd_hkii,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L7_L7_gdcd_ca_nam,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L7_L7_lich_su_dia_li_hki,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L7_L7_lich_su_dia_li_hkii,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L7_L7_lich_su_dia_li_ca_nam,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L7_L7_khtn_hki,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L7_L7_khtn_hkii,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L7_L7_khtn_ca_nam,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L7_L7_cong_nghe_hki,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L7_L7_cong_nghe_hkii,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L7_L7_cong_nghe_ca_nam,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L7_L7_tin_hoc_hki,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L7_L7_tin_hoc_hkii,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L7_L7_tin_hoc_ca_nam,7,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L8_L8_van_hki,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L8_L8_van_hkii,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L8_L8_van_ca_nam,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L8_L8_toan_hki,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L8_L8_toan_hkii,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L8_L8_toan_ca_nam,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L8_L8_ngoai_ngu_1_hki,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L8_L8_ngoai_ngu_1_hkii,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L8_L8_ngoai_ngu_1_ca_nam,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L8_L8_gdcd_hki,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L8_L8_gdcd_hkii,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L8_L8_gdcd_ca_nam,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L8_L8_lich_su_dia_li_hki,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L8_L8_lich_su_dia_li_hkii,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L8_L8_lich_su_dia_li_ca_nam,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L8_L8_khtn_hki,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L8_L8_khtn_hkii,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L8_L8_khtn_ca_nam,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L8_L8_cong_nghe_hki,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L8_L8_cong_nghe_hkii,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L8_L8_cong_nghe_ca_nam,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L8_L8_tin_hoc_hki,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L8_L8_tin_hoc_hkii,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L8_L8_tin_hoc_ca_nam,8,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L9_L9_van_hki,9,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L9_L9_van_hkii,9,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L9_L9_van_ca_nam,9,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L9_L9_toan_hki,9,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L9_L9_toan_hkii,9,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L9_L9_toan_ca_nam,9,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L9_L9_ngoai_ngu_1_hki,9,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L9_L9_ngoai_ngu_1_hkii,9,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L9_L9_ngoai_ngu_1_ca_nam,9,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L9_L9_gdcd_hki,9,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L9_L9_gdcd_hkii,9,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L9_L9_gdcd_ca_nam,9,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L9_L9_lich_su_dia_li_hki,9,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L9_L9_lich_su_dia_li_hkii,9,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L9_L9_lich_su_dia_li_ca_nam,9,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L9_L9_khtn_hki,9,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L9_L9_khtn_hkii,9,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L9_L9_khtn_ca_nam,9,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L9_L9_cong_nghe_hki,9,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L9_L9_cong_nghe_hkii,9,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L9_L9_cong_nghe_ca_nam,9,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L9_L9_tin_hoc_hki,9,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L9_L9_tin_hoc_hkii,9,True,Đã có dữ liệu tại thời điểm dự đoán
+Cuối lớp 9,L9_L9_tin_hoc_ca_nam,9,True,Đã có dữ liệu tại thời điểm dự đoán

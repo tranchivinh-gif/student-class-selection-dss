@@ -1,0 +1,91 @@
+﻿Nhãn,Đặc trưng,Mean_Abs_SHAP
+Công nghệ,L9_khtn_hkii,0.10756719777505452
+Công nghệ,L9_cong_nghe_hkii,0.07702822931320617
+Công nghệ,L9_cong_nghe_ca_nam,0.06780069084770587
+Công nghệ,L7_ngoai_ngu_1_hkii,0.05774085263042837
+Công nghệ,L9_cong_nghe_hki,0.05063147674749573
+Công nghệ,L9_khtn_ca_nam,0.04838855596348343
+Công nghệ,L9_lich_su_dia_li_hki,0.04496843499717484
+Công nghệ,L7_gdcd_hkii,0.03670735594621428
+Công nghệ,L7_toan_hki,0.0360335562734009
+Công nghệ,L6_cong_nghe_hkii,0.028414705753693294
+Giáo dục kinh tế và pháp luật (GDKT&PL),L9_khtn_hkii,0.15130308375731044
+Giáo dục kinh tế và pháp luật (GDKT&PL),L9_khtn_ca_nam,0.1284661895220161
+Giáo dục kinh tế và pháp luật (GDKT&PL),L9_lich_su_dia_li_hkii,0.07196014064173138
+Giáo dục kinh tế và pháp luật (GDKT&PL),L9_gdcd_hkii,0.07185295224289626
+Giáo dục kinh tế và pháp luật (GDKT&PL),L9_khtn_hki,0.04886705178996529
+Giáo dục kinh tế và pháp luật (GDKT&PL),L9_lich_su_dia_li_ca_nam,0.04783104563039259
+Giáo dục kinh tế và pháp luật (GDKT&PL),L9_gdcd_hki,0.04664807519722744
+Giáo dục kinh tế và pháp luật (GDKT&PL),L6_toan_hki,0.04546574739960872
+Giáo dục kinh tế và pháp luật (GDKT&PL),L9_gdcd_ca_nam,0.03890832248715228
+Giáo dục kinh tế và pháp luật (GDKT&PL),L9_cong_nghe_hkii,0.03744121851191735
+Hóa học,L9_khtn_hkii,0.1674275978756394
+Hóa học,L9_khtn_ca_nam,0.07979372879286313
+Hóa học,L9_khtn_hki,0.06854500974015598
+Hóa học,L9_gdcd_hkii,0.059078323706224165
+Hóa học,L9_lich_su_dia_li_hkii,0.04815953564953055
+Hóa học,L9_tin_hoc_hki,0.0455180762278623
+Hóa học,L6_toan_hki,0.04328332069166937
+Hóa học,L8_khtn_ca_nam,0.03954888212584473
+Hóa học,L9_gdcd_hki,0.03895796898652084
+Hóa học,L8_khtn_hki,0.037920665228846434
+Mĩ thuật,L9_cong_nghe_hkii,0.2933100024531385
+Mĩ thuật,L8_ngoai_ngu_1_hki,0.11773169454922425
+Mĩ thuật,L9_cong_nghe_ca_nam,0.10735234153772164
+Mĩ thuật,L9_tin_hoc_hkii,0.08414136149504584
+Mĩ thuật,L9_khtn_ca_nam,0.08196123908805686
+Mĩ thuật,L9_khtn_hkii,0.08133641247101016
+Mĩ thuật,L8_toan_hkii,0.07679606275249899
+Mĩ thuật,L9_khtn_hki,0.07359801943491266
+Mĩ thuật,L9_ngoai_ngu_1_hki,0.07323502455528037
+Mĩ thuật,L9_tin_hoc_ca_nam,0.0703503653932698
+Sinh học,L9_khtn_hkii,0.16928692003287182
+Sinh học,L9_khtn_hki,0.07912192283913579
+Sinh học,L9_khtn_ca_nam,0.06475850013145197
+Sinh học,L9_tin_hoc_hki,0.04551855935208123
+Sinh học,L9_cong_nghe_hkii,0.04492914630290239
+Sinh học,L9_gdcd_hki,0.0403094169001186
+Sinh học,L7_lich_su_dia_li_hki,0.03226831637067758
+Sinh học,L8_toan_hkii,0.028457554431615482
+Sinh học,L7_khtn_hki,0.025930749896384636
+Sinh học,L9_gdcd_hkii,0.02567224251488657
+Tin học,L9_khtn_hkii,0.11841921662948683
+Tin học,L9_tin_hoc_hki,0.08816354198835699
+Tin học,L9_lich_su_dia_li_hki,0.07550690778280315
+Tin học,L8_gdcd_hki,0.07161329887915333
+Tin học,L9_khtn_ca_nam,0.05555454428761637
+Tin học,L6_toan_ca_nam,0.05341207362524044
+Tin học,L7_khtn_hki,0.04745974757860319
+Tin học,L7_van_hkii,0.04430118663460782
+Tin học,L7_cong_nghe_hkii,0.04331036584444356
+Tin học,L6_khtn_ca_nam,0.04219711517012726
+Vật lí,L9_khtn_hkii,0.18295827896928407
+Vật lí,L9_lich_su_dia_li_hkii,0.09603297033879417
+Vật lí,L9_khtn_ca_nam,0.0947108685956116
+Vật lí,L9_cong_nghe_hkii,0.06204496755829464
+Vật lí,L9_gdcd_hkii,0.04060653886437761
+Vật lí,L8_khtn_hki,0.03817973505889847
+Vật lí,L9_gdcd_ca_nam,0.038015591981629286
+Vật lí,L7_van_hki,0.037304058892823844
+Vật lí,L9_lich_su_dia_li_ca_nam,0.03652443767563063
+Vật lí,L9_tin_hoc_hkii,0.03525637849596355
+Âm nhạc,L8_gdcd_hki,0.28715625479047246
+Âm nhạc,L8_cong_nghe_hki,0.2290639205026782
+Âm nhạc,L9_gdcd_ca_nam,0.21705871356649345
+Âm nhạc,L6_toan_hki,0.202955121729139
+Âm nhạc,L9_tin_hoc_hkii,0.176452969961457
+Âm nhạc,L7_gdcd_hki,0.1698567407154717
+Âm nhạc,L6_ngoai_ngu_1_hki,0.15244920055338648
+Âm nhạc,L7_cong_nghe_ca_nam,0.13995392126171444
+Âm nhạc,L8_gdcd_ca_nam,0.13659829769954515
+Âm nhạc,L8_tin_hoc_hki,0.13552718373267927
+Địa lí,L9_khtn_hkii,0.14431291606237398
+Địa lí,L9_khtn_ca_nam,0.08957414316612278
+Địa lí,L9_lich_su_dia_li_hkii,0.05951309877119491
+Địa lí,L9_lich_su_dia_li_ca_nam,0.05507141729745687
+Địa lí,L9_khtn_hki,0.054958492742585914
+Địa lí,L9_gdcd_hkii,0.05017522564143787
+Địa lí,L7_ngoai_ngu_1_ca_nam,0.03878015568799271
+Địa lí,L6_toan_hkii,0.03784433771366307
+Địa lí,L9_gdcd_ca_nam,0.037303376413911356
+Địa lí,L6_toan_hki,0.03464179768084023

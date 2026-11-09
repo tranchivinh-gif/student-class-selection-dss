@@ -1,0 +1,5 @@
+﻿Model,Tổng mẫu,Số tổ hợp dự đoán khác nhau,Số mẫu thuộc 18 tổ hợp,Số mẫu ngoài 18 tổ hợp,Tỷ lệ thuộc 18 tổ hợp (%)
+Most Frequent Combination,9000,1,9000,0,100.0
+Random Forest,9000,17,8972,28,99.69
+XGBoost,9000,27,8743,257,97.14
+CatBoost,9000,18,8944,56,99.38

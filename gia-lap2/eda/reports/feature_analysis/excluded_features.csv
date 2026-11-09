@@ -1,0 +1,11 @@
+﻿Biến,Vai trò,Được dùng làm X,Lý do
+ma_hoc_sinh,Định danh,False,Chỉ dùng để liên kết hồ sơ học sinh
+Vật lí,Biến mục tiêu (y),False,Tránh rò rỉ nhãn mục tiêu
+Hóa học,Biến mục tiêu (y),False,Tránh rò rỉ nhãn mục tiêu
+Sinh học,Biến mục tiêu (y),False,Tránh rò rỉ nhãn mục tiêu
+Địa lí,Biến mục tiêu (y),False,Tránh rò rỉ nhãn mục tiêu
+Giáo dục kinh tế và pháp luật (GDKT&PL),Biến mục tiêu (y),False,Tránh rò rỉ nhãn mục tiêu
+Tin học,Biến mục tiêu (y),False,Tránh rò rỉ nhãn mục tiêu
+Công nghệ,Biến mục tiêu (y),False,Tránh rò rỉ nhãn mục tiêu
+Âm nhạc,Biến mục tiêu (y),False,Tránh rò rỉ nhãn mục tiêu
+Mĩ thuật,Biến mục tiêu (y),False,Tránh rò rỉ nhãn mục tiêu

@@ -1,0 +1,254 @@
+GIAI ĐOẠN I — DATA PREPROCESSING
+01 — Data Integration
+- Đọc 4 sheet Diem_L6, Diem_L7, Diem_L8, Diem_L9.
+- Ghép dữ liệu theo ma_hoc_sinh.
+- Đổi tên các cột điểm theo tiền tố lớp: L6_, L7_, L8_, L9_.
+- Chỉ giữ một bộ 9 nhãn lựa chọn môn học.
+- Kiểm tra mỗi học sinh chỉ xuất hiện một lần.
+- Xác nhận dữ liệu sau ghép có 10.000 dòng và 106 cột.
+- Lưu dữ liệu tích hợp vào data/data-clean/.
+02 — Data Validation
+- Kiểm tra Missing Values sau khi ghép.
+- Kiểm tra Duplicate.
+- Kiểm tra điểm nằm trong thang 0–10.
+- Kiểm tra các giá trị nhãn chỉ gồm 0 và 1.
+- Kiểm tra mỗi học sinh có đúng 4 nhãn bằng 1.
+- Kiểm tra sự nhất quán giữa các cột điểm theo học kỳ và cả năm.
+- Ghi nhận các giá trị ngoại lệ đã xác định trong EDA.
+- Lưu báo cáo kiểm định dữ liệu.
+03 — Feature & Target Separation
+- Xác định 96 đặc trưng điểm số làm tập X.
+- Xác định 9 nhãn môn học làm tập y.
+- Tách ma_hoc_sinh khỏi tập đặc trưng, giữ lại để quản lý dữ liệu.
+- Kiểm tra không có nhãn mục tiêu xuất hiện trong X.
+- Kiểm tra kiểu dữ liệu đầu vào.
+- Xác nhận hình dạng dữ liệu X = (10000, 96) và y = (10000, 9).
+04 — Data Splitting
+- Sử dụng Random Seed cố định cho toàn bộ nghiên cứu.
+- Chia 10.000 học sinh thành:
+  - Development: 9.000 học sinh.
+  - Independent Test: 1.000 học sinh.
+- Lưu cố định danh sách ID của Independent Test.
+- Kiểm tra không có ID trùng giữa hai tập.
+- Kiểm tra tỷ lệ 9 nhãn trong từng tập.
+- Kiểm tra phân bố 18 tổ hợp môn.
+- Kiểm tra số mẫu dương của Âm nhạc và Mĩ thuật.
+- Lưu các tập dữ liệu và danh sách ID vào data/data-splits/.
+- Không sử dụng Independent Test trong các bước lựa chọn mô hình hoặc tối ưu.
+
+GIAI ĐOẠN II — EXPERIMENT V1: BASELINE
+Mục tiêu: Đánh giá hiệu quả ban đầu của ba thuật toán trong cùng điều kiện.
+05 — Cross-Validation Setup
+- Sử dụng 9.000 học sinh thuộc Development.
+- Thiết lập Cross-Validation 5-Fold.
+- Ưu tiên phương pháp chia fold có xét phân bố đa nhãn.
+- Cố định fold và Random Seed để sử dụng chung cho cả ba thuật toán.
+- Kiểm tra số mẫu dương của từng nhãn trong mỗi fold.
+- Kiểm tra phân bố tổ hợp môn giữa các fold.
+- Lưu danh sách ID train/validation của từng fold.
+- Đảm bảo không sử dụng dữ liệu validation để fit các bước tiền xử lý.
+06 — Baseline Reference
+- Xây dựng phương pháp dự đoán tổ hợp 4 môn phổ biến nhất từ tập training.
+- Tính các chỉ số đánh giá.
+- Sử dụng làm mốc tham chiếu đơn giản để so sánh với các thuật toán Machine Learning.
+- Không sử dụng dữ liệu validation để xác định tổ hợp phổ biến nhất.
+07 — Random Forest Baseline
+Thư mục: experiments/v1_baseline/random_forest/
+- Khởi tạo RandomForestClassifier.
+- Sử dụng MultiOutputClassifier.
+- Huấn luyện với 9 nhãn nhị phân.
+- Thực hiện Cross-Validation trên các fold cố định.
+- Dự đoán xác suất của 9 nhãn.
+- Chọn 4 nhãn có xác suất cao nhất.
+- Đánh giá hiệu quả trên từng fold.
+- Lưu cấu hình, chỉ số đánh giá và kết quả dự đoán.
+08 — XGBoost Baseline
+Thư mục: experiments/v1_baseline/xgboost/
+- Khởi tạo XGBClassifier.
+- Sử dụng MultiOutputClassifier.
+- Huấn luyện trên cùng các fold với Random Forest.
+- Dự đoán xác suất của 9 nhãn.
+- Chọn 4 nhãn có xác suất cao nhất.
+- Đánh giá kết quả theo từng fold.
+- Lưu cấu hình, chỉ số đánh giá và kết quả dự đoán.
+09 — CatBoost Baseline
+Thư mục: experiments/v1_baseline/catboost/
+- Khởi tạo CatBoostClassifier.
+- Sử dụng MultiOutputClassifier.
+- Huấn luyện trên cùng các fold.
+- Dự đoán xác suất của 9 nhãn.
+- Chọn 4 nhãn có xác suất cao nhất.
+- Đánh giá kết quả theo từng fold.
+- Lưu cấu hình, chỉ số đánh giá và kết quả dự đoán.
+10 — Model Evaluation V1
+- Tính Exact-match Accuracy.
+- Tính Macro-F1.
+- Tính Micro-F1.
+- Tính Precision và Recall.
+- Tính F1-Score của từng nhãn.
+- Tính Hamming Loss.
+- Tạo Confusion Matrix cho từng nhãn.
+- Kiểm tra tỷ lệ dự đoán đúng 4/9 môn.
+- Kiểm tra tỷ lệ tổ hợp dự đoán nằm trong 18 tổ hợp đã quan sát.
+- Tính trung bình và độ lệch chuẩn của các chỉ số qua 5 fold.
+- So sánh ba thuật toán với phương pháp dự đoán tổ hợp phổ biến nhất.
+- Xác định mô hình có hiệu quả tốt nhất trong V1.
+11 — SHAP Analysis V1
+- Chọn mô hình đã huấn luyện để giải thích.
+- Tính SHAP Values cho từng nhãn.
+- Xác định các đặc trưng ảnh hưởng mạnh nhất đến từng nhãn.
+- Vẽ SHAP Summary Plot.
+- Vẽ SHAP Beeswarm Plot.
+- Vẽ SHAP Dependence Plot cho các đặc trưng đáng chú ý.
+- Phân tích đóng góp của điểm lớp 6, 7, 8 và 9.
+- Lưu biểu đồ và kết quả giải thích.
+
+GIAI ĐOẠN III — EXPERIMENT V2: OPTIMIZATION
+Mục tiêu: Kiểm chứng các phương pháp cải tiến nhằm nâng cao hiệu quả phân loại so với V1.
+
+Tất cả thí nghiệm sử dụng cùng 9.000 mẫu Development và cùng bộ Cross-Validation cố định.
+12 — Class Weight Experiment
+Thư mục: experiments/v2_optimization/01_class_weight/
+- Thống kê tỷ lệ mất cân bằng của từng nhãn trong training fold.
+- Thử nghiệm các phương pháp gán trọng số lớp.
+- Áp dụng trọng số riêng cho từng bộ phân loại nhị phân khi được thuật toán hỗ trợ.
+- Huấn luyện lại Random Forest, XGBoost và CatBoost.
+- So sánh Macro-F1, Exact-match Accuracy và F1 từng nhãn với V1.
+- Ghi nhận ảnh hưởng đến các nhãn hiếm.
+13 — Oversampling Experiment
+Thư mục: experiments/v2_optimization/02_oversampling/
+- Xác định phương pháp lấy mẫu phù hợp cho dữ liệu đa nhãn.
+- Thử nghiệm Random Oversampling theo tổ hợp nhãn nếu phù hợp.
+- Chỉ thực hiện lấy mẫu trên training fold.
+- Không thay đổi validation fold.
+- Kiểm tra ràng buộc 4/9 môn sau khi lấy mẫu.
+- Huấn luyện ba thuật toán.
+- So sánh kết quả với V1 và phương pháp Class Weight.
+14 — Feature Engineering Experiment
+Thư mục: experiments/v2_optimization/03_feature_engineering/
+
+Thử nghiệm bổ sung các đặc trưng:
+- Điểm trung bình 4 năm.
+- Độ lệch chuẩn điểm qua 4 năm.
+- Chênh lệch điểm lớp 6–9.
+- Mức tăng giảm điểm giữa các năm liên tiếp.
+- Xu hướng điểm theo từng môn.
+- Điểm trung bình theo nhóm môn.
+- Mức độ ổn định kết quả học tập.
+Các đặc trưng này phải được tính từ dữ liệu đầu vào hợp lệ, không sử dụng nhãn mục tiêu.
+15 — Feature Selection Experiment
+Thư mục: experiments/v2_optimization/04_feature_selection/
+- Thử nghiệm chỉ sử dụng điểm cả năm.
+- Thử nghiệm sử dụng điểm HKI và HKII.
+- Thử nghiệm sử dụng toàn bộ 96 cột điểm.
+- Thử nghiệm kết hợp đặc trưng gốc và đặc trưng quỹ đạo.
+- Xem xét Feature Importance.
+- Thử nghiệm loại các đặc trưng dư thừa.
+- So sánh hiệu quả từng bộ đặc trưng.
+- Chỉ thực hiện lựa chọn đặc trưng trong training fold.
+16 — Outlier Treatment Experiment
+Thư mục: experiments/v2_optimization/05_outlier_treatment/
+- Giữ nguyên dữ liệu làm phương án đối chứng.
+- Thử nghiệm IQR Capping.
+- Thử nghiệm Quantile Capping.
+- Kiểm tra tỷ lệ giá trị bị điều chỉnh.
+- Không tự động loại bỏ học sinh.
+- Xác định ngưỡng xử lý từ training fold.
+- So sánh hiệu quả mô hình trước và sau xử lý.
+17 — Hyperparameter Optimization
+Thư mục: experiments/v2_optimization/06_hyperparameter_tuning/
+- Sử dụng Optuna để tối ưu siêu tham số.
+- Xác định không gian tìm kiếm cho Random Forest.
+- Xác định không gian tìm kiếm cho XGBoost.
+- Xác định không gian tìm kiếm cho CatBoost.
+- Sử dụng các fold đánh giá nhất quán.
+- Tối ưu theo chỉ số chính đã xác định.
+- Lưu toàn bộ trials và cấu hình tốt nhất.
+- Hạn chế Overfitting do thử nghiệm quá nhiều cấu hình.
+Khi dùng cùng dữ liệu để lựa chọn siêu tham số và báo cáo hiệu quả, cần sử dụng Nested Cross-Validation hoặc có cơ chế đánh giá tách biệt để tránh ước lượng quá lạc quan.
+18 — Combined Optimization Experiment
+- Chọn các phương pháp cải tiến có hiệu quả qua thí nghiệm riêng lẻ.
+- Thử nghiệm kết hợp Feature Engineering và Class Weight.
+- Thử nghiệm kết hợp Feature Selection và Hyperparameter Tuning.
+- Thử nghiệm kết hợp các phương pháp phù hợp khác.
+- Kiểm tra tương tác giữa các phương pháp.
+- So sánh với kết quả tốt nhất của V1.
+- Chọn cấu hình cuối cùng dựa trên hiệu quả và độ ổn định qua Cross-Validation.
+
+GIAI ĐOẠN IV — FINAL EVALUATION
+19 — Model Selection
+- Tổng hợp kết quả V1 và V2.
+- So sánh Exact-match Accuracy, Macro-F1, Micro-F1, Hamming Loss.
+- So sánh hiệu quả trên các nhãn hiếm.
+- Kiểm tra độ ổn định qua các fold.
+- Kiểm tra thời gian huấn luyện và độ phức tạp mô hình.
+- Lựa chọn mô hình và cấu hình tốt nhất trên Development.
+- Khóa toàn bộ phương án trước khi sử dụng Independent Test.
+20 — Final Model Training
+- Khởi tạo mô hình với cấu hình đã chọn.
+- Huấn luyện lại trên toàn bộ 9.000 học sinh Development.
+- Fit lại các bước tiền xử lý cần thiết bằng Development.
+- Lưu mô hình cuối cùng.
+- Lưu cấu hình và các thành phần tiền xử lý.
+21 — Independent Test Evaluation
+- Sử dụng 1.000 học sinh Independent Test đã giữ riêng từ đầu.
+- Không huấn luyện hoặc tối ưu bằng dữ liệu Independent Test.
+- Dự đoán 9 xác suất môn học.
+- Chọn đúng 4 môn có xác suất cao nhất.
+- Tính toàn bộ chỉ số đánh giá cuối cùng.
+- Phân tích Confusion Matrix theo nhãn.
+- Đánh giá nhãn hiếm và tổ hợp môn.
+- Đối chiếu kết quả với ước lượng Cross-Validation.
+- Chỉ thực hiện đánh giá độc lập sau khi đã chọn xong phương án cuối cùng.
+22 — Final SHAP Analysis
+- Tính SHAP Values của mô hình cuối cùng.
+- Phân tích đặc trưng quan trọng với từng môn học.
+- Phân tích ảnh hưởng của đặc trưng quỹ đạo.
+- So sánh mức đóng góp giữa các nhóm đặc trưng.
+- Đánh giá tính hợp lý và ổn định của kết quả giải thích.
+- Tổng hợp biểu đồ và nhận xét phục vụ báo cáo nghiên cứu.
+
+GIAI ĐOẠN V — RESEARCH REPORT
+23 — Experimental Comparison
+- Lập bảng tổng hợp kết quả V1 và V2.
+- So sánh ba thuật toán theo cùng chỉ số.
+- Phân tích mức cải thiện của từng phương pháp.
+- Phân tích các trường hợp phương pháp cải tiến không hiệu quả.
+- Đánh giá ảnh hưởng của dữ liệu mất cân bằng.
+- Đánh giá độ ổn định và khả năng tổng quát hóa.
+24 — Research Conclusions
+- Xác định thuật toán có hiệu quả tốt nhất.
+- Xác định nhóm đặc trưng mang lại nhiều thông tin.
+- Xác định phương pháp tối ưu có hiệu quả.
+- Phân tích giới hạn của nhãn hiếm, đặc biệt là Âm nhạc.
+- Phân tích giới hạn của dữ liệu mô phỏng.
+- Đưa ra kết luận và hướng nghiên cứu tiếp theo.
+
+
+Huấn luyện và đánh giá
+
+Chạy từ thư mục gốc:
+
+python -m src.recommendation.train_rankers
+
+Lệnh này sẽ:
+- Đánh giá cả ba mô hình trên 5 fold cố định.
+- Tính MAP, Precision@K, Recall@K và NDCG@K.
+- Huấn luyện lại từng mô hình trên toàn bộ Development.
+- Không sử dụng Independent Test.
+- Lưu mô hình vào artifacts/subject_rankers.
+Có thể chạy riêng từng thuật toán:
+python -m src.recommendation.train_rankers --models xgboost
+python -m src.recommendation.train_rankers --models catboost
+
+Dự đoán dữ liệu mới
+
+python -m src.recommendation.predict_subjects `
+  --model artifacts/subject_rankers/catboost_subject_ranker.joblib `
+  --input du_lieu_diem_moi.csv `
+  --output ket_qua_goi_y.csv `
+  --top-k 9
+
+Để khởi động lại sau này:
+
+python -m streamlit run src/recommendation/demo_app.py

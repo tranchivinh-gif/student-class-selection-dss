@@ -1,0 +1,10 @@
+﻿Model,Outer_Fold,Nhãn,F1
+Random Forest,5,Vật lí,0.733045864366915
+Random Forest,5,Hóa học,0.5821294810058855
+Random Forest,5,Sinh học,0.046012269938650305
+Random Forest,5,Địa lí,0.6550218340611353
+Random Forest,5,Giáo dục kinh tế và pháp luật (GDKT&PL),0.41395717684377475
+Random Forest,5,Tin học,0.9253554502369669
+Random Forest,5,Công nghệ,0.7326440177252584
+Random Forest,5,Âm nhạc,0.0
+Random Forest,5,Mĩ thuật,0.0

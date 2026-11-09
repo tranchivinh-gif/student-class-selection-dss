@@ -1,0 +1,12 @@
+{
+    "experiment": "V1 - Baseline",
+    "random_seed": 42,
+    "n_splits": 5,
+    "n_development": 9000,
+    "primary_metric": "Exact_Match_Accuracy",
+    "best_ml_model": "CatBoost",
+    "best_ml_exact_match": 0.16686213310820536,
+    "best_overall_method": "Most Frequent Combination",
+    "best_overall_exact_match": 0.2626016925550996,
+    "independent_test_used": false
+}

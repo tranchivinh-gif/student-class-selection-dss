@@ -1,0 +1,865 @@
+﻿Nhãn,Đặc trưng,Mean_Abs_SHAP
+Công nghệ,L9_khtn_hkii,0.10756719777505452
+Công nghệ,L9_cong_nghe_hkii,0.07702822931320617
+Công nghệ,L9_cong_nghe_ca_nam,0.06780069084770587
+Công nghệ,L7_ngoai_ngu_1_hkii,0.05774085263042837
+Công nghệ,L9_cong_nghe_hki,0.05063147674749573
+Công nghệ,L9_khtn_ca_nam,0.04838855596348343
+Công nghệ,L9_lich_su_dia_li_hki,0.04496843499717484
+Công nghệ,L7_gdcd_hkii,0.03670735594621428
+Công nghệ,L7_toan_hki,0.0360335562734009
+Công nghệ,L6_cong_nghe_hkii,0.028414705753693294
+Công nghệ,L6_toan_hkii,0.027937335033938915
+Công nghệ,L9_lich_su_dia_li_hkii,0.026915535660593005
+Công nghệ,L8_cong_nghe_hkii,0.02664553719116394
+Công nghệ,L6_tin_hoc_ca_nam,0.026039298684014795
+Công nghệ,L8_khtn_hkii,0.02393510664409935
+Công nghệ,L6_tin_hoc_hkii,0.023668031996021032
+Công nghệ,L9_toan_hkii,0.02271191574804279
+Công nghệ,L7_ngoai_ngu_1_ca_nam,0.022094236714010056
+Công nghệ,L7_khtn_hki,0.022030001937703457
+Công nghệ,L7_cong_nghe_hkii,0.02177392270831533
+Công nghệ,L8_khtn_hki,0.021252289952962754
+Công nghệ,L8_tin_hoc_hki,0.021142592156421603
+Công nghệ,L7_cong_nghe_ca_nam,0.02073452336634828
+Công nghệ,L8_toan_hki,0.020615831682411028
+Công nghệ,L8_khtn_ca_nam,0.020557944000506184
+Công nghệ,L6_cong_nghe_ca_nam,0.02041823854660106
+Công nghệ,L6_ngoai_ngu_1_hki,0.019958541905720353
+Công nghệ,L9_khtn_hki,0.01927617566244867
+Công nghệ,L8_cong_nghe_ca_nam,0.01909217774642583
+Công nghệ,L8_tin_hoc_hkii,0.018686655485559478
+Công nghệ,L8_ngoai_ngu_1_hki,0.01856819444231149
+Công nghệ,L9_lich_su_dia_li_ca_nam,0.017973165904748713
+Công nghệ,L6_gdcd_ca_nam,0.017798760108119302
+Công nghệ,L6_ngoai_ngu_1_hkii,0.01779222964576355
+Công nghệ,L7_cong_nghe_hki,0.017399730643131786
+Công nghệ,L6_gdcd_hkii,0.01697921599004444
+Công nghệ,L9_tin_hoc_hkii,0.01650719355724403
+Công nghệ,L6_toan_hki,0.016464962687981758
+Công nghệ,L6_van_hkii,0.01640548953635781
+Công nghệ,L9_van_ca_nam,0.01615286231649485
+Công nghệ,L7_lich_su_dia_li_hkii,0.01615278483532565
+Công nghệ,L7_tin_hoc_hkii,0.015867562410867266
+Công nghệ,L6_van_ca_nam,0.015851206535385347
+Công nghệ,L8_gdcd_hkii,0.015391082422456206
+Công nghệ,L6_cong_nghe_hki,0.015378125065965467
+Công nghệ,L9_ngoai_ngu_1_hki,0.01536970066702745
+Công nghệ,L6_toan_ca_nam,0.015360594941418514
+Công nghệ,L7_van_ca_nam,0.01522639693893543
+Công nghệ,L7_tin_hoc_hki,0.014952011716629415
+Công nghệ,L9_tin_hoc_hki,0.0148190225305448
+Công nghệ,L8_tin_hoc_ca_nam,0.014803224453124037
+Công nghệ,L7_gdcd_hki,0.014742304696979692
+Công nghệ,L6_lich_su_dia_li_hkii,0.014702295211790324
+Công nghệ,L7_ngoai_ngu_1_hki,0.014656662984564708
+Công nghệ,L6_van_hki,0.01439296106279653
+Công nghệ,L6_lich_su_dia_li_hki,0.014359160218797502
+Công nghệ,L6_ngoai_ngu_1_ca_nam,0.014299662528033129
+Công nghệ,L8_van_hki,0.014178373131622625
+Công nghệ,L9_gdcd_hkii,0.013760553667835669
+Công nghệ,L8_gdcd_ca_nam,0.013667479863103755
+Công nghệ,L6_tin_hoc_hki,0.013613957681824867
+Công nghệ,L9_toan_ca_nam,0.01344034868132943
+Công nghệ,L9_van_hki,0.013365392234514441
+Công nghệ,L9_ngoai_ngu_1_hkii,0.013223109616537974
+Công nghệ,L8_toan_hkii,0.013164854247608488
+Công nghệ,L8_lich_su_dia_li_hki,0.0129869323045713
+Công nghệ,L9_gdcd_hki,0.012848277658187308
+Công nghệ,L9_gdcd_ca_nam,0.012668974226497324
+Công nghệ,L8_gdcd_hki,0.012637131311268257
+Công nghệ,L8_lich_su_dia_li_hkii,0.012283875884563256
+Công nghệ,L7_lich_su_dia_li_ca_nam,0.012271377409366737
+Công nghệ,L7_khtn_hkii,0.012266363029746189
+Công nghệ,L7_tin_hoc_ca_nam,0.01211425693929114
+Công nghệ,L8_cong_nghe_hki,0.012085518170074713
+Công nghệ,L7_van_hkii,0.012046533802182163
+Công nghệ,L7_lich_su_dia_li_hki,0.011817895487682967
+Công nghệ,L8_lich_su_dia_li_ca_nam,0.01180623900183449
+Công nghệ,L8_ngoai_ngu_1_ca_nam,0.011628682015162716
+Công nghệ,L8_ngoai_ngu_1_hkii,0.011605655010814628
+Công nghệ,L6_khtn_hki,0.01154877720912431
+Công nghệ,L6_gdcd_hki,0.011380099922019276
+Công nghệ,L7_toan_ca_nam,0.011370162409104257
+Công nghệ,L9_van_hkii,0.011339014005019622
+Công nghệ,L9_ngoai_ngu_1_ca_nam,0.011045153298131426
+Công nghệ,L7_van_hki,0.010758411577949973
+Công nghệ,L7_toan_hkii,0.010720514773310964
+Công nghệ,L7_khtn_ca_nam,0.010421135121055018
+Công nghệ,L9_toan_hki,0.010300692910947207
+Công nghệ,L8_toan_ca_nam,0.009896360145202433
+Công nghệ,L6_lich_su_dia_li_ca_nam,0.009890324663070887
+Công nghệ,L7_gdcd_ca_nam,0.009375931908831566
+Công nghệ,L8_van_ca_nam,0.007843216643204486
+Công nghệ,L6_khtn_ca_nam,0.007652308590175145
+Công nghệ,L9_tin_hoc_ca_nam,0.006748948149581187
+Công nghệ,L6_khtn_hkii,0.006507412038333224
+Công nghệ,L8_van_hkii,0.0063466662642774506
+Giáo dục kinh tế và pháp luật (GDKT&PL),L9_khtn_hkii,0.15130308375731044
+Giáo dục kinh tế và pháp luật (GDKT&PL),L9_khtn_ca_nam,0.1284661895220161
+Giáo dục kinh tế và pháp luật (GDKT&PL),L9_lich_su_dia_li_hkii,0.07196014064173138
+Giáo dục kinh tế và pháp luật (GDKT&PL),L9_gdcd_hkii,0.07185295224289626
+Giáo dục kinh tế và pháp luật (GDKT&PL),L9_khtn_hki,0.04886705178996529
+Giáo dục kinh tế và pháp luật (GDKT&PL),L9_lich_su_dia_li_ca_nam,0.04783104563039259
+Giáo dục kinh tế và pháp luật (GDKT&PL),L9_gdcd_hki,0.04664807519722744
+Giáo dục kinh tế và pháp luật (GDKT&PL),L6_toan_hki,0.04546574739960872
+Giáo dục kinh tế và pháp luật (GDKT&PL),L9_gdcd_ca_nam,0.03890832248715228
+Giáo dục kinh tế và pháp luật (GDKT&PL),L9_cong_nghe_hkii,0.03744121851191735
+Giáo dục kinh tế và pháp luật (GDKT&PL),L6_ngoai_ngu_1_ca_nam,0.03295021825475642
+Giáo dục kinh tế và pháp luật (GDKT&PL),L8_khtn_hki,0.03105136218107736
+Giáo dục kinh tế và pháp luật (GDKT&PL),L7_van_ca_nam,0.030936911923597633
+Giáo dục kinh tế và pháp luật (GDKT&PL),L9_lich_su_dia_li_hki,0.03069083342842649
+Giáo dục kinh tế và pháp luật (GDKT&PL),L6_toan_hkii,0.029129124693397988
+Giáo dục kinh tế và pháp luật (GDKT&PL),L7_toan_hkii,0.02839954938198087
+Giáo dục kinh tế và pháp luật (GDKT&PL),L8_khtn_ca_nam,0.02789499079440074
+Giáo dục kinh tế và pháp luật (GDKT&PL),L6_van_hki,0.02775691509496268
+Giáo dục kinh tế và pháp luật (GDKT&PL),L7_lich_su_dia_li_hkii,0.027372759385146595
+Giáo dục kinh tế và pháp luật (GDKT&PL),L7_tin_hoc_hkii,0.027214872211073993
+Giáo dục kinh tế và pháp luật (GDKT&PL),L7_ngoai_ngu_1_hkii,0.02621491366407888
+Giáo dục kinh tế và pháp luật (GDKT&PL),L7_ngoai_ngu_1_ca_nam,0.025837827919666878
+Giáo dục kinh tế và pháp luật (GDKT&PL),L7_tin_hoc_ca_nam,0.02553361958568892
+Giáo dục kinh tế và pháp luật (GDKT&PL),L7_ngoai_ngu_1_hki,0.024831338549872437
+Giáo dục kinh tế và pháp luật (GDKT&PL),L7_van_hki,0.0246133196623054
+Giáo dục kinh tế và pháp luật (GDKT&PL),L7_toan_hki,0.024596039287800537
+Giáo dục kinh tế và pháp luật (GDKT&PL),L9_van_hkii,0.024588867465788405
+Giáo dục kinh tế và pháp luật (GDKT&PL),L9_cong_nghe_ca_nam,0.0245626903119255
+Giáo dục kinh tế và pháp luật (GDKT&PL),L7_khtn_hkii,0.024492962554464506
+Giáo dục kinh tế và pháp luật (GDKT&PL),L6_tin_hoc_hkii,0.023717538854191325
+Giáo dục kinh tế và pháp luật (GDKT&PL),L8_cong_nghe_hki,0.023032400702873226
+Giáo dục kinh tế và pháp luật (GDKT&PL),L9_van_hki,0.02256565500886808
+Giáo dục kinh tế và pháp luật (GDKT&PL),L8_ngoai_ngu_1_hkii,0.02207398052449862
+Giáo dục kinh tế và pháp luật (GDKT&PL),L6_toan_ca_nam,0.021562566046845522
+Giáo dục kinh tế và pháp luật (GDKT&PL),L7_gdcd_hkii,0.021210087903903548
+Giáo dục kinh tế và pháp luật (GDKT&PL),L7_toan_ca_nam,0.02114224798007193
+Giáo dục kinh tế và pháp luật (GDKT&PL),L6_ngoai_ngu_1_hki,0.01958404230768349
+Giáo dục kinh tế và pháp luật (GDKT&PL),L6_gdcd_ca_nam,0.01920519006007171
+Giáo dục kinh tế và pháp luật (GDKT&PL),L7_khtn_hki,0.018800610738055307
+Giáo dục kinh tế và pháp luật (GDKT&PL),L7_gdcd_hki,0.018780330208277497
+Giáo dục kinh tế và pháp luật (GDKT&PL),L6_ngoai_ngu_1_hkii,0.01858125994026859
+Giáo dục kinh tế và pháp luật (GDKT&PL),L6_cong_nghe_hkii,0.018314708704473576
+Giáo dục kinh tế và pháp luật (GDKT&PL),L9_toan_hkii,0.01826724300352024
+Giáo dục kinh tế và pháp luật (GDKT&PL),L9_toan_hki,0.0175945747467918
+Giáo dục kinh tế và pháp luật (GDKT&PL),L6_gdcd_hki,0.017535740752877695
+Giáo dục kinh tế và pháp luật (GDKT&PL),L7_khtn_ca_nam,0.017383559192536143
+Giáo dục kinh tế và pháp luật (GDKT&PL),L8_gdcd_ca_nam,0.017338538296471962
+Giáo dục kinh tế và pháp luật (GDKT&PL),L8_toan_hki,0.01663600905004545
+Giáo dục kinh tế và pháp luật (GDKT&PL),L8_lich_su_dia_li_hkii,0.016445564694830224
+Giáo dục kinh tế và pháp luật (GDKT&PL),L6_cong_nghe_hki,0.01636349249404012
+Giáo dục kinh tế và pháp luật (GDKT&PL),L6_lich_su_dia_li_hki,0.01625565898858622
+Giáo dục kinh tế và pháp luật (GDKT&PL),L9_van_ca_nam,0.01624174926920115
+Giáo dục kinh tế và pháp luật (GDKT&PL),L9_ngoai_ngu_1_ca_nam,0.0161205112853131
+Giáo dục kinh tế và pháp luật (GDKT&PL),L6_khtn_hkii,0.01608201888954841
+Giáo dục kinh tế và pháp luật (GDKT&PL),L9_tin_hoc_hkii,0.015995962612870573
+Giáo dục kinh tế và pháp luật (GDKT&PL),L7_gdcd_ca_nam,0.015601701127699066
+Giáo dục kinh tế và pháp luật (GDKT&PL),L7_van_hkii,0.015472024374582349
+Giáo dục kinh tế và pháp luật (GDKT&PL),L8_tin_hoc_hkii,0.015454166415103965
+Giáo dục kinh tế và pháp luật (GDKT&PL),L8_toan_hkii,0.015311797771826532
+Giáo dục kinh tế và pháp luật (GDKT&PL),L8_gdcd_hki,0.015088615261919344
+Giáo dục kinh tế và pháp luật (GDKT&PL),L6_khtn_hki,0.014813625867996526
+Giáo dục kinh tế và pháp luật (GDKT&PL),L8_van_hki,0.014702893465636814
+Giáo dục kinh tế và pháp luật (GDKT&PL),L9_toan_ca_nam,0.014604854414225467
+Giáo dục kinh tế và pháp luật (GDKT&PL),L8_ngoai_ngu_1_hki,0.014313515098810327
+Giáo dục kinh tế và pháp luật (GDKT&PL),L6_cong_nghe_ca_nam,0.014018752749191666
+Giáo dục kinh tế và pháp luật (GDKT&PL),L8_khtn_hkii,0.013907784338138284
+Giáo dục kinh tế và pháp luật (GDKT&PL),L6_van_hkii,0.013849357943770842
+Giáo dục kinh tế và pháp luật (GDKT&PL),L9_ngoai_ngu_1_hki,0.013793596614987065
+Giáo dục kinh tế và pháp luật (GDKT&PL),L9_tin_hoc_hki,0.01367300486798684
+Giáo dục kinh tế và pháp luật (GDKT&PL),L6_tin_hoc_hki,0.013581613871915152
+Giáo dục kinh tế và pháp luật (GDKT&PL),L9_ngoai_ngu_1_hkii,0.013346848165791503
+Giáo dục kinh tế và pháp luật (GDKT&PL),L8_van_ca_nam,0.013269272195422737
+Giáo dục kinh tế và pháp luật (GDKT&PL),L8_tin_hoc_hki,0.013228152891370958
+Giáo dục kinh tế và pháp luật (GDKT&PL),L9_cong_nghe_hki,0.013003141104268746
+Giáo dục kinh tế và pháp luật (GDKT&PL),L8_van_hkii,0.0129780196299656
+Giáo dục kinh tế và pháp luật (GDKT&PL),L7_lich_su_dia_li_ca_nam,0.012937696130406412
+Giáo dục kinh tế và pháp luật (GDKT&PL),L8_ngoai_ngu_1_ca_nam,0.012809770548132713
+Giáo dục kinh tế và pháp luật (GDKT&PL),L6_khtn_ca_nam,0.01250368853021288
+Giáo dục kinh tế và pháp luật (GDKT&PL),L6_van_ca_nam,0.012460177488991588
+Giáo dục kinh tế và pháp luật (GDKT&PL),L7_cong_nghe_hkii,0.012433044818352942
+Giáo dục kinh tế và pháp luật (GDKT&PL),L8_lich_su_dia_li_hki,0.012411145211868983
+Giáo dục kinh tế và pháp luật (GDKT&PL),L8_gdcd_hkii,0.011148769144807218
+Giáo dục kinh tế và pháp luật (GDKT&PL),L6_gdcd_hkii,0.011060084193585491
+Giáo dục kinh tế và pháp luật (GDKT&PL),L6_lich_su_dia_li_ca_nam,0.01091662006487108
+Giáo dục kinh tế và pháp luật (GDKT&PL),L7_lich_su_dia_li_hki,0.010262450567180446
+Giáo dục kinh tế và pháp luật (GDKT&PL),L6_lich_su_dia_li_hkii,0.010251981082875682
+Giáo dục kinh tế và pháp luật (GDKT&PL),L8_lich_su_dia_li_ca_nam,0.010246068759560845
+Giáo dục kinh tế và pháp luật (GDKT&PL),L7_cong_nghe_ca_nam,0.010000616895498532
+Giáo dục kinh tế và pháp luật (GDKT&PL),L8_cong_nghe_hkii,0.009990353343772643
+Giáo dục kinh tế và pháp luật (GDKT&PL),L7_cong_nghe_hki,0.009892741242477783
+Giáo dục kinh tế và pháp luật (GDKT&PL),L8_tin_hoc_ca_nam,0.00939609382398709
+Giáo dục kinh tế và pháp luật (GDKT&PL),L8_cong_nghe_ca_nam,0.009074077496343907
+Giáo dục kinh tế và pháp luật (GDKT&PL),L7_tin_hoc_hki,0.00906118281020835
+Giáo dục kinh tế và pháp luật (GDKT&PL),L6_tin_hoc_ca_nam,0.008150041049045742
+Giáo dục kinh tế và pháp luật (GDKT&PL),L9_tin_hoc_ca_nam,0.007972333058384828
+Giáo dục kinh tế và pháp luật (GDKT&PL),L8_toan_ca_nam,0.0077530396733650475
+Hóa học,L9_khtn_hkii,0.1674275978756394
+Hóa học,L9_khtn_ca_nam,0.07979372879286313
+Hóa học,L9_khtn_hki,0.06854500974015598
+Hóa học,L9_gdcd_hkii,0.059078323706224165
+Hóa học,L9_lich_su_dia_li_hkii,0.04815953564953055
+Hóa học,L9_tin_hoc_hki,0.0455180762278623
+Hóa học,L6_toan_hki,0.04328332069166937
+Hóa học,L8_khtn_ca_nam,0.03954888212584473
+Hóa học,L9_gdcd_hki,0.03895796898652084
+Hóa học,L8_khtn_hki,0.037920665228846434
+Hóa học,L6_tin_hoc_hkii,0.03750358139147315
+Hóa học,L7_van_ca_nam,0.031021764041468072
+Hóa học,L6_gdcd_hki,0.030806065712512983
+Hóa học,L6_toan_hkii,0.030454843269969955
+Hóa học,L9_van_hki,0.030308264145339117
+Hóa học,L7_gdcd_hkii,0.03026959982779503
+Hóa học,L6_van_hki,0.029241502555460736
+Hóa học,L7_ngoai_ngu_1_hki,0.028645812508838055
+Hóa học,L7_lich_su_dia_li_hkii,0.02822768065173675
+Hóa học,L9_cong_nghe_ca_nam,0.026430381965186087
+Hóa học,L6_cong_nghe_hkii,0.025845917274182537
+Hóa học,L9_tin_hoc_hkii,0.025759928910324442
+Hóa học,L9_toan_hkii,0.02400726965536637
+Hóa học,L8_lich_su_dia_li_hkii,0.023617949937019014
+Hóa học,L7_cong_nghe_hki,0.023329107566235116
+Hóa học,L6_van_hkii,0.023078782615600344
+Hóa học,L7_toan_hki,0.022013888281809488
+Hóa học,L6_ngoai_ngu_1_hkii,0.02011515973123385
+Hóa học,L6_khtn_ca_nam,0.019874109466714147
+Hóa học,L6_khtn_hki,0.019421558962486776
+Hóa học,L7_van_hkii,0.019416861205256427
+Hóa học,L6_ngoai_ngu_1_hki,0.019072204418092903
+Hóa học,L7_cong_nghe_ca_nam,0.018669630929926042
+Hóa học,L8_van_hkii,0.018561101625568264
+Hóa học,L9_cong_nghe_hkii,0.01812037230135488
+Hóa học,L7_khtn_hkii,0.01748903018615109
+Hóa học,L8_van_hki,0.017438684596779212
+Hóa học,L9_lich_su_dia_li_ca_nam,0.01732988369084908
+Hóa học,L8_tin_hoc_hkii,0.017109795840008466
+Hóa học,L8_van_ca_nam,0.016616230158070296
+Hóa học,L9_lich_su_dia_li_hki,0.016441301347777392
+Hóa học,L6_gdcd_hkii,0.016326763268626275
+Hóa học,L6_toan_ca_nam,0.016189751181013352
+Hóa học,L7_van_hki,0.015985870693920438
+Hóa học,L8_tin_hoc_hki,0.015846347534186705
+Hóa học,L7_ngoai_ngu_1_hkii,0.01571388595065952
+Hóa học,L9_gdcd_ca_nam,0.015208349802293014
+Hóa học,L7_gdcd_ca_nam,0.015075032831930554
+Hóa học,L6_gdcd_ca_nam,0.014889614729811006
+Hóa học,L7_tin_hoc_hki,0.014836187082071696
+Hóa học,L6_khtn_hkii,0.014689332530634628
+Hóa học,L8_ngoai_ngu_1_ca_nam,0.014294756280213993
+Hóa học,L8_ngoai_ngu_1_hki,0.014230599064055547
+Hóa học,L8_lich_su_dia_li_hki,0.014192293815130857
+Hóa học,L8_lich_su_dia_li_ca_nam,0.0140049506344676
+Hóa học,L6_cong_nghe_ca_nam,0.013926155619186203
+Hóa học,L9_van_ca_nam,0.013728445534955148
+Hóa học,L7_toan_hkii,0.013717033454842925
+Hóa học,L7_khtn_hki,0.013619423198446197
+Hóa học,L9_tin_hoc_ca_nam,0.013481612735308476
+Hóa học,L8_gdcd_hki,0.013474569601709936
+Hóa học,L9_van_hkii,0.013461383922162081
+Hóa học,L8_ngoai_ngu_1_hkii,0.013443057575860952
+Hóa học,L7_tin_hoc_hkii,0.013277750267396561
+Hóa học,L9_ngoai_ngu_1_ca_nam,0.013146033395931764
+Hóa học,L8_gdcd_ca_nam,0.013006972833760308
+Hóa học,L8_gdcd_hkii,0.012796212807908982
+Hóa học,L6_tin_hoc_ca_nam,0.012702270813048549
+Hóa học,L6_tin_hoc_hki,0.012552495177837178
+Hóa học,L8_toan_hkii,0.012116746166458074
+Hóa học,L8_cong_nghe_hki,0.012031751096601167
+Hóa học,L6_lich_su_dia_li_hki,0.011920265398656786
+Hóa học,L9_toan_hki,0.011841972710576111
+Hóa học,L7_ngoai_ngu_1_ca_nam,0.01183569090782082
+Hóa học,L6_lich_su_dia_li_hkii,0.011710216356777433
+Hóa học,L9_cong_nghe_hki,0.011694812061151989
+Hóa học,L7_lich_su_dia_li_hki,0.011685348054086882
+Hóa học,L8_cong_nghe_hkii,0.011511653372098352
+Hóa học,L8_cong_nghe_ca_nam,0.011488307250621756
+Hóa học,L7_cong_nghe_hkii,0.011381796763125377
+Hóa học,L6_cong_nghe_hki,0.011050842709707787
+Hóa học,L7_toan_ca_nam,0.010948334847310717
+Hóa học,L8_toan_hki,0.010847324116086346
+Hóa học,L9_toan_ca_nam,0.010667918975035924
+Hóa học,L7_khtn_ca_nam,0.010600428292911558
+Hóa học,L7_gdcd_hki,0.010494899959229996
+Hóa học,L6_ngoai_ngu_1_ca_nam,0.01044210760279578
+Hóa học,L7_tin_hoc_ca_nam,0.010372906365193635
+Hóa học,L6_lich_su_dia_li_ca_nam,0.010128367833601822
+Hóa học,L9_ngoai_ngu_1_hkii,0.009921081371645551
+Hóa học,L7_lich_su_dia_li_ca_nam,0.009567703055292798
+Hóa học,L8_khtn_hkii,0.009423197316386911
+Hóa học,L8_toan_ca_nam,0.008042425376118986
+Hóa học,L6_van_ca_nam,0.00788165196318654
+Hóa học,L9_ngoai_ngu_1_hki,0.006881065216596283
+Hóa học,L8_tin_hoc_ca_nam,0.00613940622629559
+Mĩ thuật,L9_cong_nghe_hkii,0.2933100024531385
+Mĩ thuật,L8_ngoai_ngu_1_hki,0.11773169454922425
+Mĩ thuật,L9_cong_nghe_ca_nam,0.10735234153772164
+Mĩ thuật,L9_tin_hoc_hkii,0.08414136149504584
+Mĩ thuật,L9_khtn_ca_nam,0.08196123908805686
+Mĩ thuật,L9_khtn_hkii,0.08133641247101016
+Mĩ thuật,L8_toan_hkii,0.07679606275249899
+Mĩ thuật,L9_khtn_hki,0.07359801943491266
+Mĩ thuật,L9_ngoai_ngu_1_hki,0.07323502455528037
+Mĩ thuật,L9_tin_hoc_ca_nam,0.0703503653932698
+Mĩ thuật,L6_ngoai_ngu_1_hkii,0.06821293808891409
+Mĩ thuật,L9_lich_su_dia_li_hkii,0.052582612938647036
+Mĩ thuật,L7_gdcd_hkii,0.052521068173590105
+Mĩ thuật,L6_tin_hoc_hkii,0.04867587093729175
+Mĩ thuật,L6_toan_ca_nam,0.047775715090711185
+Mĩ thuật,L6_ngoai_ngu_1_hki,0.04774476439862292
+Mĩ thuật,L9_van_hki,0.045829559565908146
+Mĩ thuật,L8_lich_su_dia_li_hki,0.0449380550482554
+Mĩ thuật,L7_tin_hoc_hki,0.044859969957779494
+Mĩ thuật,L6_toan_hki,0.04466492328204174
+Mĩ thuật,L7_tin_hoc_ca_nam,0.042383049466612206
+Mĩ thuật,L7_gdcd_hki,0.0420015234367864
+Mĩ thuật,L8_tin_hoc_hkii,0.04111287311217171
+Mĩ thuật,L7_cong_nghe_hkii,0.04101037280698144
+Mĩ thuật,L6_tin_hoc_hki,0.04097041940964551
+Mĩ thuật,L6_gdcd_ca_nam,0.040761522569829074
+Mĩ thuật,L8_toan_hki,0.040549120965148934
+Mĩ thuật,L9_gdcd_hki,0.03951227253519867
+Mĩ thuật,L7_khtn_hkii,0.03906097118224655
+Mĩ thuật,L7_gdcd_ca_nam,0.0386884449401358
+Mĩ thuật,L8_cong_nghe_ca_nam,0.036482456385226465
+Mĩ thuật,L7_lich_su_dia_li_hki,0.035927735797917616
+Mĩ thuật,L8_cong_nghe_hki,0.03487486948546386
+Mĩ thuật,L8_khtn_hkii,0.03465998769414135
+Mĩ thuật,L8_ngoai_ngu_1_hkii,0.033888021843883454
+Mĩ thuật,L7_cong_nghe_ca_nam,0.03311142339700417
+Mĩ thuật,L8_cong_nghe_hkii,0.03256251913830552
+Mĩ thuật,L7_cong_nghe_hki,0.03195203498657133
+Mĩ thuật,L7_tin_hoc_hkii,0.031564015852985024
+Mĩ thuật,L8_toan_ca_nam,0.030682329375633623
+Mĩ thuật,L8_khtn_hki,0.03041876087936016
+Mĩ thuật,L7_toan_hkii,0.030053828165608205
+Mĩ thuật,L9_toan_ca_nam,0.028728518493793473
+Mĩ thuật,L8_ngoai_ngu_1_ca_nam,0.028065335982455024
+Mĩ thuật,L8_van_hki,0.027945126948445437
+Mĩ thuật,L9_van_ca_nam,0.026786508929928187
+Mĩ thuật,L9_toan_hki,0.02648627034249996
+Mĩ thuật,L7_van_hki,0.025097308900749418
+Mĩ thuật,L8_lich_su_dia_li_hkii,0.025084828165733482
+Mĩ thuật,L7_ngoai_ngu_1_hkii,0.024699956609936593
+Mĩ thuật,L8_tin_hoc_hki,0.02445705065796505
+Mĩ thuật,L8_tin_hoc_ca_nam,0.02364213600289676
+Mĩ thuật,L7_khtn_hki,0.023344744480509456
+Mĩ thuật,L6_khtn_hkii,0.023226294445887505
+Mĩ thuật,L7_ngoai_ngu_1_hki,0.02321876786547299
+Mĩ thuật,L8_van_hkii,0.022291574749209463
+Mĩ thuật,L7_van_ca_nam,0.021427951288876673
+Mĩ thuật,L9_tin_hoc_hki,0.02137925809159642
+Mĩ thuật,L7_toan_ca_nam,0.021202370992707397
+Mĩ thuật,L8_lich_su_dia_li_ca_nam,0.020752563314292507
+Mĩ thuật,L8_gdcd_hki,0.020623188200655927
+Mĩ thuật,L7_van_hkii,0.020582801408718328
+Mĩ thuật,L7_khtn_ca_nam,0.020500752003308104
+Mĩ thuật,L7_ngoai_ngu_1_ca_nam,0.02006391438984539
+Mĩ thuật,L6_ngoai_ngu_1_ca_nam,0.019398536015145667
+Mĩ thuật,L6_van_hki,0.019381104743100255
+Mĩ thuật,L8_khtn_ca_nam,0.019314400534167997
+Mĩ thuật,L6_cong_nghe_ca_nam,0.018975346852492032
+Mĩ thuật,L9_lich_su_dia_li_hki,0.018765957879326715
+Mĩ thuật,L7_lich_su_dia_li_ca_nam,0.018361479379874982
+Mĩ thuật,L6_cong_nghe_hkii,0.018325728532963582
+Mĩ thuật,L9_toan_hkii,0.018111872728658825
+Mĩ thuật,L8_van_ca_nam,0.018093137607857985
+Mĩ thuật,L8_gdcd_hkii,0.017703511860716434
+Mĩ thuật,L8_gdcd_ca_nam,0.017597413507080512
+Mĩ thuật,L6_lich_su_dia_li_ca_nam,0.017541696331814422
+Mĩ thuật,L6_toan_hkii,0.017532739830941464
+Mĩ thuật,L9_gdcd_hkii,0.017021963368960245
+Mĩ thuật,L7_toan_hki,0.01700474834226221
+Mĩ thuật,L6_lich_su_dia_li_hki,0.016992701287243662
+Mĩ thuật,L6_gdcd_hki,0.016463951010792618
+Mĩ thuật,L9_lich_su_dia_li_ca_nam,0.015737340944783178
+Mĩ thuật,L6_gdcd_hkii,0.014930174780949051
+Mĩ thuật,L7_lich_su_dia_li_hkii,0.014371790347134232
+Mĩ thuật,L6_tin_hoc_ca_nam,0.01380032421653997
+Mĩ thuật,L9_ngoai_ngu_1_ca_nam,0.012942271894996521
+Mĩ thuật,L6_lich_su_dia_li_hkii,0.01241863106154465
+Mĩ thuật,L6_cong_nghe_hki,0.012390466795283394
+Mĩ thuật,L9_gdcd_ca_nam,0.0119223141676471
+Mĩ thuật,L9_cong_nghe_hki,0.010698569724451438
+Mĩ thuật,L9_van_hkii,0.009729898791223728
+Mĩ thuật,L6_khtn_ca_nam,0.0097232144190002
+Mĩ thuật,L6_khtn_hki,0.008755288219260639
+Mĩ thuật,L6_van_ca_nam,0.008690122123862044
+Mĩ thuật,L6_van_hkii,0.007843850588686509
+Mĩ thuật,L9_ngoai_ngu_1_hkii,0.004865308504683076
+Sinh học,L9_khtn_hkii,0.16928692003287182
+Sinh học,L9_khtn_hki,0.07912192283913579
+Sinh học,L9_khtn_ca_nam,0.06475850013145197
+Sinh học,L9_tin_hoc_hki,0.04551855935208123
+Sinh học,L9_cong_nghe_hkii,0.04492914630290239
+Sinh học,L9_gdcd_hki,0.0403094169001186
+Sinh học,L7_lich_su_dia_li_hki,0.03226831637067758
+Sinh học,L8_toan_hkii,0.028457554431615482
+Sinh học,L7_khtn_hki,0.025930749896384636
+Sinh học,L9_gdcd_hkii,0.02567224251488657
+Sinh học,L9_van_hkii,0.02515906665521149
+Sinh học,L6_tin_hoc_hkii,0.02512761866473367
+Sinh học,L8_ngoai_ngu_1_hkii,0.02489989522563826
+Sinh học,L9_lich_su_dia_li_hkii,0.02305410286270729
+Sinh học,L6_lich_su_dia_li_hki,0.022585046383150006
+Sinh học,L9_cong_nghe_ca_nam,0.022346403363284396
+Sinh học,L8_khtn_ca_nam,0.02232904209562986
+Sinh học,L8_lich_su_dia_li_hkii,0.022319588801251546
+Sinh học,L7_van_ca_nam,0.02191327671470147
+Sinh học,L6_gdcd_hki,0.021437204408516798
+Sinh học,L8_ngoai_ngu_1_hki,0.02138968206017309
+Sinh học,L6_khtn_hkii,0.021056106664491293
+Sinh học,L9_lich_su_dia_li_hki,0.020991765509649242
+Sinh học,L9_gdcd_ca_nam,0.020531920165690675
+Sinh học,L6_cong_nghe_hki,0.02025584905923402
+Sinh học,L8_toan_ca_nam,0.020138677079747033
+Sinh học,L6_ngoai_ngu_1_hki,0.019209749710721737
+Sinh học,L6_ngoai_ngu_1_hkii,0.018946909874501327
+Sinh học,L7_gdcd_ca_nam,0.01887335263353935
+Sinh học,L6_toan_hkii,0.018857422687906623
+Sinh học,L8_lich_su_dia_li_ca_nam,0.018580378819522004
+Sinh học,L7_cong_nghe_hkii,0.018512783597131217
+Sinh học,L8_van_hki,0.01788330215490229
+Sinh học,L7_ngoai_ngu_1_ca_nam,0.01763024242153491
+Sinh học,L6_tin_hoc_ca_nam,0.01751382115796792
+Sinh học,L7_van_hkii,0.01747903494199396
+Sinh học,L6_toan_hki,0.017411093399432385
+Sinh học,L6_van_hki,0.017177050308672247
+Sinh học,L6_van_hkii,0.016953993678705606
+Sinh học,L7_cong_nghe_hki,0.01693533943144664
+Sinh học,L7_toan_hki,0.01690052521536337
+Sinh học,L7_khtn_ca_nam,0.01679692038517768
+Sinh học,L7_khtn_hkii,0.01667407636463354
+Sinh học,L7_ngoai_ngu_1_hki,0.016636120471455743
+Sinh học,L7_ngoai_ngu_1_hkii,0.016370874046222887
+Sinh học,L9_tin_hoc_ca_nam,0.016314440297189054
+Sinh học,L8_cong_nghe_hki,0.01610427206244683
+Sinh học,L7_cong_nghe_ca_nam,0.015841511909503975
+Sinh học,L9_van_hki,0.015728863083996476
+Sinh học,L7_gdcd_hki,0.01549519899666711
+Sinh học,L8_khtn_hkii,0.015464997368975365
+Sinh học,L9_ngoai_ngu_1_hkii,0.015275859062891382
+Sinh học,L8_tin_hoc_hkii,0.01526751138568128
+Sinh học,L8_gdcd_hki,0.015146723439943314
+Sinh học,L7_tin_hoc_hki,0.015083200563629155
+Sinh học,L6_khtn_hki,0.014972831247229127
+Sinh học,L9_toan_hkii,0.014815924604032903
+Sinh học,L7_tin_hoc_hkii,0.014778198772027696
+Sinh học,L8_tin_hoc_hki,0.014718784018934212
+Sinh học,L7_lich_su_dia_li_hkii,0.014675921630713162
+Sinh học,L6_tin_hoc_hki,0.014364227709474419
+Sinh học,L6_gdcd_hkii,0.014332506788178942
+Sinh học,L7_toan_hkii,0.014153706520316108
+Sinh học,L8_toan_hki,0.014112093066796177
+Sinh học,L8_ngoai_ngu_1_ca_nam,0.014017645140862107
+Sinh học,L9_cong_nghe_hki,0.013672414541562657
+Sinh học,L9_ngoai_ngu_1_hki,0.013582584041458115
+Sinh học,L8_gdcd_ca_nam,0.01355136048339855
+Sinh học,L8_cong_nghe_ca_nam,0.013544184429136956
+Sinh học,L8_gdcd_hkii,0.013120968533537142
+Sinh học,L9_ngoai_ngu_1_ca_nam,0.012991632679802063
+Sinh học,L6_gdcd_ca_nam,0.012969174767452558
+Sinh học,L6_cong_nghe_ca_nam,0.01281120669911305
+Sinh học,L8_van_hkii,0.012194237160810575
+Sinh học,L9_van_ca_nam,0.012179019305150904
+Sinh học,L8_khtn_hki,0.012052587053566054
+Sinh học,L6_cong_nghe_hkii,0.012034086808409774
+Sinh học,L9_toan_ca_nam,0.011947643501678958
+Sinh học,L7_van_hki,0.01182428760910741
+Sinh học,L7_lich_su_dia_li_ca_nam,0.011796268762255669
+Sinh học,L9_toan_hki,0.011794983926990356
+Sinh học,L9_lich_su_dia_li_ca_nam,0.011447346396752404
+Sinh học,L7_toan_ca_nam,0.01137287042939738
+Sinh học,L8_van_ca_nam,0.011364719972634614
+Sinh học,L9_tin_hoc_hkii,0.011310100038250278
+Sinh học,L6_lich_su_dia_li_hkii,0.011297126222943654
+Sinh học,L8_lich_su_dia_li_hki,0.011288525152594884
+Sinh học,L6_van_ca_nam,0.011222634341437021
+Sinh học,L6_ngoai_ngu_1_ca_nam,0.010807302508047152
+Sinh học,L6_khtn_ca_nam,0.01039204125636438
+Sinh học,L6_lich_su_dia_li_ca_nam,0.010212666755500182
+Sinh học,L7_gdcd_hkii,0.010026510783349398
+Sinh học,L6_toan_ca_nam,0.00931215057003719
+Sinh học,L8_tin_hoc_ca_nam,0.008072717460880402
+Sinh học,L7_tin_hoc_ca_nam,0.007844969506824527
+Sinh học,L8_cong_nghe_hkii,0.006268944719323915
+Tin học,L9_khtn_hkii,0.11841921662948683
+Tin học,L9_tin_hoc_hki,0.08816354198835699
+Tin học,L9_lich_su_dia_li_hki,0.07550690778280315
+Tin học,L8_gdcd_hki,0.07161329887915333
+Tin học,L9_khtn_ca_nam,0.05555454428761637
+Tin học,L6_toan_ca_nam,0.05341207362524044
+Tin học,L7_khtn_hki,0.04745974757860319
+Tin học,L7_van_hkii,0.04430118663460782
+Tin học,L7_cong_nghe_hkii,0.04331036584444356
+Tin học,L6_khtn_ca_nam,0.04219711517012726
+Tin học,L9_khtn_hki,0.04193443101438364
+Tin học,L8_ngoai_ngu_1_hkii,0.04096328046086152
+Tin học,L9_gdcd_hki,0.03744141703180809
+Tin học,L6_ngoai_ngu_1_hkii,0.03656853940588067
+Tin học,L9_tin_hoc_hkii,0.032964899920102105
+Tin học,L6_tin_hoc_hki,0.03170431254082086
+Tin học,L7_van_ca_nam,0.03049728823041209
+Tin học,L9_ngoai_ngu_1_hki,0.03020194918732879
+Tin học,L9_tin_hoc_ca_nam,0.030022747974646755
+Tin học,L7_khtn_hkii,0.030018024144442657
+Tin học,L7_cong_nghe_ca_nam,0.02870710072681053
+Tin học,L7_khtn_ca_nam,0.027471919556737254
+Tin học,L8_van_hki,0.02744592317066746
+Tin học,L6_cong_nghe_hki,0.026589463492745147
+Tin học,L7_lich_su_dia_li_hkii,0.02658597955138622
+Tin học,L8_toan_ca_nam,0.026428152562848157
+Tin học,L8_toan_hkii,0.02603839130052538
+Tin học,L8_lich_su_dia_li_ca_nam,0.02583013172835608
+Tin học,L6_toan_hki,0.02521899603359444
+Tin học,L7_toan_hkii,0.024432088958156493
+Tin học,L8_khtn_ca_nam,0.02305769403270885
+Tin học,L6_cong_nghe_ca_nam,0.022793482535605505
+Tin học,L7_ngoai_ngu_1_hki,0.022749651517563124
+Tin học,L6_khtn_hkii,0.02266750217984904
+Tin học,L6_khtn_hki,0.022601028447840767
+Tin học,L8_lich_su_dia_li_hki,0.0223719794582528
+Tin học,L7_tin_hoc_hkii,0.021884037721518125
+Tin học,L8_ngoai_ngu_1_ca_nam,0.021595268907139274
+Tin học,L6_van_hkii,0.021144540462885112
+Tin học,L9_lich_su_dia_li_hkii,0.020768947758622897
+Tin học,L6_ngoai_ngu_1_ca_nam,0.020752331794449113
+Tin học,L7_lich_su_dia_li_hki,0.020689847695579137
+Tin học,L8_van_hkii,0.020141565163609505
+Tin học,L6_lich_su_dia_li_hkii,0.02006025514060718
+Tin học,L8_lich_su_dia_li_hkii,0.01968659302077322
+Tin học,L6_tin_hoc_ca_nam,0.01955867398760726
+Tin học,L7_cong_nghe_hki,0.01951375297330942
+Tin học,L7_lich_su_dia_li_ca_nam,0.0194380687610623
+Tin học,L6_ngoai_ngu_1_hki,0.019063371214883905
+Tin học,L9_lich_su_dia_li_ca_nam,0.018980142726706156
+Tin học,L7_gdcd_hkii,0.01878415206877048
+Tin học,L6_lich_su_dia_li_hki,0.0183723590107555
+Tin học,L8_ngoai_ngu_1_hki,0.01828268067982176
+Tin học,L8_toan_hki,0.018272233072793357
+Tin học,L8_khtn_hkii,0.017562990204782317
+Tin học,L6_gdcd_hki,0.017114391820760078
+Tin học,L9_toan_ca_nam,0.016910976941780193
+Tin học,L7_gdcd_hki,0.016887225725668323
+Tin học,L8_cong_nghe_ca_nam,0.016737530524222395
+Tin học,L6_gdcd_ca_nam,0.016696169947093765
+Tin học,L6_toan_hkii,0.01659404417652933
+Tin học,L6_cong_nghe_hkii,0.016586467241209386
+Tin học,L7_ngoai_ngu_1_ca_nam,0.016295519992144618
+Tin học,L6_tin_hoc_hkii,0.016282601626121336
+Tin học,L7_toan_hki,0.016137442734511703
+Tin học,L7_ngoai_ngu_1_hkii,0.016132564260108038
+Tin học,L8_khtn_hki,0.01584985533974969
+Tin học,L6_lich_su_dia_li_ca_nam,0.01582003192149377
+Tin học,L9_toan_hkii,0.015759007981769022
+Tin học,L7_gdcd_ca_nam,0.01539969898023644
+Tin học,L9_gdcd_hkii,0.015188469456219702
+Tin học,L6_gdcd_hkii,0.01510426754768421
+Tin học,L9_toan_hki,0.015034988347309647
+Tin học,L7_toan_ca_nam,0.014983933413666072
+Tin học,L8_van_ca_nam,0.014973341178894449
+Tin học,L8_gdcd_hkii,0.01487077587833037
+Tin học,L9_van_hki,0.01484580250619973
+Tin học,L8_tin_hoc_hki,0.014761198131426711
+Tin học,L8_gdcd_ca_nam,0.01458895529859749
+Tin học,L7_tin_hoc_ca_nam,0.014335476740294674
+Tin học,L9_ngoai_ngu_1_hkii,0.013931001684935091
+Tin học,L7_van_hki,0.013878293976576517
+Tin học,L9_cong_nghe_hkii,0.013731714819204729
+Tin học,L8_cong_nghe_hki,0.013660812354683562
+Tin học,L9_gdcd_ca_nam,0.013644316044236545
+Tin học,L7_tin_hoc_hki,0.013500909426452058
+Tin học,L8_cong_nghe_hkii,0.01217136438863966
+Tin học,L9_ngoai_ngu_1_ca_nam,0.011257299218128652
+Tin học,L9_cong_nghe_hki,0.011235139282671181
+Tin học,L9_van_ca_nam,0.010297118030495945
+Tin học,L6_van_hki,0.009557924040851574
+Tin học,L8_tin_hoc_hkii,0.009526581009624481
+Tin học,L9_cong_nghe_ca_nam,0.009301313415316703
+Tin học,L9_van_hkii,0.008952046950546964
+Tin học,L6_van_ca_nam,0.008672355009219477
+Tin học,L8_tin_hoc_ca_nam,0.007066914741227957
+Vật lí,L9_khtn_hkii,0.18295827896928407
+Vật lí,L9_lich_su_dia_li_hkii,0.09603297033879417
+Vật lí,L9_khtn_ca_nam,0.0947108685956116
+Vật lí,L9_cong_nghe_hkii,0.06204496755829464
+Vật lí,L9_gdcd_hkii,0.04060653886437761
+Vật lí,L8_khtn_hki,0.03817973505889847
+Vật lí,L9_gdcd_ca_nam,0.038015591981629286
+Vật lí,L7_van_hki,0.037304058892823844
+Vật lí,L9_lich_su_dia_li_ca_nam,0.03652443767563063
+Vật lí,L9_tin_hoc_hkii,0.03525637849596355
+Vật lí,L9_khtn_hki,0.034356499908681094
+Vật lí,L9_van_hki,0.032300304297167175
+Vật lí,L7_khtn_hki,0.03207332191097531
+Vật lí,L9_toan_hkii,0.03151955452923174
+Vật lí,L9_tin_hoc_hki,0.031167565508586202
+Vật lí,L7_ngoai_ngu_1_ca_nam,0.030726071882354506
+Vật lí,L8_khtn_hkii,0.028802191992429702
+Vật lí,L9_ngoai_ngu_1_hki,0.02824631573677771
+Vật lí,L7_toan_hki,0.027191208117875898
+Vật lí,L9_van_ca_nam,0.02653588085128545
+Vật lí,L7_gdcd_hki,0.02640150601333257
+Vật lí,L7_khtn_ca_nam,0.025429150545526004
+Vật lí,L7_ngoai_ngu_1_hkii,0.025093713328811076
+Vật lí,L9_cong_nghe_hki,0.02498992492335031
+Vật lí,L6_toan_hki,0.02480764654408097
+Vật lí,L8_toan_hkii,0.024672688820737722
+Vật lí,L7_toan_hkii,0.024472499984813118
+Vật lí,L7_van_ca_nam,0.0242971623829968
+Vật lí,L8_gdcd_hki,0.022311065261614728
+Vật lí,L6_ngoai_ngu_1_ca_nam,0.021799429488858137
+Vật lí,L9_toan_hki,0.021563333676031703
+Vật lí,L8_toan_hki,0.021351678823122403
+Vật lí,L7_ngoai_ngu_1_hki,0.02087968539083962
+Vật lí,L7_khtn_hkii,0.02072467885718866
+Vật lí,L7_tin_hoc_hkii,0.020687148000896168
+Vật lí,L8_gdcd_ca_nam,0.020659549650314052
+Vật lí,L6_gdcd_ca_nam,0.020336191840777486
+Vật lí,L6_van_ca_nam,0.019979755139809454
+Vật lí,L9_gdcd_hki,0.019943658237886505
+Vật lí,L6_cong_nghe_hkii,0.019895895590729726
+Vật lí,L6_toan_hkii,0.019817604140641012
+Vật lí,L7_van_hkii,0.01943484372081548
+Vật lí,L7_toan_ca_nam,0.018507283859487533
+Vật lí,L8_ngoai_ngu_1_hkii,0.01824371561112571
+Vật lí,L6_ngoai_ngu_1_hki,0.018223044539134262
+Vật lí,L9_tin_hoc_ca_nam,0.018108133802219397
+Vật lí,L6_gdcd_hkii,0.01788076981709344
+Vật lí,L6_ngoai_ngu_1_hkii,0.017863646879341225
+Vật lí,L7_tin_hoc_ca_nam,0.017827547515006058
+Vật lí,L6_khtn_hkii,0.017723439262749874
+Vật lí,L7_gdcd_hkii,0.017223228490423063
+Vật lí,L9_lich_su_dia_li_hki,0.016681534715594023
+Vật lí,L8_khtn_ca_nam,0.016656110798273647
+Vật lí,L8_lich_su_dia_li_hki,0.016639942185190822
+Vật lí,L6_khtn_hki,0.016405114040601805
+Vật lí,L9_ngoai_ngu_1_ca_nam,0.01636950013354791
+Vật lí,L6_lich_su_dia_li_ca_nam,0.01629538914075148
+Vật lí,L6_lich_su_dia_li_hki,0.016213440780135778
+Vật lí,L8_lich_su_dia_li_hkii,0.015992792813049415
+Vật lí,L9_cong_nghe_ca_nam,0.01583468540206374
+Vật lí,L8_tin_hoc_ca_nam,0.015828011464426913
+Vật lí,L6_cong_nghe_hki,0.015653073382119187
+Vật lí,L9_toan_ca_nam,0.015181929414904507
+Vật lí,L6_van_hkii,0.01496048779986741
+Vật lí,L8_cong_nghe_hkii,0.014679738455445832
+Vật lí,L8_cong_nghe_hki,0.014553843248536357
+Vật lí,L8_tin_hoc_hki,0.01439194670324478
+Vật lí,L7_lich_su_dia_li_hkii,0.014155865180114927
+Vật lí,L6_van_hki,0.0141012110197271
+Vật lí,L8_tin_hoc_hkii,0.014065239360826156
+Vật lí,L7_gdcd_ca_nam,0.0140242355157714
+Vật lí,L6_tin_hoc_ca_nam,0.013974324512210493
+Vật lí,L6_cong_nghe_ca_nam,0.01389095338875929
+Vật lí,L7_lich_su_dia_li_hki,0.013807144135874774
+Vật lí,L8_ngoai_ngu_1_hki,0.013534552369470605
+Vật lí,L8_gdcd_hkii,0.013484994646740746
+Vật lí,L7_cong_nghe_hkii,0.01346480608711647
+Vật lí,L7_cong_nghe_hki,0.01338205709583073
+Vật lí,L8_cong_nghe_ca_nam,0.013105036269386918
+Vật lí,L8_ngoai_ngu_1_ca_nam,0.01302176047562666
+Vật lí,L8_van_hki,0.012963754530645676
+Vật lí,L6_tin_hoc_hkii,0.01285707679842442
+Vật lí,L6_gdcd_hki,0.012836147008064782
+Vật lí,L7_tin_hoc_hki,0.012468242997594433
+Vật lí,L6_lich_su_dia_li_hkii,0.012134023243519677
+Vật lí,L8_lich_su_dia_li_ca_nam,0.011769053220347419
+Vật lí,L8_van_hkii,0.011533865074854693
+Vật lí,L7_cong_nghe_ca_nam,0.011228800557989818
+Vật lí,L8_van_ca_nam,0.010915013841757285
+Vật lí,L7_lich_su_dia_li_ca_nam,0.00981780510639663
+Vật lí,L6_toan_ca_nam,0.009233726019172148
+Vật lí,L8_toan_ca_nam,0.009048489258378955
+Vật lí,L9_van_hkii,0.008928099601810447
+Vật lí,L6_tin_hoc_hki,0.008749886525012742
+Vật lí,L6_khtn_ca_nam,0.0068272328207041955
+Vật lí,L9_ngoai_ngu_1_hkii,0.006703233174666579
+Âm nhạc,L8_gdcd_hki,0.28715625479047246
+Âm nhạc,L8_cong_nghe_hki,0.2290639205026782
+Âm nhạc,L9_gdcd_ca_nam,0.21705871356649345
+Âm nhạc,L6_toan_hki,0.202955121729139
+Âm nhạc,L9_tin_hoc_hkii,0.176452969961457
+Âm nhạc,L7_gdcd_hki,0.1698567407154717
+Âm nhạc,L6_ngoai_ngu_1_hki,0.15244920055338648
+Âm nhạc,L7_cong_nghe_ca_nam,0.13995392126171444
+Âm nhạc,L8_gdcd_ca_nam,0.13659829769954515
+Âm nhạc,L8_tin_hoc_hki,0.13552718373267927
+Âm nhạc,L9_khtn_ca_nam,0.12952017551926198
+Âm nhạc,L9_van_hkii,0.12018357629522868
+Âm nhạc,L6_khtn_hkii,0.11215676145882308
+Âm nhạc,L6_van_hki,0.10804924234130647
+Âm nhạc,L7_khtn_hki,0.09428492135166017
+Âm nhạc,L9_khtn_hkii,0.09120781617331894
+Âm nhạc,L9_cong_nghe_hki,0.07870238681278022
+Âm nhạc,L6_tin_hoc_hkii,0.07860862794725801
+Âm nhạc,L6_gdcd_ca_nam,0.06554466857237762
+Âm nhạc,L9_lich_su_dia_li_hkii,0.06443978342333306
+Âm nhạc,L9_cong_nghe_hkii,0.06062494547333168
+Âm nhạc,L9_tin_hoc_hki,0.05939717522746484
+Âm nhạc,L9_van_ca_nam,0.05642535782278999
+Âm nhạc,L7_van_hki,0.05602234038960364
+Âm nhạc,L6_gdcd_hki,0.05567331663744848
+Âm nhạc,L8_lich_su_dia_li_hki,0.050451881096882735
+Âm nhạc,L6_tin_hoc_hki,0.04934766703931036
+Âm nhạc,L8_tin_hoc_ca_nam,0.04918798894291106
+Âm nhạc,L7_tin_hoc_hki,0.04880926499928014
+Âm nhạc,L7_cong_nghe_hkii,0.04780869158407105
+Âm nhạc,L9_tin_hoc_ca_nam,0.04771505737134443
+Âm nhạc,L9_toan_hkii,0.04579483035766057
+Âm nhạc,L8_gdcd_hkii,0.044613268231669306
+Âm nhạc,L7_tin_hoc_ca_nam,0.04294063888234634
+Âm nhạc,L6_ngoai_ngu_1_ca_nam,0.04270488763559232
+Âm nhạc,L6_khtn_ca_nam,0.042564338820440833
+Âm nhạc,L9_khtn_hki,0.04179869059074929
+Âm nhạc,L7_ngoai_ngu_1_hki,0.04125591623308171
+Âm nhạc,L7_lich_su_dia_li_hkii,0.039972545135228695
+Âm nhạc,L6_toan_hkii,0.0395506046716977
+Âm nhạc,L8_khtn_hki,0.03649484772805357
+Âm nhạc,L7_ngoai_ngu_1_hkii,0.036266021158566836
+Âm nhạc,L7_khtn_ca_nam,0.03595762671802803
+Âm nhạc,L7_van_hkii,0.03547985725985974
+Âm nhạc,L8_toan_ca_nam,0.035461589073854556
+Âm nhạc,L9_lich_su_dia_li_hki,0.03532256685485592
+Âm nhạc,L9_toan_hki,0.03439843294338723
+Âm nhạc,L9_gdcd_hkii,0.034381940309636025
+Âm nhạc,L8_khtn_hkii,0.03302136519829073
+Âm nhạc,L6_gdcd_hkii,0.03275938669287098
+Âm nhạc,L6_cong_nghe_hkii,0.03253477051948062
+Âm nhạc,L9_lich_su_dia_li_ca_nam,0.03208930651865181
+Âm nhạc,L9_van_hki,0.031098571402213122
+Âm nhạc,L9_ngoai_ngu_1_ca_nam,0.03064420231608349
+Âm nhạc,L7_lich_su_dia_li_hki,0.03042628985858067
+Âm nhạc,L7_ngoai_ngu_1_ca_nam,0.03034090551623727
+Âm nhạc,L9_ngoai_ngu_1_hkii,0.030091491633824994
+Âm nhạc,L7_khtn_hkii,0.030047664316080643
+Âm nhạc,L9_cong_nghe_ca_nam,0.028119020291602112
+Âm nhạc,L9_ngoai_ngu_1_hki,0.027056179487444935
+Âm nhạc,L8_toan_hkii,0.026772425946820135
+Âm nhạc,L7_van_ca_nam,0.025972342374247934
+Âm nhạc,L8_ngoai_ngu_1_ca_nam,0.02575641940572237
+Âm nhạc,L8_ngoai_ngu_1_hki,0.02498718053753622
+Âm nhạc,L7_tin_hoc_hkii,0.024256342158253244
+Âm nhạc,L7_lich_su_dia_li_ca_nam,0.02330600091966312
+Âm nhạc,L9_toan_ca_nam,0.02318726488241211
+Âm nhạc,L7_toan_hki,0.022024188851481892
+Âm nhạc,L7_toan_ca_nam,0.022020685087523556
+Âm nhạc,L9_gdcd_hki,0.022007684634801766
+Âm nhạc,L8_ngoai_ngu_1_hkii,0.021767461437372165
+Âm nhạc,L6_lich_su_dia_li_hkii,0.02153182804394981
+Âm nhạc,L8_tin_hoc_hkii,0.020799293056074513
+Âm nhạc,L6_lich_su_dia_li_hki,0.020022249306888402
+Âm nhạc,L8_van_hki,0.017096878637102377
+Âm nhạc,L6_toan_ca_nam,0.016388578349674138
+Âm nhạc,L6_van_ca_nam,0.016332400429869477
+Âm nhạc,L6_ngoai_ngu_1_hkii,0.015260017553820502
+Âm nhạc,L6_tin_hoc_ca_nam,0.013502772581164117
+Âm nhạc,L8_cong_nghe_ca_nam,0.013227279112763429
+Âm nhạc,L8_lich_su_dia_li_hkii,0.013216610973659308
+Âm nhạc,L6_lich_su_dia_li_ca_nam,0.013110737843081723
+Âm nhạc,L7_cong_nghe_hki,0.012845541754420174
+Âm nhạc,L6_van_hkii,0.012532243743540405
+Âm nhạc,L7_gdcd_hkii,0.012429391631486599
+Âm nhạc,L8_khtn_ca_nam,0.011571010605737871
+Âm nhạc,L8_van_hkii,0.011018459399457722
+Âm nhạc,L6_cong_nghe_ca_nam,0.010737670876925693
+Âm nhạc,L7_gdcd_ca_nam,0.010288869513639835
+Âm nhạc,L6_khtn_hki,0.010028479868701997
+Âm nhạc,L8_van_ca_nam,0.009916374282440542
+Âm nhạc,L6_cong_nghe_hki,0.006645716543389677
+Âm nhạc,L8_cong_nghe_hkii,0.00657926512141348
+Âm nhạc,L7_toan_hkii,0.006012213397851005
+Âm nhạc,L8_toan_hki,0.005897259126809937
+Âm nhạc,L8_lich_su_dia_li_ca_nam,0.0038670386978154917
+Địa lí,L9_khtn_hkii,0.14431291606237398
+Địa lí,L9_khtn_ca_nam,0.08957414316612278
+Địa lí,L9_lich_su_dia_li_hkii,0.05951309877119491
+Địa lí,L9_lich_su_dia_li_ca_nam,0.05507141729745687
+Địa lí,L9_khtn_hki,0.054958492742585914
+Địa lí,L9_gdcd_hkii,0.05017522564143787
+Địa lí,L7_ngoai_ngu_1_ca_nam,0.03878015568799271
+Địa lí,L6_toan_hkii,0.03784433771366307
+Địa lí,L9_gdcd_ca_nam,0.037303376413911356
+Địa lí,L6_toan_hki,0.03464179768084023
+Địa lí,L7_ngoai_ngu_1_hkii,0.03381257356771473
+Địa lí,L7_van_ca_nam,0.0328956277480533
+Địa lí,L9_lich_su_dia_li_hki,0.032200901932625384
+Địa lí,L8_khtn_ca_nam,0.03219136941476995
+Địa lí,L6_tin_hoc_hkii,0.031333279953358266
+Địa lí,L9_van_hki,0.03097607027686867
+Địa lí,L9_gdcd_hki,0.029043646956186192
+Địa lí,L7_khtn_hkii,0.027548059362532767
+Địa lí,L7_khtn_ca_nam,0.02661590437338192
+Địa lí,L9_van_ca_nam,0.026340267432987233
+Địa lí,L7_gdcd_hkii,0.025474851904177177
+Địa lí,L6_khtn_hkii,0.024807259054108376
+Địa lí,L7_ngoai_ngu_1_hki,0.024294802390782765
+Địa lí,L9_van_hkii,0.02429449397448989
+Địa lí,L9_cong_nghe_hkii,0.02422362416868928
+Địa lí,L6_khtn_hki,0.0240036500955352
+Địa lí,L8_gdcd_hki,0.02333186017202939
+Địa lí,L7_tin_hoc_hkii,0.023186566106629794
+Địa lí,L8_khtn_hki,0.022737333637907003
+Địa lí,L9_toan_hkii,0.02267091835687957
+Địa lí,L7_tin_hoc_ca_nam,0.02215855796803279
+Địa lí,L6_ngoai_ngu_1_hkii,0.021544867067992343
+Địa lí,L8_gdcd_hkii,0.020530041216787497
+Địa lí,L9_ngoai_ngu_1_hki,0.020161890195110527
+Địa lí,L6_toan_ca_nam,0.019998060782240343
+Địa lí,L9_cong_nghe_hki,0.019669855051735345
+Địa lí,L9_toan_hki,0.019627645804598796
+Địa lí,L6_khtn_ca_nam,0.019535810141275815
+Địa lí,L8_van_hkii,0.01939698155088205
+Địa lí,L8_van_hki,0.01928733743809407
+Địa lí,L6_cong_nghe_hki,0.01913445286267721
+Địa lí,L8_toan_hki,0.0187990390622761
+Địa lí,L7_lich_su_dia_li_hki,0.018687689287569913
+Địa lí,L9_cong_nghe_ca_nam,0.01857581905966235
+Địa lí,L9_tin_hoc_hki,0.018460801285021717
+Địa lí,L6_gdcd_ca_nam,0.01841097564289073
+Địa lí,L8_ngoai_ngu_1_hkii,0.01757081622002035
+Địa lí,L9_toan_ca_nam,0.017493150179468744
+Địa lí,L7_toan_hkii,0.017385141297739874
+Địa lí,L6_cong_nghe_hkii,0.016911501694859065
+Địa lí,L6_gdcd_hki,0.0165491431709324
+Địa lí,L9_ngoai_ngu_1_hkii,0.016534221127170897
+Địa lí,L7_van_hkii,0.016223027430446804
+Địa lí,L8_ngoai_ngu_1_hki,0.016222402809268153
+Địa lí,L9_tin_hoc_hkii,0.016158207313943598
+Địa lí,L8_toan_hkii,0.016075542630535934
+Địa lí,L8_tin_hoc_ca_nam,0.015854765467075246
+Địa lí,L7_cong_nghe_hkii,0.015687060073513132
+Địa lí,L7_gdcd_ca_nam,0.015554071483342567
+Địa lí,L6_lich_su_dia_li_hki,0.015546328789581796
+Địa lí,L8_gdcd_ca_nam,0.015519108680016958
+Địa lí,L7_khtn_hki,0.01534811333551812
+Địa lí,L7_van_hki,0.015335877577393898
+Địa lí,L7_cong_nghe_hki,0.015254736556408325
+Địa lí,L8_khtn_hkii,0.014946112695143263
+Địa lí,L7_lich_su_dia_li_hkii,0.014743871743629532
+Địa lí,L8_ngoai_ngu_1_ca_nam,0.01451889639315009
+Địa lí,L6_ngoai_ngu_1_hki,0.014214096523428461
+Địa lí,L8_tin_hoc_hki,0.014066679561025024
+Địa lí,L6_lich_su_dia_li_ca_nam,0.01383858085923105
+Địa lí,L6_van_hki,0.013798831479352118
+Địa lí,L6_tin_hoc_hki,0.013780628889744028
+Địa lí,L8_tin_hoc_hkii,0.013495951642993156
+Địa lí,L6_tin_hoc_ca_nam,0.013310431469693329
+Địa lí,L7_gdcd_hki,0.012764076479231825
+Địa lí,L6_gdcd_hkii,0.012560179137261
+Địa lí,L9_ngoai_ngu_1_ca_nam,0.012520345406135608
+Địa lí,L8_lich_su_dia_li_hki,0.012465894796930202
+Địa lí,L8_cong_nghe_hkii,0.012454753607084645
+Địa lí,L8_lich_su_dia_li_hkii,0.012443212021572983
+Địa lí,L8_cong_nghe_hki,0.011693765205563087
+Địa lí,L7_cong_nghe_ca_nam,0.011644466172203438
+Địa lí,L6_ngoai_ngu_1_ca_nam,0.011251708212060866
+Địa lí,L8_cong_nghe_ca_nam,0.010348122892077505
+Địa lí,L8_toan_ca_nam,0.01033820286510798
+Địa lí,L7_tin_hoc_hki,0.010334062709000807
+Địa lí,L6_lich_su_dia_li_hkii,0.009981475719598967
+Địa lí,L6_van_hkii,0.009921121281783692
+Địa lí,L9_tin_hoc_ca_nam,0.00980732429312766
+Địa lí,L7_toan_ca_nam,0.009721558861646638
+Địa lí,L8_lich_su_dia_li_ca_nam,0.009608067848657845
+Địa lí,L8_van_ca_nam,0.008866467968258084
+Địa lí,L7_lich_su_dia_li_ca_nam,0.00880263810363919
+Địa lí,L7_toan_hki,0.008565893171138284
+Địa lí,L6_van_ca_nam,0.007331359212347235
+Địa lí,L6_cong_nghe_ca_nam,0.006413892058114311

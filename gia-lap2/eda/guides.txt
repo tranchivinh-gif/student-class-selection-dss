@@ -1,0 +1,43 @@
+01 — Data Overview
+- Đọc các sheet cần thiết.
+- Xác định kích thước dữ liệu.
+- Kiểm tra tên và kiểu dữ liệu từng cột.
+- Phân biệt đặc trưng số và đặc trưng phân loại.
+- Xác định biến mục tiêu (target).
+- Kiểm tra tính liên kết dữ liệu của cùng một học sinh qua các lớp.
+02 — Data Quality
+- Missing Values: số lượng và tỷ lệ thiếu.
+- Duplicate: dòng trùng và mã học sinh trùng.
+- Invalid Values: điểm ngoài phạm vi hợp lệ.
+- Inconsistent Data: dữ liệu không nhất quán giữa các sheet.
+- Kiểm tra mỗi học sinh có đúng 4/9 môn tự chọn.
+- Phát hiện giá trị ngoại lệ (outliers) để xem xét, không tự động loại bỏ.
+03 — Univariate Analysis
+- Histogram: phân phối điểm.
+- Boxplot: phát hiện giá trị bất thường.
+- KDE Plot: hình dạng phân phối.
+- Descriptive Statistics: mean, median, std, skewness.
+- So sánh phân phối điểm giữa các lớp.
+04 — Bivariate Analysis
+- Correlation Matrix: tương quan giữa các môn học.
+- Scatter Plot: quan hệ giữa điểm hai môn.
+- Boxplot theo nhóm: so sánh điểm giữa các nhóm nhãn.
+- Kiểm tra mối liên hệ giữa kết quả học tập và lựa chọn môn học.
+05 — Learning Trajectory Analysis
+- Xu hướng điểm trung bình lớp 6 → 9.
+- Sự thay đổi điểm từng môn qua các năm.
+- Mức độ ổn định kết quả học tập.
+- Phân nhóm xu hướng tăng, giảm hoặc ổn định để phục vụ phân tích.
+- So sánh quỹ đạo học tập giữa các nhóm nhãn.
+06 — Target Analysis
+- Đếm số lượng mẫu của từng lớp nhãn.
+- Tính tỷ lệ phần trăm các lớp.
+- Trực quan hóa bằng Countplot.
+- Xác định mức độ mất cân bằng lớp.
+- Kiểm tra những lớp có quá ít mẫu.
+07 — Feature Analysis
+- Kiểm tra đặc trưng có phương sai thấp.
+- Phát hiện đặc trưng trùng lặp hoặc tương quan quá cao.
+- Phân tích mối liên hệ giữa đặc trưng và biến mục tiêu.
+- Xác định các đặc trưng không được sử dụng tại thời điểm dự đoán.
+- Phát hiện nguy cơ Data Leakage.

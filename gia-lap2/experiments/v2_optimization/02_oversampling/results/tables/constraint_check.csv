@@ -1,0 +1,11 @@
+﻿Strategy,Fold,Samples,Binary_Valid,Exactly_4_Labels,Original_Combinations,Resampled_Combinations,Status
+ros_mild,1,7212,True,True,18,18,PASS
+ros_mild,2,7211,True,True,18,18,PASS
+ros_mild,3,7200,True,True,18,18,PASS
+ros_mild,4,7229,True,True,18,18,PASS
+ros_mild,5,7196,True,True,18,18,PASS
+ros_moderate,1,7247,True,True,18,18,PASS
+ros_moderate,2,7249,True,True,18,18,PASS
+ros_moderate,3,7237,True,True,18,18,PASS
+ros_moderate,4,7252,True,True,18,18,PASS
+ros_moderate,5,7228,True,True,18,18,PASS

@@ -1,0 +1,82 @@
+﻿Model,Strategy,Nhãn,F1
+CatBoost,balanced,Công nghệ,0.6258049796093187
+CatBoost,balanced,Giáo dục kinh tế và pháp luật (GDKT&PL),0.5483538853785312
+CatBoost,balanced,Hóa học,0.5904763910161118
+CatBoost,balanced,Mĩ thuật,0.0
+CatBoost,balanced,Sinh học,0.3911274291675491
+CatBoost,balanced,Tin học,0.9051355156137051
+CatBoost,balanced,Vật lí,0.6509397992999284
+CatBoost,balanced,Âm nhạc,0.0
+CatBoost,balanced,Địa lí,0.6161897576234889
+CatBoost,none,Công nghệ,0.7098346083766854
+CatBoost,none,Giáo dục kinh tế và pháp luật (GDKT&PL),0.4365675172934309
+CatBoost,none,Hóa học,0.5896791290196446
+CatBoost,none,Mĩ thuật,0.0
+CatBoost,none,Sinh học,0.07483193148918629
+CatBoost,none,Tin học,0.9274970150095146
+CatBoost,none,Vật lí,0.7196514092813175
+CatBoost,none,Âm nhạc,0.0
+CatBoost,none,Địa lí,0.6333651268671451
+CatBoost,sqrt_balanced,Công nghệ,0.6804254048075988
+CatBoost,sqrt_balanced,Giáo dục kinh tế và pháp luật (GDKT&PL),0.5041792816953897
+CatBoost,sqrt_balanced,Hóa học,0.6004235216525015
+CatBoost,sqrt_balanced,Mĩ thuật,0.0
+CatBoost,sqrt_balanced,Sinh học,0.20752144852467486
+CatBoost,sqrt_balanced,Tin học,0.926188915667938
+CatBoost,sqrt_balanced,Vật lí,0.6963345537564993
+CatBoost,sqrt_balanced,Âm nhạc,0.0
+CatBoost,sqrt_balanced,Địa lí,0.6235134355965297
+Random Forest,balanced,Công nghệ,0.6649809971704814
+Random Forest,balanced,Giáo dục kinh tế và pháp luật (GDKT&PL),0.5219834080410333
+Random Forest,balanced,Hóa học,0.598233602699519
+Random Forest,balanced,Mĩ thuật,0.0
+Random Forest,balanced,Sinh học,0.22613613651900502
+Random Forest,balanced,Tin học,0.9269676076454397
+Random Forest,balanced,Vật lí,0.6934113402662494
+Random Forest,balanced,Âm nhạc,0.0
+Random Forest,balanced,Địa lí,0.6231171950196096
+Random Forest,none,Công nghệ,0.7160586480176594
+Random Forest,none,Giáo dục kinh tế và pháp luật (GDKT&PL),0.41161670541221584
+Random Forest,none,Hóa học,0.5919798721017195
+Random Forest,none,Mĩ thuật,0.0
+Random Forest,none,Sinh học,0.0415381531439768
+Random Forest,none,Tin học,0.9275040646356926
+Random Forest,none,Vật lí,0.727983375100853
+Random Forest,none,Âm nhạc,0.0
+Random Forest,none,Địa lí,0.6354586043309951
+Random Forest,sqrt_balanced,Công nghệ,0.6990042825241406
+Random Forest,sqrt_balanced,Giáo dục kinh tế và pháp luật (GDKT&PL),0.46902233404433985
+Random Forest,sqrt_balanced,Hóa học,0.5970970286062693
+Random Forest,sqrt_balanced,Mĩ thuật,0.0
+Random Forest,sqrt_balanced,Sinh học,0.11250167195330843
+Random Forest,sqrt_balanced,Tin học,0.9275603964736046
+Random Forest,sqrt_balanced,Vật lí,0.7119020016867097
+Random Forest,sqrt_balanced,Âm nhạc,0.0
+Random Forest,sqrt_balanced,Địa lí,0.6317060039377494
+XGBoost,balanced,Công nghệ,0.6335695046190002
+XGBoost,balanced,Giáo dục kinh tế và pháp luật (GDKT&PL),0.520902829487678
+XGBoost,balanced,Hóa học,0.5898052867345693
+XGBoost,balanced,Mĩ thuật,0.0
+XGBoost,balanced,Sinh học,0.3399758969796122
+XGBoost,balanced,Tin học,0.895597580648233
+XGBoost,balanced,Vật lí,0.665732443190016
+XGBoost,balanced,Âm nhạc,0.0
+XGBoost,balanced,Địa lí,0.609547119077226
+XGBoost,none,Công nghệ,0.6824900602996715
+XGBoost,none,Giáo dục kinh tế và pháp luật (GDKT&PL),0.44787606826885956
+XGBoost,none,Hóa học,0.5861330761068486
+XGBoost,none,Mĩ thuật,0.0
+XGBoost,none,Sinh học,0.14348928165304992
+XGBoost,none,Tin học,0.9264925845240077
+XGBoost,none,Vật lí,0.7045899864752876
+XGBoost,none,Âm nhạc,0.0
+XGBoost,none,Địa lí,0.6263132699609794
+XGBoost,sqrt_balanced,Công nghệ,0.6523708346825566
+XGBoost,sqrt_balanced,Giáo dục kinh tế và pháp luật (GDKT&PL),0.49002971307001986
+XGBoost,sqrt_balanced,Hóa học,0.5858159523659295
+XGBoost,sqrt_balanced,Mĩ thuật,0.0
+XGBoost,sqrt_balanced,Sinh học,0.23849012998479494
+XGBoost,sqrt_balanced,Tin học,0.9218624243098036
+XGBoost,sqrt_balanced,Vật lí,0.684253534126801
+XGBoost,sqrt_balanced,Âm nhạc,0.0
+XGBoost,sqrt_balanced,Địa lí,0.6126005741503343

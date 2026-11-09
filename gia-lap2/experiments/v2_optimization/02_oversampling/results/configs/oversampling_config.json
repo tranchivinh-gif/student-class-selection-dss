@@ -1,0 +1,64 @@
+{
+    "experiment": "13 - Oversampling Experiment",
+    "method": "Random Oversampling by Label Combination",
+    "strategies": {
+        "ros_mild": {
+            "median_fraction": 0.25,
+            "max_multiplier": 2
+        },
+        "ros_moderate": {
+            "median_fraction": 0.5,
+            "max_multiplier": 3
+        }
+    },
+    "models": [
+        "Random Forest",
+        "XGBoost",
+        "CatBoost"
+    ],
+    "random_seed": 42,
+    "n_splits": 5,
+    "cv_source": "data/data-splits/cv_folds_v1",
+    "training_source": "Development only",
+    "validation_resampled": false,
+    "class_weight_enabled": false,
+    "prediction_strategy": "Top-4 probabilities",
+    "hyperparameters": {
+        "Random Forest": {
+            "n_estimators": 200,
+            "criterion": "gini",
+            "max_depth": null,
+            "min_samples_split": 2,
+            "min_samples_leaf": 1,
+            "max_features": "sqrt",
+            "bootstrap": true,
+            "class_weight": null,
+            "random_state": 42,
+            "n_jobs": -1
+        },
+        "XGBoost": {
+            "n_estimators": 200,
+            "max_depth": 6,
+            "learning_rate": 0.1,
+            "subsample": 1.0,
+            "colsample_bytree": 1.0,
+            "objective": "binary:logistic",
+            "eval_metric": "logloss",
+            "random_state": 42,
+            "n_jobs": -1,
+            "tree_method": "hist"
+        },
+        "CatBoost": {
+            "iterations": 500,
+            "depth": 6,
+            "learning_rate": 0.05,
+            "loss_function": "Logloss",
+            "l2_leaf_reg": 3.0,
+            "random_seed": 42,
+            "thread_count": -1,
+            "verbose": false,
+            "allow_writing_files": false
+        }
+    },
+    "independent_test_used": false
+}

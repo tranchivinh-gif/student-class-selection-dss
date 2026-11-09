@@ -1,0 +1,11 @@
+﻿Strategy,Fold,Original_Train,Resampled_Train,Added_Samples,Validation_Leakage
+ros_mild,1,7203,7212,9,0
+ros_mild,2,7201,7211,10,0
+ros_mild,3,7190,7200,10,0
+ros_mild,4,7220,7229,9,0
+ros_mild,5,7186,7196,10,0
+ros_moderate,1,7203,7247,44,0
+ros_moderate,2,7201,7249,48,0
+ros_moderate,3,7190,7237,47,0
+ros_moderate,4,7220,7252,32,0
+ros_moderate,5,7186,7228,42,0

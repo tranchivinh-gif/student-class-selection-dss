@@ -1,0 +1,5 @@
+﻿Model,Tổng mẫu,Số mẫu đúng 4 nhãn,Số mẫu vi phạm,Tỷ lệ hợp lệ (%)
+Most Frequent Combination,9000,9000,0,100.0
+Random Forest,9000,9000,0,100.0
+XGBoost,9000,9000,0,100.0
+CatBoost,9000,9000,0,100.0

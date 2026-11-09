@@ -1,0 +1,91 @@
+﻿Model,Strategy,Fold,Nhãn,Actual_Positive,Predicted_Positive,True_Positive,F1,Mean_Probability
+Random Forest,balanced,1,Âm nhạc,3,0,0,0.0,0.004435169727323317
+Random Forest,balanced,1,Mĩ thuật,31,0,0,0.0,0.03357818586533111
+Random Forest,balanced,1,Sinh học,621,226,95,0.2243211334120425,0.42530050083472454
+Random Forest,balanced,2,Âm nhạc,4,0,0,0.0,0.0042162312395775435
+Random Forest,balanced,2,Mĩ thuật,31,0,0,0.0,0.03281267370761535
+Random Forest,balanced,2,Sinh học,620,237,95,0.22170361726954493,0.4310672595886604
+Random Forest,balanced,3,Âm nhạc,4,0,0,0.0,0.0034364640883977906
+Random Forest,balanced,3,Mĩ thuật,30,0,0,0.0,0.03290331491712708
+Random Forest,balanced,3,Sinh học,621,245,99,0.22863741339491916,0.4258011049723757
+Random Forest,balanced,4,Âm nhạc,4,0,0,0.0,0.0042837078651685396
+Random Forest,balanced,4,Mĩ thuật,31,0,0,0.0,0.03436516853932584
+Random Forest,balanced,4,Sinh học,620,244,101,0.2337962962962963,0.4293286516853933
+Random Forest,balanced,5,Âm nhạc,4,0,0,0.0,0.003599779492833517
+Random Forest,balanced,5,Mĩ thuật,30,0,0,0.0,0.033412348401323046
+Random Forest,balanced,5,Sinh học,621,252,97,0.2222222222222222,0.4289084895259096
+Random Forest,sqrt_balanced,1,Âm nhạc,3,0,0,0.0,0.004435169727323317
+Random Forest,sqrt_balanced,1,Mĩ thuật,31,0,0,0.0,0.03200890372843628
+Random Forest,sqrt_balanced,1,Sinh học,621,85,33,0.09348441926345609,0.39150806900389534
+Random Forest,sqrt_balanced,2,Âm nhạc,4,0,0,0.0,0.0042162312395775435
+Random Forest,sqrt_balanced,2,Mĩ thuật,31,0,0,0.0,0.030942190105614234
+Random Forest,sqrt_balanced,2,Sinh học,620,71,32,0.09261939218523878,0.3925875486381323
+Random Forest,sqrt_balanced,3,Âm nhạc,4,0,0,0.0,0.0034364640883977906
+Random Forest,sqrt_balanced,3,Mĩ thuật,30,0,0,0.0,0.03205248618784531
+Random Forest,sqrt_balanced,3,Sinh học,621,107,44,0.12087912087912088,0.38743646408839777
+Random Forest,sqrt_balanced,4,Âm nhạc,4,0,0,0.0,0.0042837078651685396
+Random Forest,sqrt_balanced,4,Mĩ thuật,31,0,0,0.0,0.03286516853932584
+Random Forest,sqrt_balanced,4,Sinh học,620,103,47,0.13001383125864455,0.39465168539325846
+Random Forest,sqrt_balanced,5,Âm nhạc,4,0,0,0.0,0.003599779492833517
+Random Forest,sqrt_balanced,5,Mĩ thuật,30,0,0,0.0,0.031893605292172
+Random Forest,sqrt_balanced,5,Sinh học,621,112,46,0.12551159618008187,0.3916510474090408
+XGBoost,balanced,1,Âm nhạc,3,0,0,0.0,0.0003845938481390476
+XGBoost,balanced,1,Mĩ thuật,31,0,0,0.0,0.008542053401470184
+XGBoost,balanced,1,Sinh học,621,512,192,0.3389232127096205,0.41790422797203064
+XGBoost,balanced,2,Âm nhạc,4,0,0,0.0,0.0005129025666974485
+XGBoost,balanced,2,Mĩ thuật,31,0,0,0.0,0.007702179718762636
+XGBoost,balanced,2,Sinh học,620,551,211,0.36037574722459437,0.4178673028945923
+XGBoost,balanced,3,Âm nhạc,4,0,0,0.0,0.00028330166242085397
+XGBoost,balanced,3,Mĩ thuật,30,0,0,0.0,0.007351791486144066
+XGBoost,balanced,3,Sinh học,621,506,190,0.33717834960070986,0.4063435196876526
+XGBoost,balanced,4,Âm nhạc,4,0,0,0.0,0.00046760551049374044
+XGBoost,balanced,4,Mĩ thuật,31,0,0,0.0,0.007919172756373882
+XGBoost,balanced,4,Sinh học,620,489,185,0.33363390441839497,0.4108545780181885
+XGBoost,balanced,5,Âm nhạc,4,0,0,0.0,0.00029271526727825403
+XGBoost,balanced,5,Mĩ thuật,30,0,0,0.0,0.007726298179477453
+XGBoost,balanced,5,Sinh học,621,501,185,0.32976827094474154,0.4120829999446869
+XGBoost,sqrt_balanced,1,Âm nhạc,3,0,0,0.0,0.0003845938481390476
+XGBoost,sqrt_balanced,1,Mĩ thuật,31,0,0,0.0,0.005508177448064089
+XGBoost,sqrt_balanced,1,Sinh học,621,297,129,0.28104575163398693,0.37264779210090637
+XGBoost,sqrt_balanced,2,Âm nhạc,4,0,0,0.0,0.0005129025666974485
+XGBoost,sqrt_balanced,2,Mĩ thuật,31,0,0,0.0,0.005652446299791336
+XGBoost,sqrt_balanced,2,Sinh học,620,296,116,0.25327510917030566,0.37248268723487854
+XGBoost,sqrt_balanced,3,Âm nhạc,4,0,0,0.0,0.00028330166242085397
+XGBoost,sqrt_balanced,3,Mĩ thuật,30,0,0,0.0,0.005625553894788027
+XGBoost,sqrt_balanced,3,Sinh học,621,271,102,0.22869955156950672,0.36212387681007385
+XGBoost,sqrt_balanced,4,Âm nhạc,4,0,0,0.0,0.00046760551049374044
+XGBoost,sqrt_balanced,4,Mĩ thuật,31,0,0,0.0,0.005843281280249357
+XGBoost,sqrt_balanced,4,Sinh học,620,257,93,0.2120866590649943,0.36662885546684265
+XGBoost,sqrt_balanced,5,Âm nhạc,4,0,0,0.0,0.00029271526727825403
+XGBoost,sqrt_balanced,5,Mĩ thuật,30,0,0,0.0,0.004847870208323002
+XGBoost,sqrt_balanced,5,Sinh học,621,290,99,0.21734357848518113,0.370404452085495
+CatBoost,balanced,1,Âm nhạc,3,0,0,0.0,0.00020656028070041956
+CatBoost,balanced,1,Mĩ thuật,31,0,0,0.0,0.010793315814924664
+CatBoost,balanced,1,Sinh học,621,639,244,0.3873015873015873,0.45463738588456765
+CatBoost,balanced,2,Âm nhạc,4,0,0,0.0,0.000169972846613518
+CatBoost,balanced,2,Mĩ thuật,31,0,0,0.0,0.01118796643274984
+CatBoost,balanced,2,Sinh học,620,643,252,0.3990498812351544,0.45787100004886444
+CatBoost,balanced,3,Âm nhạc,4,0,0,0.0,0.00014120587793487764
+CatBoost,balanced,3,Mĩ thuật,30,0,0,0.0,0.010396787493542855
+CatBoost,balanced,3,Sinh học,621,604,255,0.4163265306122449,0.44804535028434067
+CatBoost,balanced,4,Âm nhạc,4,0,0,0.0,0.00016715131406083247
+CatBoost,balanced,4,Mĩ thuật,31,0,0,0.0,0.010633340108878224
+CatBoost,balanced,4,Sinh học,620,626,242,0.3884430176565008,0.45494260140314247
+CatBoost,balanced,5,Âm nhạc,4,0,0,0.0,0.0001483451406547875
+CatBoost,balanced,5,Mĩ thuật,30,0,0,0.0,0.011175968907932167
+CatBoost,balanced,5,Sinh học,621,619,226,0.36451612903225805,0.45552970497107115
+CatBoost,sqrt_balanced,1,Âm nhạc,3,0,0,0.0,0.00020656028070041956
+CatBoost,sqrt_balanced,1,Mĩ thuật,31,0,0,0.0,0.010930766280816984
+CatBoost,sqrt_balanced,1,Sinh học,621,199,89,0.21707317073170732,0.39303502499520765
+CatBoost,sqrt_balanced,2,Âm nhạc,4,0,0,0.0,0.000169972846613518
+CatBoost,sqrt_balanced,2,Mĩ thuật,31,0,0,0.0,0.01066246796873685
+CatBoost,sqrt_balanced,2,Sinh học,620,211,94,0.22623345367027678,0.39614612248404246
+CatBoost,sqrt_balanced,3,Âm nhạc,4,0,0,0.0,0.00014120587793487764
+CatBoost,sqrt_balanced,3,Mĩ thuật,30,0,0,0.0,0.010972767680320137
+CatBoost,sqrt_balanced,3,Sinh học,621,217,88,0.2100238663484487,0.389704809943006
+CatBoost,sqrt_balanced,4,Âm nhạc,4,0,0,0.0,0.00016715131406083247
+CatBoost,sqrt_balanced,4,Mĩ thuật,31,0,0,0.0,0.011498003881880907
+CatBoost,sqrt_balanced,4,Sinh học,620,197,81,0.19828641370869032,0.3913474380601195
+CatBoost,sqrt_balanced,5,Âm nhạc,4,0,0,0.0,0.0001483451406547875
+CatBoost,sqrt_balanced,5,Mĩ thuật,30,0,0,0.0,0.011071845136823324
+CatBoost,sqrt_balanced,5,Sinh học,621,207,77,0.1859903381642512,0.39478630716322954
