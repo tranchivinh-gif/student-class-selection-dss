@@ -1,0 +1,609 @@
+{
+  "approval_status": "pilot_exploratory",
+  "class_counts": {
+    "C1": 189,
+    "C2": 181,
+    "C3": 161,
+    "C4": 175,
+    "C5": 154,
+    "C6": 140
+  },
+  "completed_at_utc": "2026-11-20T07:00:32.633384+00:00",
+  "config": {
+    "dataset": {
+      "output_format": "csv",
+      "records_per_seed": 10000,
+      "seeds": [
+        20261108,
+        20261109,
+        20261110,
+        20261111,
+        20261112
+      ]
+    },
+    "design_status": "approved",
+    "interests_and_careers": {
+      "elective_subjects": [
+        "physics",
+        "chemistry",
+        "biology",
+        "geography",
+        "economics_and_law",
+        "informatics",
+        "technology",
+        "music",
+        "visual_arts"
+      ],
+      "riasec_dimensions": [
+        "realistic",
+        "investigative",
+        "artistic",
+        "social",
+        "enterprising",
+        "conventional"
+      ],
+      "shared_variance_parameter": 0.4,
+      "subject_career_matrix": {
+        "biology": [
+          0.45,
+          1.0,
+          0.2,
+          0.75,
+          0.2,
+          0.35
+        ],
+        "chemistry": [
+          0.7,
+          1.0,
+          0.15,
+          0.25,
+          0.2,
+          0.45
+        ],
+        "economics_and_law": [
+          0.15,
+          0.35,
+          0.15,
+          0.8,
+          1.0,
+          0.8
+        ],
+        "geography": [
+          0.55,
+          0.75,
+          0.2,
+          0.65,
+          0.55,
+          0.5
+        ],
+        "informatics": [
+          0.9,
+          0.9,
+          0.5,
+          0.2,
+          0.4,
+          0.85
+        ],
+        "music": [
+          0.2,
+          0.15,
+          1.0,
+          0.65,
+          0.35,
+          0.15
+        ],
+        "physics": [
+          0.9,
+          1.0,
+          0.15,
+          0.15,
+          0.2,
+          0.4
+        ],
+        "technology": [
+          1.0,
+          0.75,
+          0.35,
+          0.2,
+          0.45,
+          0.65
+        ],
+        "visual_arts": [
+          0.35,
+          0.15,
+          1.0,
+          0.35,
+          0.4,
+          0.2
+        ]
+      }
+    },
+    "label_design": {
+      "classes": [
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C5",
+        "C6"
+      ],
+      "status": "confirmed"
+    },
+    "labels": {
+      "ability_names": [
+        "quantitative",
+        "language",
+        "scientific_inquiry",
+        "social",
+        "digital_technology"
+      ],
+      "classes": {
+        "C1": [
+          "geography",
+          "economics_and_law",
+          "informatics",
+          "technology"
+        ],
+        "C2": [
+          "physics",
+          "biology",
+          "informatics",
+          "technology"
+        ],
+        "C3": [
+          "physics",
+          "chemistry",
+          "informatics",
+          "technology"
+        ],
+        "C4": [
+          "physics",
+          "chemistry",
+          "biology",
+          "informatics"
+        ],
+        "C5": [
+          "physics",
+          "geography",
+          "economics_and_law",
+          "informatics"
+        ],
+        "C6": [
+          "physics",
+          "chemistry",
+          "geography",
+          "informatics"
+        ]
+      },
+      "selection": "softmax_then_categorical",
+      "softmax_temperature": 0.1,
+      "subject_ability_weights": {
+        "biology": [
+          0.1,
+          0.1,
+          0.65,
+          0.1,
+          0.05
+        ],
+        "chemistry": [
+          0.3,
+          0.05,
+          0.55,
+          0.05,
+          0.05
+        ],
+        "economics_and_law": [
+          0.1,
+          0.25,
+          0.05,
+          0.5,
+          0.1
+        ],
+        "geography": [
+          0.1,
+          0.25,
+          0.25,
+          0.3,
+          0.1
+        ],
+        "informatics": [
+          0.3,
+          0.05,
+          0.1,
+          0.0,
+          0.55
+        ],
+        "music": [
+          0.05,
+          0.25,
+          0.05,
+          0.45,
+          0.2
+        ],
+        "physics": [
+          0.45,
+          0.05,
+          0.4,
+          0.0,
+          0.1
+        ],
+        "technology": [
+          0.2,
+          0.05,
+          0.2,
+          0.05,
+          0.5
+        ],
+        "visual_arts": [
+          0.1,
+          0.1,
+          0.05,
+          0.35,
+          0.4
+        ]
+      },
+      "utility_weights": {
+        "ability_fit": 0.35,
+        "career_fit": 0.3,
+        "subject_interest": 0.35
+      }
+    },
+    "latent_abilities": {
+      "correlation_matrix": [
+        [
+          1.0,
+          0.1,
+          0.3,
+          0.05,
+          0.25
+        ],
+        [
+          0.1,
+          1.0,
+          0.1,
+          0.3,
+          0.1
+        ],
+        [
+          0.3,
+          0.1,
+          1.0,
+          0.05,
+          0.2
+        ],
+        [
+          0.05,
+          0.3,
+          0.05,
+          1.0,
+          0.1
+        ],
+        [
+          0.25,
+          0.1,
+          0.2,
+          0.1,
+          1.0
+        ]
+      ],
+      "count": 5,
+      "mean": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "scores": {
+      "ability_names": [
+        "quantitative",
+        "language",
+        "scientific_inquiry",
+        "social",
+        "digital_technology"
+      ],
+      "ability_scale": 1.2,
+      "ability_weights": {
+        "civics": [
+          0.05,
+          0.2,
+          0.05,
+          0.65,
+          0.05
+        ],
+        "foreign_language": [
+          0.05,
+          0.75,
+          0.05,
+          0.1,
+          0.05
+        ],
+        "history_geography": [
+          0.05,
+          0.3,
+          0.15,
+          0.45,
+          0.05
+        ],
+        "informatics": [
+          0.25,
+          0.05,
+          0.1,
+          0.05,
+          0.55
+        ],
+        "literature": [
+          0.05,
+          0.7,
+          0.05,
+          0.2,
+          0.0
+        ],
+        "mathematics": [
+          0.65,
+          0.1,
+          0.15,
+          0.0,
+          0.1
+        ],
+        "natural_sciences": [
+          0.3,
+          0.1,
+          0.5,
+          0.0,
+          0.1
+        ],
+        "technology": [
+          0.2,
+          0.05,
+          0.2,
+          0.05,
+          0.5
+        ]
+      },
+      "decimal_places": 1,
+      "grades": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "mean_grade_trend": 0.0,
+      "observation_noise_sd": 0.5,
+      "score_bounds": [
+        0,
+        10
+      ],
+      "student_subject_slope_sd": 0.15,
+      "subject_baseline": 7.0,
+      "subjects": [
+        "mathematics",
+        "literature",
+        "foreign_language",
+        "civics",
+        "history_geography",
+        "natural_sciences",
+        "technology",
+        "informatics"
+      ]
+    }
+  },
+  "config_sha256": "502ed9775c1b785bab295bdc95e058e6d448e108657af725098974df051c413b",
+  "correlation_matrix_validation": {
+    "all_eigenvalues_positive": true,
+    "cholesky_decomposition": "success",
+    "eigenvalues": [
+      0.6852915406209045,
+      0.6973753724041658,
+      0.8091226277628474,
+      1.1790045011024926,
+      1.629205958109589
+    ],
+    "matrix": [
+      [
+        1.0,
+        0.1,
+        0.3,
+        0.05,
+        0.25
+      ],
+      [
+        0.1,
+        1.0,
+        0.1,
+        0.3,
+        0.1
+      ],
+      [
+        0.3,
+        0.1,
+        1.0,
+        0.05,
+        0.2
+      ],
+      [
+        0.05,
+        0.3,
+        0.05,
+        1.0,
+        0.1
+      ],
+      [
+        0.25,
+        0.1,
+        0.2,
+        0.1,
+        1.0
+      ]
+    ],
+    "symmetric": true,
+    "unit_diagonal": true
+  },
+  "dataset_path": "data\\pilot\\seed_20261108\\pilot_seed_20261108.csv",
+  "dataset_sha256": "d0bcb5deed6d49479fb69c9bf153e71b569b3ac81be7c43972eec3a5b1b2ef77",
+  "elapsed_seconds": 0.022575599956326187,
+  "features": 32,
+  "interest_career_summary": {
+    "D_career_interest": {
+      "artistic": {
+        "maximum": 0.9992883051384656,
+        "mean": 0.5064963663384109,
+        "median": 0.5173411520884736,
+        "minimum": 0.00017041521257804128,
+        "q25": 0.24520899452452083,
+        "q75": 0.7683179107477947,
+        "standard_deviation": 0.29056962289822724
+      },
+      "conventional": {
+        "maximum": 0.9986251173412927,
+        "mean": 0.4901942315842342,
+        "median": 0.48212269606910296,
+        "minimum": 0.0027246691428714793,
+        "q25": 0.23592242705177588,
+        "q75": 0.7432210001976196,
+        "standard_deviation": 0.2887212656150669
+      },
+      "enterprising": {
+        "maximum": 0.999838004240696,
+        "mean": 0.49826993737312536,
+        "median": 0.5054043347318529,
+        "minimum": 0.0014447968391713372,
+        "q25": 0.24285945513525084,
+        "q75": 0.7530771954636868,
+        "standard_deviation": 0.2924343753010178
+      },
+      "investigative": {
+        "maximum": 0.9990458619156117,
+        "mean": 0.47898432191921425,
+        "median": 0.45997144697254744,
+        "minimum": 0.0041014380470491794,
+        "q25": 0.23055564611806295,
+        "q75": 0.734302169396988,
+        "standard_deviation": 0.2871343755977608
+      },
+      "realistic": {
+        "maximum": 0.9999939028422142,
+        "mean": 0.4986197496522903,
+        "median": 0.4967272137871922,
+        "minimum": 0.00044328902647216824,
+        "q25": 0.25281328886323984,
+        "q75": 0.7453539202723597,
+        "standard_deviation": 0.28673466267290487
+      },
+      "social": {
+        "maximum": 0.9990210890043552,
+        "mean": 0.4990757549568242,
+        "median": 0.5161604312786119,
+        "minimum": 0.0001660301511544325,
+        "q25": 0.257236219569025,
+        "q75": 0.7364287559331584,
+        "standard_deviation": 0.2840877171785183
+      }
+    },
+    "S_subject_interest": {
+      "biology": {
+        "maximum": 0.9985446047764139,
+        "mean": 0.5018630155419962,
+        "median": 0.5134274127282159,
+        "minimum": 0.0005253068055252611,
+        "q25": 0.24625785616758272,
+        "q75": 0.7548901487743118,
+        "standard_deviation": 0.29458398962350685
+      },
+      "chemistry": {
+        "maximum": 0.9985551474291073,
+        "mean": 0.4774010015743861,
+        "median": 0.454968995175699,
+        "minimum": 0.003007030118376398,
+        "q25": 0.22642947922132065,
+        "q75": 0.7335423532177184,
+        "standard_deviation": 0.28390879169032146
+      },
+      "economics_and_law": {
+        "maximum": 0.9988084027426797,
+        "mean": 0.4947124155111474,
+        "median": 0.48677286648206775,
+        "minimum": 0.002976771416420042,
+        "q25": 0.23893679007278515,
+        "q75": 0.7451192157980062,
+        "standard_deviation": 0.28629560889729044
+      },
+      "geography": {
+        "maximum": 0.9993451328830115,
+        "mean": 0.5036864395558998,
+        "median": 0.49433020999305255,
+        "minimum": 0.003711436257696496,
+        "q25": 0.25148556589742854,
+        "q75": 0.755867818923281,
+        "standard_deviation": 0.2901894481921946
+      },
+      "informatics": {
+        "maximum": 0.998476547717382,
+        "mean": 0.48785459659774055,
+        "median": 0.4718623417463168,
+        "minimum": 0.0023290942407660753,
+        "q25": 0.24927914251959232,
+        "q75": 0.734396007790305,
+        "standard_deviation": 0.288605790727392
+      },
+      "music": {
+        "maximum": 0.9991941154724412,
+        "mean": 0.4907361933632258,
+        "median": 0.48533839960541425,
+        "minimum": 0.0014142652268039008,
+        "q25": 0.23437036324906105,
+        "q75": 0.7520567797264417,
+        "standard_deviation": 0.2956938776013674
+      },
+      "physics": {
+        "maximum": 0.9995363560816768,
+        "mean": 0.48821609858911325,
+        "median": 0.4793312735074491,
+        "minimum": 0.00048703474165271663,
+        "q25": 0.2440963288139607,
+        "q75": 0.7364694601530284,
+        "standard_deviation": 0.28570146476884345
+      },
+      "technology": {
+        "maximum": 0.9978324820915939,
+        "mean": 0.48506206124256135,
+        "median": 0.47712731237110517,
+        "minimum": 0.0013891583941392364,
+        "q25": 0.23015113797662967,
+        "q75": 0.7398227548953134,
+        "standard_deviation": 0.2917683541014765
+      },
+      "visual_arts": {
+        "maximum": 0.9986400484185042,
+        "mean": 0.49763115961170856,
+        "median": 0.4904392860977681,
+        "minimum": 0.00022620972652330652,
+        "q25": 0.23894882423195526,
+        "q75": 0.7584693996904536,
+        "standard_deviation": 0.29469436276574645
+      }
+    }
+  },
+  "mean_sampling_probabilities": {
+    "C1": 0.17708872785241858,
+    "C2": 0.16427440657776224,
+    "C3": 0.16147059042918027,
+    "C4": 0.16581585123127826,
+    "C5": 0.1701289412691677,
+    "C6": 0.16122148264019295
+  },
+  "records": 1000,
+  "run_type": "exploratory_pilot",
+  "runtime": {
+    "numpy": "2.5.2",
+    "pandas": "2.3.3",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+    "pyyaml": "6.0.3",
+    "scipy": "1.18.1"
+  },
+  "seed": 20261108,
+  "started_at_utc": "2026-11-20T07:00:32.610801+00:00",
+  "target": "nhan_lop"
+}

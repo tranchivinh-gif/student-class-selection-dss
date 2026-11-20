@@ -1,0 +1,81 @@
+design_status: approved
+label_design:
+  status: confirmed
+  classes: [C1, C2, C3, C4, C5, C6]
+
+dataset:
+  records_per_seed: 10000
+  seeds: [20261108, 20261109, 20261110, 20261111, 20261112]
+  output_format: csv
+
+latent_abilities:
+  count: 5
+  mean: [0, 0, 0, 0, 0]
+  correlation_matrix:
+    - [1.00, 0.10, 0.30, 0.05, 0.25]
+    - [0.10, 1.00, 0.10, 0.30, 0.10]
+    - [0.30, 0.10, 1.00, 0.05, 0.20]
+    - [0.05, 0.30, 0.05, 1.00, 0.10]
+    - [0.25, 0.10, 0.20, 0.10, 1.00]
+
+scores:
+  grades: [6, 7, 8, 9]
+  subjects: [mathematics, literature, foreign_language, civics, history_geography, natural_sciences, technology, informatics]
+  ability_names: [quantitative, language, scientific_inquiry, social, digital_technology]
+  ability_weights:
+    mathematics: [0.65, 0.10, 0.15, 0.00, 0.10]
+    literature: [0.05, 0.70, 0.05, 0.20, 0.00]
+    foreign_language: [0.05, 0.75, 0.05, 0.10, 0.05]
+    civics: [0.05, 0.20, 0.05, 0.65, 0.05]
+    history_geography: [0.05, 0.30, 0.15, 0.45, 0.05]
+    natural_sciences: [0.30, 0.10, 0.50, 0.00, 0.10]
+    technology: [0.20, 0.05, 0.20, 0.05, 0.50]
+    informatics: [0.25, 0.05, 0.10, 0.05, 0.55]
+  ability_scale: 1.2
+  mean_grade_trend: 0.0
+  student_subject_slope_sd: 0.15
+  subject_baseline: 7.0
+  observation_noise_sd: 0.5
+  score_bounds: [0, 10]
+  decimal_places: 1
+
+interests_and_careers:
+  elective_subjects: [physics, chemistry, biology, geography, economics_and_law, informatics, technology, music, visual_arts]
+  riasec_dimensions: [realistic, investigative, artistic, social, enterprising, conventional]
+  shared_variance_parameter: 0.40
+  subject_career_matrix:
+    physics: [0.90, 1.00, 0.15, 0.15, 0.20, 0.40]
+    chemistry: [0.70, 1.00, 0.15, 0.25, 0.20, 0.45]
+    biology: [0.45, 1.00, 0.20, 0.75, 0.20, 0.35]
+    geography: [0.55, 0.75, 0.20, 0.65, 0.55, 0.50]
+    economics_and_law: [0.15, 0.35, 0.15, 0.80, 1.00, 0.80]
+    informatics: [0.90, 0.90, 0.50, 0.20, 0.40, 0.85]
+    technology: [1.00, 0.75, 0.35, 0.20, 0.45, 0.65]
+    music: [0.20, 0.15, 1.00, 0.65, 0.35, 0.15]
+    visual_arts: [0.35, 0.15, 1.00, 0.35, 0.40, 0.20]
+
+labels:
+  classes:
+    C1: [geography, economics_and_law, informatics, technology]
+    C2: [physics, biology, informatics, technology]
+    C3: [physics, chemistry, informatics, technology]
+    C4: [physics, chemistry, biology, informatics]
+    C5: [physics, geography, economics_and_law, informatics]
+    C6: [physics, chemistry, geography, informatics]
+  ability_names: [quantitative, language, scientific_inquiry, social, digital_technology]
+  subject_ability_weights:
+    physics: [0.45, 0.05, 0.40, 0.00, 0.10]
+    chemistry: [0.30, 0.05, 0.55, 0.05, 0.05]
+    biology: [0.10, 0.10, 0.65, 0.10, 0.05]
+    geography: [0.10, 0.25, 0.25, 0.30, 0.10]
+    economics_and_law: [0.10, 0.25, 0.05, 0.50, 0.10]
+    informatics: [0.30, 0.05, 0.10, 0.00, 0.55]
+    technology: [0.20, 0.05, 0.20, 0.05, 0.50]
+    music: [0.05, 0.25, 0.05, 0.45, 0.20]
+    visual_arts: [0.10, 0.10, 0.05, 0.35, 0.40]
+  utility_weights:
+    ability_fit: 0.35
+    subject_interest: 0.35
+    career_fit: 0.30
+  softmax_temperature: 0.10
+  selection: softmax_then_categorical

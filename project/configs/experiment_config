@@ -1,0 +1,21 @@
+design_status: approved
+dataset:
+  seeds: [20261108, 20261109, 20261110, 20261111, 20261112]
+  records_per_seed: 10000
+  feature_count: 32
+  target: class_label
+  classes: [C1, C2, C3, C4, C5, C6]
+  evaluate_each_seed_separately: true
+  concatenate_seed_datasets: false
+outputs:
+  data_directory: data/
+  csv_directory: results/csv/
+  tables_directory: results/tables/
+  figures_directory: results/figures/
+  logs_directory: logs/runs/
+  record_seed_and_config: true
+  record_library_versions: true
+  record_elapsed_time: true
+evaluation:
+  metrics: [accuracy, macro_f1, per_class_precision_recall_f1, confusion_matrix]
+  model_selection_and_data_split: defined_in_experiment_plan
